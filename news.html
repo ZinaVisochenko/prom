@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>Bootstrap 4 Example</title>
+	  <title>Prom</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -88,17 +88,15 @@
 				</div>
 			</div>
 		</header>
-		<section id="path-section ">
+		<section id="path-section">
 			<div class = "container section_margin">
 				<div class = "row height_2">
-					<div class = "col-lg-1">
+					<div class = "col-lg-12">
 						<a class="" href="index.html">Главная</a>
-					</div>
-					<div class = "col-lg-1">	
+						&nbsp;&nbsp;&nbsp;
 						<i class="fas fa-angle-right"></i>
-					</div >	
-					<div class = "col-lg-1">
-						<div>Новости</div>
+						&nbsp;&nbsp;&nbsp;
+						<span>Новости</span>
 					</div>
 				</div>
 			</div>
@@ -121,7 +119,7 @@
 				<div class = "container">
 					<div class = "row">
 						<div class = "col-lg-8">
-							<div class = "text">Закажите звонок и получите бесплатную консультацию</div>
+							<div class = "title">Закажите звонок и получите бесплатную консультацию</div>
 							<div class = "section_header_line line"></div>
 						</div>
 					</div>
@@ -140,7 +138,7 @@
 					<div class = "row section_patenting">
 						<div class = "col-lg-8">
 							<div class = "form">
-								<input type = "E-mail" placeholder = "Ваша почта" class = "input_1">
+								<input type = "email" placeholder = "Ваша почта" class = "input_1">
 							</div>
 						</div>
 					</div>
@@ -168,7 +166,7 @@
 							<img src = "images/logo/logo_with_text.svg">
 						</div>
 						<div class = "col-lg-7">
-							<div class = "row">
+							<div class = "row menu">
 								<div class = "col-lg-4">
 									Главная
 								</div>
@@ -187,6 +185,12 @@
 								<div class = "col-lg-4">
 									Контакты
 								</div>
+								<div class = "col-lg-4">
+									Карта сайта
+								</div>
+								<div class = "col-lg-8">
+									Политика конфиденциальности
+								</div>
 							</div>
 						</div>
 						<div class = "col-lg-2">
@@ -194,14 +198,25 @@
 							+7(495) 123-45-67
 						</div>
 					</div>
-
-					<div class = "row">
-						<div class = "col-lg-2"></div>
+					<div class="row mt30px">
+						<div class="col-lg-6 col-sm-6">				
+							<i class="fas fa-map-marker-alt"></i>
+							Москва, ул. Монтажная, д.2А, стр.1	
+						</div>
+						<div class="col-lg-6 col-sm-6 text-right">
+							<i class="fas fa-envelope"></i>
+							<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
+						</div>
 					</div>
-					<div class = "row">
-						<div class = "col-lg-2">Карта сайта</div>
-						<div class = "col-lg-2">Политика конфиденциальности</div>
+					<div class="row mt30px">
+						<div class="col-lg-6 col-sm-6">				
+							Copyright (c) 2019 Корпоративный стандарт. Все права защищены.
+						</div>
+						<div class="col-lg-6 col-sm-6 text-right">
+							Разработано в GuruLabs
+						</div>
 					</div>
+				
 			</div>
 		</footer>
 	</body>
@@ -279,7 +294,6 @@
 			element.style.display = '';
 		}
 		
-		addNews('Title 1', '2243423423', 0, 'gdfgfdgfd');
 		addNews(
 			'Разнообразный и богатый опыт различных форм деятельности.',
 			'01.01.2019',
