@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272.673" height="72.91" viewBox="0 0 272.673 72.91">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c0428"/>
+      <stop offset="0.746" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Логотип_с_текстом" data-name="Логотип с текстом" transform="translate(-393 -29.198)">
+    <g id="logo" transform="translate(393 29.198)">
+      <g id="Group_1" data-name="Group 1" transform="translate(10.379 11.645)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="50.632" height="50.632" transform="translate(0)"/>
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="40.252" height="40.252" transform="translate(5.316 5.316)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="44.303" height="44.303" transform="translate(28.607 28.607)"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(0)">
+        <rect id="Rectangle_4" data-name="Rectangle 4" width="44.303" height="44.303"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="35.189" height="35.189" transform="translate(4.557 4.557)" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="Union_1" data-name="Union 1" d="M16.962,21.772V5.427L5.316,5.414V21.772H0V0H5.316V0L16.962,0V0h5.316V21.772Z" transform="translate(11.645 11.899)"/>
+      <path id="Union_2" data-name="Union 2" d="M0,22.656V0H22.656V5.269H5.269V17.387H22.656v5.269Z" transform="translate(39.716 39.716)" fill="#fff"/>
+    </g>
+    <text id="Промышленная_собственность" data-name="Промышленная
+собственность" transform="translate(485.673 57.698)" font-size="20" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em"><tspan x="0" y="0">Промышленная</tspan><tspan letter-spacing="0.08em"><tspan x="0" y="27">собственность</tspan></tspan></text>
+  </g>
+</svg>
