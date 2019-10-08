@@ -129,6 +129,13 @@ header .logo_phone .number{
 header nav .nav-link {
 	color: white !important;
 }
+ header.border-b:hover{
+            //display: block;
+			display: none;
+            opacity: 1;
+            transition: 1s;
+            z-index: 100;
+        }
 #over-section {
 	position: fixed;
     background: #00000099;
@@ -242,7 +249,7 @@ header nav .nav-link {
 	border-bottom: 1px solid black;
 }
   
-#costs-section .button{
+.button{
 	width: 230px;
 	background-color: transparent;
 	color: #8C0428;
@@ -252,13 +259,12 @@ header nav .nav-link {
 	padding-bottom: 18px;
 	border: 1px solid #8C0428;
 }
-#costs-section .button_2{
+.button_2{
 	color: #4D4D4D;
 	border: 1px solid #DCDCDC;
 	//margin-left: 22px;
 }
-#also-section .earth-globe{
-	width: 358px;
+.earth-globe{
 	height: 317px;
 	border: 1px solid #DCDCDC;
 	text-align: center;
@@ -289,17 +295,17 @@ header nav .nav-link {
 	text-align: center;
 	line-height: 1.5;
 }
-#experience-section .through_call{
+.through_call{
 	width: 100%;
 	height: 147px;
 	background-image: url(../images/blocks_background/through_call_background.jpg);
 	background-size: cover;
 	padding-top: 63px;
 }
-#experience-section .through_call .sales{
+.through_call .sales{
 	color: white;
 }
-#experience-section .through_call .send{
+.through_call .send{
 	margin-top: -12px;
 }
 #reviews-section .slider{
@@ -430,13 +436,33 @@ header nav .nav-link {
 	color: #8C0428;
 	margin-top: 35px;
 }
-#company-section .line{
+#advantages-section .line{
 	border-bottom: 2px solid white;
 }
-#company-section .advantages{
-	
+#advantages-section .advantages{
+	background-image: url(../images/advantages/Path_110.png);
+	height: 50%;
+	padding-top: 85px;
 }
-
+#advantages-section .we_text{
+	color: white;
+	font-family: 'SF UI Display';
+}
+#advantages-section .back_grey{
+	height: 253px;
+	background-color: #2E4650;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'SF UI Display';
+	padding-top: 35px;
+}
+.these_text{
+	margin-top: 20px;
+}
+#advantages-section .handshake_margin{
+	margin-top: 50px;
+}
 /* News page
 ---------------------------------------------------------- */
 
@@ -507,7 +533,16 @@ header nav .nav-link {
 #callback_section .line{
 	border-bottom: 2px solid white;
 }
-
+#clients-section .client_background{
+	 
+}
+#clients-section .picture{
+	height: 135px;
+	background-color: #c7c5c5;
+}
+#clients-section .margin_picture{
+	//margin-left: 10px;
+}
 footer .mt30px {
 	margin-top: 30px;
 }
