@@ -18,7 +18,7 @@
 			<div class="border-b d-none d-sm-block">
 				<div class = "container">
 					<div class="row info">
-						<div class="col-sm-4">				
+						<div class="col-sm-5">				
 							<i class="fas fa-map-marker-alt"></i>
 							Москва, ул. Монтажная, д.2А, стр.1	
 						</div>
@@ -26,16 +26,31 @@
 							<i class="fas fa-envelope"></i>
 							<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
 						</div>
-						<div class="col-sm-4">
-							<select class = "lang">
-								<option>RU</option>
+						<div class="col-sm-3">
+							<!--<select class = "lang">
+								<option><a href="gfgfd">RU</a></option>
 								<option>EN</option>
-							</select>
+							</select>-->
+
+							<div class="dropdown show lang">
+								  <button class="dropdown-toggle" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									RU
+								  </button>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownLang">
+									<a class="dropdown-item" href="?lang=ru">RU</a>
+									<a class="dropdown-item" href="?lang=ua">UA</a>
+									<a class="dropdown-item" href="?lang=en">EN</a>
+								  </div>
+							</div>
 							<img src = "images/flag.svg" class = "img_flag">
+							
+
 						</div>
 					</div>
 				</div>
 			</div>
+			
 			<div class = "container">
 				<div class = "row logo_phone">
 					<div class = "col-9 col-md-6 col-lg-3">
@@ -45,8 +60,8 @@
 						<a>+7 (495) 123-45-67</a>
 					</div>
 					<div class = "col-12 col-lg-5 text-right d-none d-sm-block">
-						<button class = "section_header_button">Задать вопрос</button>
-						<button class = "section_header_button section_header_button_1">
+						<button class = "white_btn">Задать вопрос</button>&nbsp&nbsp
+						<button class = "red_btn" onclick="getElementById('over-section').style.display = 'block';">
 							Заказать звонок
 						</button>
 					</div>
@@ -59,19 +74,34 @@
 			</div>
 			<div class = "height_1 d-none d-sm-block">
 				<div class = "container">
-					<div class = "row">					
+					<div class = "row">								
 						<nav class="navbar navbar-expand-lg navbar-light w-100">
-
 						  <div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav w-100 nav-justified">
-							<li class="nav-item">
+							  <li class="nav-item">
 								<a class="nav-link" href="index.html">Главная</a>
 							  </li>
 							  <li class="nav-item">
 								<a class="nav-link" href="#">О компании</a>
 							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="#">Услуги<i class="fas fa-caret-down"></i></a>
+							  <li class="nav-item dropdown show">
+								  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Услуги
+								  </a>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									<a class="dropdown-item " href="#">Регистрация товарного знака</br> (торговой марки)</a>
+									<hr class = "border_line">
+									<a class="dropdown-item " href="services.html">Патентование изобретений</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Патентование полезных</br> моделей</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Патентование промышленных</br> образцов</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Регистрация компьютерных</br> программ, баз данных</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Разрешение споров в Палате</br> по патентным спорам и в суде</a>
+								  </div>
 							  </li>
 							  <li class="nav-item">
 								<a class="nav-link" href="#">Практика</a>
@@ -101,24 +131,37 @@
 					<li><a href="#">Контакты</a></li>
 				</ul>
 				<div class = "bottom">
-					<a>+7 (495) 123-45-67</a>
+					<a class = "number_link">+7 (495) 123-45-67</a>
 					<br>
-					<button class = "section_header_button">
+					<button class = "white_btn sbtn">
 						Задать вопрос
 					</button>
 					<br>
-					<button class = "section_header_button section_header_button_1">
+					<button class = "red_btn sbtn">
 						Заказать звонок
 					</button>
 					<br>
-					<img src = "images/flag.svg" class = "img_flag">
-					<select class = "lang">
-									<option>RU</option>
-									<option>EN</option>
-								</select>
+					
+					<div class="dropdown show language">
+						<img src = "images/flag.svg" class = "img_flag">
+						  <button class="dropdown-toggle style_block" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							RU
+						  </button>
+
+						  <div class="dropdown-menu" aria-labelledby="dropdownLang">
+							<a class="dropdown-item" href="?lang=ru">RU</a>
+							<a class="dropdown-item" href="?lang=ua">UA</a>
+							<a class="dropdown-item" href="?lang=en">EN</a>
+						  </div>
+					</div>
 							
 				</div>
 					
+			</div>
+			<div id="over-section">
+				<div class="window">
+					<button onclick="getElementById('over-section').style.display = '';">&times;</button>
+				</div>
 			</div>
 			<script>
 				var menu_opened = false;
@@ -137,9 +180,11 @@
 				prom_close_mobile_menu();
 			</script>
 		</header>
+		
+		
 		<section id="idea-section">
 			<div class = "background_home">
-				<div class = "container text-center text-sm-left">
+				<div class = "container text-center text-md-left">
 					<div class = "row">			
 						<div class = "col-12 col-lg-5 col-md-5 section_examples_text">
 							Идейные соображения высшего порядка
@@ -152,57 +197,61 @@
 					</div>
 					<div class = "row indent">			
 						<div class = "col-12 col-lg-5 col-md-5">
-							<button class = "section_header_button open">
+							<button class = "open_btn">
 								Открыть
 								<i class="fas fa-angle-right"></i>
 							</button>
 							
 						</div>
 					</div>	
-					<div class = "row idea_border">
-						<div class = "col-lg-12 col-md-12 col-xs-12">
-							<div class = "container">
-								<div class = "row">
-									<div class = "col-lg-12 col-md-12 col-xs-12receive">
-										Получить консультацию
-									</div>
-									<div class = "col-lg-12 col-md-12 col-xs-12text_leave">
-										Оставив заявку сейчас, с Вами свяжется в ближайшее время наш специалист
-									</div>
-									<div class = "container">
-										<div class = "row">
-											<div class = "col-lg-3 col-md-3 col-xs-3">
-												<div class = "idea_form">
-													<input type = "text" placeholder = "Ваше имя" class = "idea_input">
-												</div>
-											</div>
-											<div class = "col-lg-3 col-md-3 col-xs-3">
-												<div class = "idea_form">
-													<input type = "tel" placeholder = "Ваш телефон" class = "idea_input">
-												</div>
-											</div>
-											<div class = "col-lg-3 col-md-3 col-xs-3">
-												<div class = "idea_form">
-													<input type = "E-mail" placeholder = "Ваша почта" class = "idea_input">
-												</div>
-											</div>
-											<div class = "col-12 d-block d-md-none personal">
-												<input type = "checkbox">
-												Согласен(а) на обработку <span>персональных данных</span>
-											</div>
-											<div class = "col-lg-3 col-md-3 col-xs-3">
-												<button class = "section_header_button section_header_button_1">
-													Отправить заявку
-												</button>
-											</div>
+				</div>
+			</div>
+		</section>
+		<section id="consultation-section">
+			<div class = "container">
+				<div class = "row consultation_border">
+					<div class = "col-12">
+						<div class = "container">
+							<div class = "row">
+								<div class = "col-12 receive">
+									Получить консультацию
+								</div>
+								<div class = "col-12 text_leave">
+									Оставив заявку сейчас, с Вами свяжется в ближайшее время наш специалист
+								</div>
+								
+								<div class = "col-lg-9 col-md-6 col-12">
+									<div class = "row">
+										<div class = "col-lg-3 col-md-6 col-12">
+									
+											<input type = "text" placeholder = "Ваше имя" class = "consultation_input">
+									
 										</div>
-										<div class = "row section_patenting personal">
-											<div class = "col-12 d-none d-md-block">
-												<input type = "checkbox">
-												Согласен(а) на обработку <span>персональных данных</span>
-											</div>
+										<div class = "col-lg-3 col-md-6 col-12">
+									
+											<input type = "tel" placeholder = "Ваш телефон" class = "consultation_input">
+									
+										</div>
+										<div class = "col-lg-3 col-md-6 col-12">
+									
+											<input type = "email" placeholder = "Ваша почта" class = "consultation_input">
+									
+										</div>
+										<div class = "col-lg-3 col-md-6 col-12 text-md-right d-none">
+											<button class = "red_btn">
+												Отправить заявку
+											</button>
+										</div>
+										<div class = "col-12 personal">
+											<input type = "checkbox">
+											Согласен(а) на обработку <span>персональных данных</span>
 										</div>
 									</div>
+								</div>
+								<div class = "col-lg-3 col-md-6 col-12 text-center text-md-left">
+									<button class = "red_btn">
+										Отправить заявку
+									</button>
 								</div>
 							</div>
 						</div>
@@ -213,7 +262,7 @@
 		<section id="company-section">
 			<div class = "container section_margin">
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-12 col-lg-12 col-md-12">
 						<text class = "section_header_text">
 							О компании
 						</text>
@@ -221,19 +270,19 @@
 					</div>	
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-12 col-lg-12 col-md-12">
 						<div class = "section_body_text">
 							Повседневная практика показывает, что реализация намеченных планов заданий требуют определения и уточнения дальнейших направлений развития.
 						</div>
 					</div>	
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-12 col-lg-12 col-md-12">
 						<div class = "section_patent_service_foto company_foto"></div>
 					</div>	
 				</div>		
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">		
+					<div class = "col-12 col-lg-12 col-md-12">		
 						<div class = "section_body_text">
 							Идейные соображения высшего порядка, а также укрепление и развитие структуры требуют от нас анализа соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности способствует подготовки и реализации дальнейших направлений развития.
 							Значимость этих проблем настолько очевидна
@@ -241,8 +290,8 @@
 					</div>	
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">		
-						<button class = "section_header_button button_learn">Узнать больше</button>
+					<div class = "col-lg-12 col-md-12 col-12">		
+						<button class = "button">Узнать больше</button>
 					</div>
 				</div>
 			</div>
@@ -251,7 +300,7 @@
 			<div class = "advantages">
 				<div class = "container">
 					<div class = "row">
-						<div class = "col-lg-6 col-md-6 col-12">
+						<div class = "col-12 col-lg-6 col-md-12">
 							<div>
 								<text class = "section_header_text we_text">
 									Наши преимущества
@@ -297,7 +346,7 @@
 		<section id="services-section">
 			<div class = "container section_margin">
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-12 col-lg-12 col-md-12">
 						<text class = "section_header_text">
 							Наши услуги
 						</text>
@@ -305,7 +354,7 @@
 					</div>	
 				</div>
 				<div class = "row section_margin">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-12 col-lg-12 col-md-12">
 						<div class = "section_body_text">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. Соображения высшего порядка, а также укрепление и развитие структуры. Значимость настолько очевидна, что сложившаяся структура организации.
 						</div>
@@ -350,8 +399,8 @@
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12">	
-						<button class = "button">Заказать звонок</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<div class = "col-lg-12 text-center text-md-left">	
+						<button class = "button">Смотреть все услуги</button>&nbsp;&nbsp;&nbsp;&nbsp;
 						<button class = "button button_2">Задать вопрос</button>	
 					</div>
 				</div>
@@ -359,11 +408,11 @@
 			<div class = "through_call section_margin">
 				<div class = "container">
 					<div class = "row">
-						<div class = "col-lg-8 col-md-8 col-xs-8">
+						<div class = "col-lg-8 col-md-8 col-12">
 							<div class = "sales">Хотите увеличить продажи? Закажите звонок, и мы с Вами свяжемся!</div>
 						</div>
-						<div class = "col-lg-4 col-md-4 col-xs-4">
-							<button class = "section_header_button section_header_button_1 send">
+						<div class = "col-lg-4 textCenter col-md-4 col-12">
+							<button class = "red_btn send">
 								Отправить заявку
 							</button>
 						</div>
@@ -374,7 +423,7 @@
 		<section id="experience-section">
 			<div class = "container section_margin">
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">				
+					<div class = "col-12 col-lg-12 col-md-12">				
 						<div class = "section_header_text">
 							Мы в цифрах
 						</div>
@@ -382,14 +431,14 @@
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-12 col-lg-12 col-md-12">
 						<div class = "section_body_text">
 							Разнообразный и богатый опыт новая модель организационной деятельности требуют уточнения модели развития. Задача организации, в особенности же новая модель организационной деятельности играет важную роль в формировании направлений прогрессивного развития. 
 						</div>
 					</div>
 				</div>	
-				<div class = "row section_patenting">
-					<div class = "col-lg-3 col-md-3 col-xs-3">
+				<div class = "row section_patenting d-none d-sm-flex">
+					<div class = "col-lg-3 col-md-5">
 						<div class = "border_radius">
 							30+
 						</div>
@@ -397,7 +446,7 @@
 							Успешных проектов с отличными результатами
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-3 col-xs-3">
+					<div class = "col-lg-3 col-md-5">
 						<div class = "border_radius">
 							90%
 						</div>
@@ -405,7 +454,7 @@
 							Значимость этих проблем настолько очевидна
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-3 col-xs-3">
+					<div class = "col-lg-3 col-md-5">
 						<div class = "border_radius twenty">
 							20
 						</div>
@@ -413,7 +462,7 @@
 							С другой стороны рамки и место обучения
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-3 col-xs-3">
+					<div class = "col-lg-3 col-md-5">
 						<div class = "border_radius">
 							20%
 						</div>
@@ -421,13 +470,88 @@
 							Значимость этих проблем настолько очевидна
 						</div>
 					</div>
-				</div>					
+				</div>	
+				<div class = "row section_patenting d-block d-sm-none">
+					<div class = "col-lg-12">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									
+										<div class = "box">
+											<div class = "border_radius">
+												30+
+											</div>
+											<div class = "text">
+												Успешных проектов с отличными результатами
+											</div>
+										</div>
+									
+								</div>
+								<div class="carousel-item">
+									
+										
+										<div class = "box">
+											<div class = "border_radius">
+												90%
+											</div>
+											<div class = "text">
+												Значимость этих проблем настолько очевидна
+											</div>
+										</div>
+										
+										
+								</div>
+								<div class="carousel-item">
+									
+										
+										<div class = "box">
+											<div class = "border_radius twenty">
+												20
+											</div>
+											<div class = "text">
+												С другой стороны рамки и место обучения
+											</div>
+										</div>
+				
+										
+								</div>
+								<div class="carousel-item">
+									<div class = "box">
+										
+											<div class = "border_radius">
+												20%
+											</div>
+											<div class = "text">
+												Значимость этих проблем настолько очевидна
+											</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class = "col-lg-12 buttons">
+						<button class="sl_but" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</button>
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						</ol>
+						<button class="sl_but" href="#carouselExampleIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</button>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="news-section">
 			<div class = "container section_margin">
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-lg-12 col-md-12 col-12">
 						<text class = "section_header_text">
 							Новости
 						</text>
@@ -438,8 +562,8 @@
 					<!-- News here -->
 				</div>
 				<div class = "row these_text">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
-						<button class = "section_header_button">Открыть все новости</button>
+					<div class = "col-lg-12 col-md-12 col-12 text-center text-md-left">
+						<button class = "white_btn">Открыть все новости</button>
 					</div>
 				</div>
 			</div>				
@@ -447,7 +571,7 @@
 		<section id="clients-section">
 			<div class = "container section_margin">
 				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-xs-12">				
+					<div class = "col-lg-12 col-md-12 col-12">				
 						<div class = "section_header_text">
 							Наши клиенты
 						</div>
@@ -455,13 +579,199 @@
 					</div>
 				</div>
 				<div class = "row section_margin">
-					<div class = "col-lg-12 col-md-12 col-xs-12">
+					<div class = "col-lg-12 col-md-12 col-12">
 						<div class = "section_body_text">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.  
 						</div>
 					</div>
 				</div>
-				<div class = "row">
+				<div class = "row section_patenting d-block">
+					<div class = "col-lg-12">
+						<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class = "row">	
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 mr-bottom col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+									
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "row">	
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 mr-bottom col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "row">	
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 mr-bottom col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "row">	
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 mr-bottom col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture margin_picture"></div>
+										</div>
+										<div class = "col-6 col-md-4 col-lg-2">
+											<div class = "picture"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class = "col-lg-12 buttons">
+						<button class="sl_but" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</button>
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+							<li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+						</ol>
+						<button class="sl_but" href="#carouselExampleIndicators1" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</button>
+					</div>
+				</div>
+				
+				<!--<div class = "row">
 					<div class = "col-lg-2 col-md-2 col-xs-2">
 						<div class = "picture"></div>
 					</div>
@@ -500,8 +810,8 @@
 					<div class = "col-lg-2 col-md-2 col-xs-2">
 						<div class = "picture"></div>
 					</div>
-				</div>
-			</div>
+				</div>-->
+			
 		</section>	
 		<section id="callback_section">
 			<div class = "back_call section_margin">
@@ -537,7 +847,7 @@
 					</div>
 					<div class = "row section_patenting text-center text-sm-left">
 						<div class = "col-lg-12 col-md-12 col-12">
-							<button class = "section_header_button section_header_button_1">
+							<button class = "red_btn">
 								Отправить заявку
 							</button>
 						</div>
@@ -581,19 +891,23 @@
 							</div>
 						</div>
 						<div class = "col-lg-3 col-xl-2">
-							<button class = "section_header_button ask_btn">Задать вопрос</button><br>
+							<button class = "white_btn">Задать вопрос</button><br>
 							<div class="ctext">+7(495) 123-45-67</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="ctext col-12 col-md-6">				
-							<i class="fas fa-map-marker-alt"></i>
-							Москва, ул. Монтажная, д.2А, стр.1	
-						</div>
-						<div class="ctext col-12 col-md-6 text-md-right">
-							<i class="fas fa-envelope"></i>
-							<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
-						</div>
+						
+							<div class="ctext col-12 col-md-6">				
+								<i class="fas fa-map-marker-alt"></i>
+								Москва, ул. Монтажная, д.2А, стр.1	
+							</div>
+							<div class="ctext col-12 col-md-6 text-md-right">
+								<i class="fas fa-envelope"></i>
+								<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
+							</div>
+							<div class="col-12 col-md-12">	
+								<hr class = "cborder"/>
+							</div>
 					</div>
 					<div class="row">
 						<div class="ctext col-12 col-md-6">				
@@ -608,7 +922,9 @@
 		</footer>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
+	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 	<script>
 	    var newsIdMax = 0;
 		function generateNewsId() {
