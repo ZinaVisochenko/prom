@@ -27,11 +27,6 @@
 							<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
 						</div>
 						<div class="col-sm-3">
-							<!--<select class = "lang">
-								<option><a href="gfgfd">RU</a></option>
-								<option>EN</option>
-							</select>-->
-
 							<div class="dropdown show lang">
 								  <button class="dropdown-toggle" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									RU
@@ -119,18 +114,29 @@
 				</div>
 			</div>
 			<div id="mobile_menu" class="d-block d-sm-none">
-				<button class="close" onclick="prom_close_mobile_menu();">
-					&times;
+				<button class="close1" onclick="prom_close_mobile_menu();">
+					<i class="fas fa-times"></i>
 				</button>
-				<ul>
+				<button class="back" onclick="prom_close_mm2();" id="mmb">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+				<ul id="mm1">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="#">О компании</a></li>
-					<li><a href="#">Услуги</a></li>
+					<li><a href="#" onclick="prom_show_mm2();">Услуги<i class="fas fa-caret-right"></i></a></li>
 					<li><a href="#">Практика</a></li>
 					<li><a href="news.html">Новости</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
-				<div class = "bottom">
+				<ul id="mm2">
+					<li><a href="#">Регистрация товарного</a></li>
+					<li><a href="#">Патентование изобретений</a></li>
+					<li><a href="#">Патентование полезных</a></li>
+					<li><a href="#">Патентование</a></li>
+					<li><a href="#">Регистрация компьютерных программ, баз данных</a></li>
+					<li><a href="#">Решение споров в Палате по патентным</a></li>
+				</ul>
+				<div class = "bottom" id="mmd">
 					<a class = "number_link">+7 (495) 123-45-67</a>
 					<br>
 					<button class = "white_btn sbtn">
@@ -155,30 +161,13 @@
 						  </div>
 					</div>
 							
-				</div>
-					
+				</div>			
 			</div>
 			<div id="over-section">
 				<div class="window">
 					<button onclick="getElementById('over-section').style.display = '';">&times;</button>
 				</div>
 			</div>
-			<script>
-				var menu_opened = false;
-				
-				function prom_open_mobile_menu() {
-					menu_opened = true;
-					mobile_menu.style.maxHeight = '500px';
-				}
-				function prom_close_mobile_menu() {
-					menu_opened = false;
-					mobile_menu.style.maxHeight = '0';
-				}
-				function prom_toggle_mobile_menu() {
-					menu_opened ? prom_close_mobile_menu() : prom_open_mobile_menu();
-				}
-				prom_close_mobile_menu();
-			</script>
 		</header>
 		<section id="path-section">
 			<div class = "container">
@@ -482,6 +471,7 @@
 							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 						</ol>
 						<button class="sl_but" href="#carouselExampleIndicators" role="button" data-slide="next">
 							<span class="carousel-control-next-icon" aria-hidden="true"></span>

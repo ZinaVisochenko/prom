@@ -171,14 +171,32 @@ header #mobile_menu {
 	transition: .4s;
 	overflow: hidden;
 }
-header #mobile_menu .close {
+header #mobile_menu .close1 {
+	background: transparent;
+	color: #949494;
+	border: 0;
 	float: right;
+	margin-right: 35px;
+    //font-size: 40px;
+    //font-weight: 200;
+}
+
+header #mobile_menu .back {
+	background: transparent;
+	color: #949494;
+	border: 0;
+	float: left;
+	margin-left: 12px;
 }
 header #mobile_menu ul li{
 	margin-bottom: 30px;
 }
 header #mobile_menu ul li a{
 	color: black !important;
+}
+header #mobile_menu ul li a i{
+	color: #BFBFBF;
+	margin-left: 30px;
 }
 header .logo_phone .menu_button{
 	background: transparent;

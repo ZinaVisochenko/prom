@@ -2,7 +2,7 @@
 			<div class="border-b d-none d-sm-block">
 				<div class = "container">
 					<div class="row info">
-						<div class="col-sm-4">				
+						<div class="col-sm-5">				
 							<i class="fas fa-map-marker-alt"></i>
 							Москва, ул. Монтажная, д.2А, стр.1	
 						</div>
@@ -10,16 +10,26 @@
 							<i class="fas fa-envelope"></i>
 							<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
 						</div>
-						<div class="col-sm-4">
-							<select class = "lang">
-								<option>RU</option>
-								<option>EN</option>
-							</select>
+						<div class="col-sm-3">
+							<div class="dropdown show lang">
+								  <button class="dropdown-toggle" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									RU
+								  </button>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownLang">
+									<a class="dropdown-item" href="?lang=ru">RU</a>
+									<a class="dropdown-item" href="?lang=ua">UA</a>
+									<a class="dropdown-item" href="?lang=en">EN</a>
+								  </div>
+							</div>
 							<img src = "images/flag.svg" class = "img_flag">
+							
+
 						</div>
 					</div>
 				</div>
 			</div>
+			
 			<div class = "container">
 				<div class = "row logo_phone">
 					<div class = "col-9 col-md-6 col-lg-3">
@@ -29,8 +39,8 @@
 						<a>+7 (495) 123-45-67</a>
 					</div>
 					<div class = "col-12 col-lg-5 text-right d-none d-sm-block">
-						<button class = "section_header_button">Задать вопрос</button>
-						<button class = "section_header_button section_header_button_1">
+						<button class = "white_btn">Задать вопрос</button>&nbsp&nbsp
+						<button class = "red_btn" onclick="getElementById('over-section').style.display = 'block';">
 							Заказать звонок
 						</button>
 					</div>
@@ -43,19 +53,34 @@
 			</div>
 			<div class = "height_1 d-none d-sm-block">
 				<div class = "container">
-					<div class = "row">					
+					<div class = "row">								
 						<nav class="navbar navbar-expand-lg navbar-light w-100">
-
 						  <div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav w-100 nav-justified">
-							<li class="nav-item">
+							  <li class="nav-item">
 								<a class="nav-link" href="index.html">Главная</a>
 							  </li>
 							  <li class="nav-item">
 								<a class="nav-link" href="#">О компании</a>
 							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="#">Услуги<i class="fas fa-caret-down"></i></a>
+							  <li class="nav-item dropdown show">
+								  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Услуги
+								  </a>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									<a class="dropdown-item " href="#">Регистрация товарного знака</br> (торговой марки)</a>
+									<hr class = "border_line">
+									<a class="dropdown-item " href="services.html">Патентование изобретений</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Патентование полезных</br> моделей</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Патентование промышленных</br> образцов</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Регистрация компьютерных</br> программ, баз данных</a>
+									<hr class = "border_line">
+									<a class="dropdown-item" href="#">Разрешение споров в Палате</br> по патентным спорам и в суде</a>
+								  </div>
 							  </li>
 							  <li class="nav-item">
 								<a class="nav-link" href="#">Практика</a>
@@ -73,51 +98,58 @@
 				</div>
 			</div>
 			<div id="mobile_menu" class="d-block d-sm-none">
-				<button class="close" onclick="prom_close_mobile_menu();">
-					&times;
+				<button class="close1" onclick="prom_close_mobile_menu();">
+					<i class="fas fa-times"></i>
 				</button>
-				<ul>
+				<button class="back" onclick="prom_close_mm2();" id="mmb">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+				<ul id="mm1">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="#">О компании</a></li>
-					<li><a href="#">Услуги</a></li>
+					<li><a href="#" onclick="prom_show_mm2();">Услуги<i class="fas fa-caret-right"></i></a></li>
 					<li><a href="#">Практика</a></li>
 					<li><a href="news.html">Новости</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
-				<div class = "bottom">
-					<a>+7 (495) 123-45-67</a>
+				<ul id="mm2">
+					<li><a href="#">Регистрация товарного</a></li>
+					<li><a href="#">Патентование изобретений</a></li>
+					<li><a href="#">Патентование полезных</a></li>
+					<li><a href="#">Патентование</a></li>
+					<li><a href="#">Регистрация компьютерных программ, баз данных</a></li>
+					<li><a href="#">Решение споров в Палате по патентным</a></li>
+				</ul>
+				<div class = "bottom" id="mmd">
+					<a class = "number_link">+7 (495) 123-45-67</a>
 					<br>
-					<button class = "section_header_button">
+					<button class = "white_btn sbtn">
 						Задать вопрос
 					</button>
 					<br>
-					<button class = "section_header_button section_header_button_1">
+					<button class = "red_btn sbtn">
 						Заказать звонок
 					</button>
 					<br>
-					<img src = "images/flag.svg" class = "img_flag">
-					<select class = "lang">
-									<option>RU</option>
-									<option>EN</option>
-								</select>
-							
-				</div>
 					
+					<div class="dropdown show language">
+						<img src = "images/flag.svg" class = "img_flag">
+						  <button class="dropdown-toggle style_block" href="#" role="button" id="dropdownLang2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							RU
+						  </button>
+
+						  <div class="dropdown-menu" aria-labelledby="dropdownLang2">
+							<a class="dropdown-item" href="?lang=ru">RU</a>
+							<a class="dropdown-item" href="?lang=ua">UA</a>
+							<a class="dropdown-item" href="?lang=en">EN</a>
+						  </div>
+					</div>
+							
+				</div>			
 			</div>
-			<script>
-				var menu_opened = false;
-				
-				function prom_open_mobile_menu() {
-					menu_opened = true;
-					mobile_menu.style.maxHeight = '500px';
-				}
-				function prom_close_mobile_menu() {
-					menu_opened = false;
-					mobile_menu.style.maxHeight = '0';
-				}
-				function prom_toggle_mobile_menu() {
-					menu_opened ? prom_close_mobile_menu() : prom_open_mobile_menu();
-				}
-				prom_close_mobile_menu();
-			</script>
+			<div id="over-section">
+				<div class="window">
+					<button onclick="getElementById('over-section').style.display = '';">&times;</button>
+				</div>
+			</div>
 		</header>
