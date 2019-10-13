@@ -230,3 +230,10 @@
 	font-weight: 600;
 	font-style: italic;
 }
+
+@font-face {
+	font-family: 'Montserrat SemiBold';
+	src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}

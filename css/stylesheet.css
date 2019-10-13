@@ -1,255 +1,8 @@
-* {
-	outline: none;
-}
-.navbar-default {
-  background-color: transparent !important;
-  border-color: transparent !important;
-}
-.active a {
-  background-color: transparent !important;
-}
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-body {
-	font-family: 'SF UI Text'
-}
-
-/* Typography
----------------------------------------------------------- */
-a {
-
-}
-
-a:hover {
-	
-}
-
-p {
-
-}
-
-
-h1 {
-	
-}
-
-h2 {
-	
-}
-
-
-h3 {
-	
-}
-
-
-/* Header 
----------------------------------------------------------- */
-header p {
-	color: navy;
-}
-header .border-b{
-	border-bottom: 2px solid #eaeaea;
-	//position: fixed;
-}
-header .height_1{
-	height: 60px;
-	background-color: #8a3535;
-}
-header .info .img_flag{
-	display: block;
-    float: right;
-}
-header .info .lang{
-	font-size: 18px;
-	font-family: 'SF UI Display';
-	display: block;
-    //margin-top: -1px;
-    float: right;
-}
-header .language{
-	//display: block;
-    //margin-top: -1px;
-    //float: right;
-	margin-top: 20px;
-}
-header .style_block{
-	background: 0;
-	border: 0;
-	font-size: 23px;
-	font-family: 'SF UI Display';
-}
-header .info .lang button{
-	border: 0;
-	background: transparent;
-}
-header .info{
-	padding-top: 18px;
-    padding-bottom: 18px;
-}
-header .info i{
-	color: #CACACA;
-	margin-right: 10px;
-}
-header .info .data{
-	font-size: 17px;
-	font-family: 'SF UI Display';
-}
-header .logo_phone{
-	margin-top: 48px;
-	margin-bottom: 35px;
-}
-header .logo_phone .number{
-	font-size: 23px;
-	font-family: 'SF UI Text';
-	padding-top: 25px;
-}
-header .logo_phone .logo {
-	max-width: 100%;
-}
-header .logo_phone .fa-phone{
-	color: #8C0428;
-}
-header nav .nav-link {
-	color: white !important;
-}
- header.border-b:hover{
-            //display: block;
-			display: none;
-            opacity: 1;
-            transition: 1s;
-            z-index: 100;
-}
-		
-header #mobile_menu {
-	background: white;
-	width: 100%;
-	//position: absolute;
-	//top: 0;
-	transition: .4s;
-	overflow: hidden;
-}
-header #mobile_menu .close1 {
-	background: transparent;
-	color: #949494;
-	border: 0;
-	float: right;
-	margin-right: 35px;
-    //font-size: 40px;
-    //font-weight: 200;
-}
-
-header #mobile_menu .back {
-	background: transparent;
-	color: #949494;
-	border: 0;
-	float: left;
-	margin-left: 12px;
-}
-header #mobile_menu ul li{
-	margin-bottom: 30px;
-}
-header #mobile_menu ul li a{
-	color: black !important;
-}
-header #mobile_menu ul li a i{
-	color: #BFBFBF;
-	margin-left: 30px;
-}
-header .logo_phone .menu_button{
-	background: transparent;
-	border: 0;
-}
-header #mobile_menu ul {
-	margin-left: 50px;
-}
-header #mobile_menu .bottom{
-	text-align: center;
-	//padding-top: 35px;
-	padding-bottom: 10px;
-}
-header #mobile_menu .bottom .number_link{
-	font-size: 18px;
-}
-header #mobile_menu .bottom .sbtn{
-	font-size: 14px;
-	margin-top: 15px;
-}
-header .dropdown-menu{
-	line-height: 1.5;
-	font-size: 18px;
-	font-family: 'SF UI Display';
-	border-radius: 0;
-}
-header .border_line{
-	width: 95%;
-	border-bottom: 1px solid #DCDCDC;
-}		
-#over-section {
-	position: fixed;
-    background: #00000099;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-	display: none;
-}
-
-#over-section .window{
-	position: relative;
-	width: 552px;
-	height: 658px;
-	background: white;
-	margin: 0 auto;
-	top: 50%;
-	margin-top: -325px;
-}
-
 /* Sections
 ---------------------------------------------------------- */
+.call_me{
+	margin-top: 10px;
+}
 .white_btn{
 	width: 180px;
 	height: 52px;
@@ -263,8 +16,8 @@ header .border_line{
 }
 
 .red_btn{
-	width: 180px;
-	height: 52px;
+	width: 188px;
+	height: 47px;
 	background-color: #8C0428;
 	color: white;
 	border: 1px solid #8C0428;
@@ -281,14 +34,14 @@ header .border_line{
 .section_header_line{
 	width: 53px;
 	border-bottom: 2px solid #8C0428;
-	margin-top: 21px;
-	margin-bottom: 55px;
+	margin-top: 22px;
+	margin-bottom: 44px;
 }
 
 .section_body_text{
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 30px;
+	//font-size: 18px;
+	//line-height: 1.5;
+	//margin-bottom: 30px;
 }
 .section_patenting{
 	margin-top: 35px;
@@ -517,15 +270,15 @@ header .border_line{
 	//color: white;
 }
 
+
 #idea-section .background_home{
 	width: 100%;
-    //height: 410px;
     background-image: url(../images/blocks_background/home_background.jpg);
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 75px;
     color: white;
-	//margin-bottom: 55px;
-	padding-bottom: 50px;
+	padding-bottom: 256px;
+	background-position: center;
 }
 #idea-section .open_btn{
 	width: 194px;
@@ -535,59 +288,254 @@ header .border_line{
 	font-family: 'SF UI Display';
 	background: transparent;
 	border: 1px solid white;
+	margin-top: 28px;
+	letter-spacing: 0.8px;
 }
-#idea-section .indent{
-	margin-top: 15px;
+#idea-section .open_btn i{
+	margin-left: 8px;
 }
-#consultation-section .consultation_border{
+#idea-section .title{
+	font-size: 40px;
+    font-family: 'SF UI Display';
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+}
+#idea-section .text{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-top: 19px;
+    letter-spacing: -0.7px;
+}
+#idea-section .carousel-indicators {
+	position: absolute;
+    right: 0;
+    bottom: -35px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: left;
+    justify-content: left;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+	margin: -12px -4px;
+}
+#idea-section .carousel-indicators li {
+	width: 45px;
+    height: 5px;
+}
+@media (max-width: 576px) {
+	#idea-section .title {
+		font-size: 22px;
+		line-height: 1.35;
+		margin-top: -1px;
+	}
+	#idea-section .text {
+		font-size: 14px;
+		line-height: 1.45;
+		margin-top: 14px;
+	}
+	#idea-section .open_btn {
+		width: 160px;
+		height: 47px;
+		font-size: 17px;
+	}
+	#idea-section .background_home {
+        padding-bottom: 81px;
+    }
+}
+
+
+#consultation-section .container_border{
 	background-color: white;
-	//height: 261px;
 	border: 1px solid #DCDCDC;
 	padding-bottom: 25px;
-	margin-top: 30px;
-	margin-bottom: 45px;
+	margin-top: -163px;
 }
 #consultation-section .text_leave{
 	font-size: 18px;
-	font-family: 'SF UI Display';
-	color: #424242;
-	margin-top: 15px;
-	margin-bottom: 20px;
+    font-family: 'SF UI Display';
+    color: #424242;
+    margin-top: 23px;
+    margin-bottom: 31px;
+    padding-left: 45px;
 }
 #consultation-section .receive{
 	font-size: 25px;
-	font-family: 'SF UI Display';
-	color: #333333;
-	margin-top: 25px;
+    font-family: 'SF UI Display';
+    color: #333333;
+    padding-left: 46px;
+    padding-top: 31px;
+    font-weight: 600;
 }
-#idea-section .idea_form{
-	//border: 1px solid #CCCCCC;
-	background: 0;
-	//margin-top: 15px;
+#consultation-section .inputs {
+	white-space: nowrap;
 }
-#consultation-section .consultation_input{
-	width: 100%;
+#consultation-section .inputs input{
+	width: 260px;
 	height: 47px;
 	border: 1px solid #CCCCCC;
-	background: 0;
+	background: white;
 	padding-left: 15px;
-	//margin-top: 10px;
     margin-bottom: 5px;
+	font-size: 15px;
+	padding-top: 4px;
+	margin-left: 30px;
+}
+#consultation-section .inputs input.first{
+	margin-left: 29px;
 }
 #consultation-section .personal{
 	color: #4E4E4E;
-	margin-top: 35px;
-	margin-bottom: 15px;
+    margin-top: 26px;
+    margin-bottom: 7px;
+    padding-left: 46px;
 }
-#idea-section span {
-	border-bottom: 1px solid black;
+#consultation-section .checktext{
+	float: left;
+	margin-left: 28px;
+    margin-top: 2px;
+    letter-spacing: -0.65px;
+}
+#consultation-section .checktext a{
+	color: #4E4E4E;
+	text-decoration: underline;
+}
+#consultation-section .red_btn{
+	margin-right: 31px;
+}
+@media (max-width: 576px) {
+	#consultation-section .container_border {
+		margin: 6px;
+		margin-top: -46px;
+		padding-bottom: 22px;
+	}
+	#consultation-section .receive{
+		font-size: 20px;
+		padding-left: 37px;
+		padding-top: 36px;
+		letter-spacing: -0.25px;
+	}
+	#consultation-section .text_leave{
+		font-size: 14px;
+		margin-top: 16px;
+		padding-left: 56px;
+		padding-right: 53px;
+		line-height: 1.4;
+		text-align: center;
+		letter-spacing: -0.1px;
+		margin-bottom: 9px;
+	}
+	#consultation-section .inputs input {
+		width: 91%;
+		height: 50px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 15px;
+		padding-left: 9px;
+		font-size: 14px;
+		padding-top: 3px;
+
+	}
+	#consultation-section .inputs input.first {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	#consultation-section .personal {
+		margin-top: 14px;
+	}
+	#consultation-section .checktext {
+		font-size: 13px;
+		float: none;
+		margin-left: 46px;
+		margin-top: -7px;
+	}
+	#consultation-section .checktext a{
+		line-height: 2;
+		text-decoration: underline;
+		color: #4E4E4E;
+		letter-spacing: -0.45px;
+	}
+	.squaredThree {
+		margin-left: 2px;
+	}
+	.squaredThree label {
+		width: 16px;
+		height: 16px;
+	}
+	.squaredThree label:after {
+		width: 9px;
+		height: 6px;
+		top: 3px;
+		left: 2px;
+		border: 2px solid #DD5A58;
+		border-top: none;
+		border-right: none;
+	}
+	#consultation-section .red_btn {
+		font-size: 15px;
+		width: 154px;
+		height: 45px;
+		margin-right: 0;
+		margin-top: 3px;
+		letter-spacing: 0.5px;
+	}
+}
+
+
+#company-section .section_margin{
+	margin-bottom: 60px;
+	margin-top: 55px;
+}
+#company-section .section_header_text{
+	font-size: 33px;
+	font-family: 'SF UI Display';
 }
 #company-section .company_foto{
 	height: 235px;
 	background-image: url(../images/company_foto.jpg);
 	color: white;
+	background-size: cover;
+	margin-top: 41px;
+}
+#company-section .section_header_text{
+	font-size: 33px;
+	font-family: 'SF UI Display';
 }
 
+#company-section .section_header_line{
+	width: 53px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	margin-bottom: 44px;
+}
+
+#company-section .company_text_1{
+	font-size: 18px;
+	line-height: 1.5;
+	margin-top: 0;
+}
+#company-section .company_text_2{
+	font-size: 18px;
+	line-height: 1.5;
+	margin-top: 47px;
+}
+#company-section .button_discover{
+	width: 261px;
+	height: 63px;
+	background-color: transparent;
+	color: #8C0428;
+	font-size: 19px;
+	font-family: 'SF UI Display';
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border: 1px solid #8C0428;
+	margin-top: 58px;
+}
+#company-section .company_text_2  p{
+	margin-top: 29px;
+}
 #advantages-section .line{
 	border-bottom: 2px solid white;
 }
@@ -619,8 +567,7 @@ header .border_line{
 #advantages-section .handshake_margin{
 	margin-top: 50px;
 }
-/* News page
----------------------------------------------------------- */
+
 #news-section .news_title{
 	font-size: 25px;
 }
@@ -664,137 +611,6 @@ header .border_line{
     color: white;
 	margin-right: 20px;
 }
-
-/* Footer
----------------------------------------------------------- */
-#callback_section .back_call {
-    width: 100%;
-    //height: 520px;
-    background-image: url(../images/blocks_background/back_call_background.jpg);
-    background-size: cover;
-    padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
-    //margin-top: 60px;
-}
-
-#callback_section input{
-	border: 0;
-	background: 0;
-	color: white;
-}
-#callback_section .back_call .form .input_1{
-	//color: white;
-}
-#callback_section .form{
-	border-bottom: 1px solid grey;
-	padding-bottom: 10px;
-	//color: white;
-	margin-top: 15px;
-    margin-bottom: 15px;
-}
-#callback_section .back_call span{
-	border-bottom: 1px solid grey;
-}
-#callback_section .line{
-	border-bottom: 2px solid white;
-}
-#clients-section .client_background{
-	 
-}
-#clients-section .sl_but {
-	height: 48px;
-	width: 48px;
-	background: #8C0428;
-	border-radius: 30px;
-	text-align: center;
-	padding-top: 6px;
-	border: 0;
-}
-#clients-section .carousel-indicators li {
-	height: 10px;
-	width: 10px;
-	background: #DCDCDC;
-	display: inline-block;
-	border: 0;
-	border-radius: 10px;
-}
-#clients-section .carousel-indicators {
-	position: relative;
-	margin-left: 20px;
-	margin-right: 20px;
-	top: -10px;
-	display: inline;
-}
-#clients-section .carousel-indicators-my li.active {
-	background: #8C0428;
-}
-#clients-section .picture{
-	height: 135px;
-	background-color: #c7c5c5;
-}
-#clients-section .margin_picture{
-	//margin-left: 10px;
-}
-#clients-section .buttons {
-	text-align: center;
-	margin-top: 80px;
-}
-footer .mt30px {
-	margin-top: 30px;
-}
-footer .menu div {
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-footer .ctext{
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-footer .cborder{
-	//border: 1px solid grey;
-    //padding-bottom: 7px;
-	color: grey;
-}
-footer .ask_btn {
-	margin-top: 20px;
-}
-footer img {
-	max-width: 100%;
-}
-@media screen and (max-width: 768px){
-	.textCenter{
-		text-align: center;
-	}
-	.send{
-		margin-top: 20px !important;
-	}
-	.through_call{
-		height: 190px;
-	}
-}
-/* Controls
----------------------------------------------------------- */
-button[type="submit"] {
-
-}
-
-button[type="submit"]:hover {
-	
-}
-
-button[type="submit"]:active {
-	
-}
-
-
-/* Hooks
----------------------------------------------------------- */
-
-
-
-
 
 
 
