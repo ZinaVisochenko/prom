@@ -353,6 +353,7 @@ header .line_menu ul .dropdown-menu{
 	padding-top: 15px;
 	letter-spacing: 0.55px;
 	line-height: 1.7;
+	box-shadow: 0 0 15px #69696973;
 }
 header .line_menu ul .dropdown-menu .border_line {
 	border-bottom: 0;
