@@ -59,8 +59,8 @@
 	font-family: 'SF UI Display';
 	src: url('../fonts/SFUIDisplay-Light.eot');
 	src: local('SF UI Display Light'), local('SFUIDisplay-Light'),
-		url('../fonts/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/SFUIDisplay-Light.woff') format('woff'),
+		//url('../fonts/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+		//url('../fonts/SFUIDisplay-Light.woff') format('woff'),
 		url('../fonts/SFUIDisplay-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
