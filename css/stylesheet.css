@@ -1435,14 +1435,16 @@
 	margin-top: 10px;
 }
 
-#news-section .news_body_text button{
+#news-section .news_body_text a{
 	background: transparent;
 	border: 0;
 	padding-left: 0;
     margin-left: -1px;
     margin-top: 11px;
+	color: black;
+	text-decoration: none;
 }
-#news-section .news_body_text button i {
+#news-section .news_body_text a i {
     background: #8C0428;
     height: 42px;
     width: 42px;
@@ -1500,10 +1502,10 @@
 		font-size: 14px;
 		padding-bottom: 15px;
 	}
-	#news-section .news_body_text button{
+	#news-section .news_body_text a{
 		margin-left: -7px;
 	}
-	#news-section .news_body_text button i {
+	#news-section .news_body_text a i {
 		height: 36px;
 		width: 36px;
 	}

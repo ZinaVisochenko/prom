@@ -75,7 +75,7 @@
 						</div>
 						<div class = "buttons">
 							<button class = "white_btn">Задать вопрос</button>&nbsp&nbsp
-							<button class = "red_btn" onclick="getElementById('over-section').style.display = 'block';">
+							<button class = "red_btn" onclick="prom_open_rcallback();">
 								Заказать звонок
 							</button>
 						</div>
@@ -144,7 +144,7 @@
 					<span>собственность</span>
 				</div>
 				<div class="buttons">
-					<button class = "call_button" onclick="">
+					<button class = "call_button" onclick="prom_open_rcallback();">
 						<i class="fas fa-phone"></i>
 					</button>
 					<button class = "menu_button" onclick="prom_toggle_mobile_menu();">
@@ -154,7 +154,7 @@
 			</div>
 			<div id="mobile_menu" class="d-block d-sm-none">
 				<button class="close1" onclick="prom_close_mobile_menu();">
-					<i class="fas fa-times"></i>
+					&times;
 				</button>
 				<button class="back" onclick="prom_close_mm2();" id="mmb">
 					<i class="fas fa-chevron-left"></i>
@@ -168,7 +168,7 @@
 					<li><a href="#">Контакты</a></li>
 				</ul>
 				<ul id="mm2">
-					<li><a href="#">Регистрация товарного</a></li>
+					<li class="first"><a href="#">Регистрация товарного</a></li>
 					<li><a href="#">Патентование изобретений</a></li>
 					<li><a href="#">Патентование полезных</a></li>
 					<li><a href="#">Патентование</a></li>
@@ -195,7 +195,6 @@
 
 						  <div class="dropdown-menu" aria-labelledby="dropdownLang2">
 							<a class="dropdown-item" href="?lang=ru">RU</a>
-							<a class="dropdown-item" href="?lang=ua">UA</a>
 							<a class="dropdown-item" href="?lang=en">EN</a>
 						  </div>
 					</div>
@@ -204,7 +203,57 @@
 			</div>
 			<div id="over-section">
 				<div class="window">
-					<button onclick="getElementById('over-section').style.display = '';">&times;</button>
+					<button class="close_btn" onclick="prom_close_rcallback();">&times;</button>
+					<div class = "back_call">
+						<div class = "container">
+							<div class = "row">
+								<div class = "col-12">
+									<div class = "title">Заказать звонок</div>
+									<div class = "text">Оставив заявку сейчас, с Вами</br> свяжется в ближайшее время наш специалист</div>
+									<div class = "form fline1">
+										<input type = "text" placeholder = "Ваше имя">
+									</div>
+									<div class = "form">
+										<input type = "email" placeholder = "Ваша почта" class = "last">
+									</div>
+									<div class = "form">
+										<input type = "tel" placeholder = "Ваш телефон *">
+									</div>
+									<div class="squaredThree">
+										<input type="checkbox" value="None" id="squaredThree" name="check" checked=true/>
+										<label for="squaredThree"></label>
+									</div>
+									<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
+									
+								</div>
+							</div>
+							<div class = "row ">
+								<div class = "col-lg-4 ">
+									
+								</div>
+								<div class = "col-lg-4">
+									
+								</div>
+							</div>
+							<div class = "row">
+								<div class = "col-lg-8">
+									
+								</div>
+							</div>
+							<div class = "row ">
+								<div class = "col-lg-8">
+									
+								</div>
+							</div>
+							<div class = "row text-center">
+								<div class = "col-12">
+									<button class = "red_btn">
+										Заказать звонок
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -406,8 +455,8 @@
 						text +
 						'<br>' +
 						'<span id="' + newsText2Id(id) + '">' + text2 + '</span>' + 
-						'<br><button id="' + newsMoreId(id) + '" onClick="clickMore(' + id + ');">' +
-						    '<i class="fas fa-chevron-right"></i>Читать далее</button>' +
+						'<br><a id="' + newsMoreId(id) + '" href="#">' +
+						    '<i class="fas fa-chevron-right"></i>Читать далее</a>' +
 						'<button id="' + newsLessId(id) + '" onClick="clickLess(' + id + ');">' +
 							'<i class="fas fa-chevron-left"></i>Скрыть</button>' +
 					'</div>' +
