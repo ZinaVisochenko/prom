@@ -408,8 +408,17 @@ header .mobile .call_button{
     left: 0;
     z-index: 100;
 	display: none;
+	font-family: 'SF UI Display';
 }
-
+#over-section .close_btn{
+    float: right;
+    background: transparent;
+    border: 0;
+    margin-right: 4px;
+    margin-top: 1px;
+	font-size: 32px;
+	color: gray;
+}
 #over-section .window{
 	position: relative;
 	width: 552px;
@@ -419,14 +428,181 @@ header .mobile .call_button{
 	top: 50%;
 	margin-top: -325px;
 }
-
+#over-section .back_call {
+	padding-top: 52px;
+	padding-bottom: 68px;
+}
+#over-section .window .back_call .title{
+	font-size: 30px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.3px;
+	text-align: center;
+}
+#over-section .window .back_call .text{
+	font-size: 18px;
+	font-family: 'SF UI Display';
+	color: #424242;
+	padding-top: 24px;
+    text-align: center;
+    line-height: 1.38;
+    letter-spacing: -0.2px;
+}
+#over-section .window .back_call .fline1{
+	margin-top: 60px;
+}
+#over-section input{
+	font-size: 18px;
+	color: #828282;
+	width: 100%;
+    height: 58px;
+    padding-left: 18px;
+	border: 1px solid #d6d6d6;
+}
+#over-section .window .back_call input .last{
+	margin-top: 0px;
+}
+#over-section .window .back_call .form{
+	margin-left: 51px;
+	margin-right: 51px;
+	margin-bottom: 30px;
+}
+#over-section .window .back_call .cb{
+	//margin-top: 23px;
+}
+#over-section .window .back_call .cbtext {
+	font-size: 16px;
+	color: #4E4E4E;
+	margin-left: 100px;
+	margin-top: 2px;
+	letter-spacing: 0px;
+}
+#over-section .window .back_call .cbtext a{
+	text-decoration: underline;
+    color: #4E4E4E;
+}
+#over-section .window .back_call .cb .squaredThree{
+	margin-left: 37px;
+}
+#over-section .window .back_call .cb .squaredThree label{
+	height: 17px;
+	width: 17px;
+	margin-left: 1px;
+}
+#over-section .window .back_call .cb .squaredThree label:after {
+	width: 10px;
+	height: 6px;
+	top: 3px;
+	left: 3px;
+}
+#over-section .squaredThree {
+    width: 20px;
+    height: 20px;
+    margin-left: 44px;
+    position: relative;
+    float: none; 
+    top: 20px;
+}
+#over-section .window .back_call .red_btn {
+	width: 188.86px;
+	height: 47.83px;
+	font-size: 16px;
+	margin-top: 45px;
+    letter-spacing: 0.5px;
+	padding-top: 15px;
+}
+@media (max-width: 576px) {
+	#over-section {
+		position: static;
+	}
+	#over-section .window {
+		width: 100%;
+		top: 1px;
+		margin-top: 0px;
+		height: auto;
+	}
+	#over-section .close_btn {
+		position: absolute;
+		right: 4px;
+	}
+	#over-section .back_call {
+		padding-top: 33px;
+		padding-bottom: 79px;
+	}
+	#over-section .window .back_call .title {
+		font-size: 20px;
+	}
+	#over-section .window .back_call .text {
+		font-size: 14px;
+		padding-top: 14px;
+	}
+	#over-section .window .back_call .fline1 {
+		margin-top: 9px;
+	}
+	#over-section input {
+		height: 50px;
+		font-size: 14px;
+		padding-left: 13px;
+		letter-spacing: 0.7px;
+	}
+	#over-section .window .back_call .form {
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 15px;
+	}
+	#over-section .squaredThree{
+		margin-left: 32px;
+		top: 14px;
+	}
+	#over-section  .squaredThree label{
+		height: 16px;
+		width: 16px;
+		margin-left: 1px;
+	}
+	#over-section .squaredThree label:after {
+		width: 9px;
+		height: 5px;
+		top: 3px;
+		left: 3px;
+	}
+	#over-section .window .back_call .cbtext {
+		font-size: 13px;
+		margin-left: 83px;
+		margin-top: -16px;
+		line-height: 1.5;
+	}
+	#over-section .window .back_call .red_btn {
+		width: 155px;
+		height: 45px;
+		font-size: 16px;
+		margin-top: 15px;
+		letter-spacing: 0.5px;
+		padding-top: 15px;
+	}
+}
 
 
 #path-section .line1 {
 	font-size: 20px;
 	font-family: 'SF UI Text';
-	margin-bottom: 55px;
-	margin-top: 54px;
+	//margin-bottom: 55px;
+	margin-top: 62px;
+}
+#path-section .line1 .serv{
+	margin-left: 19px;
+}
+#path-section .line1 .pat{
+	margin-left: 20px;
+}
+#path-section .line1 .i1{
+	margin-left: 5px;
+    margin-top: 2px
+}
+#path-section .line1 .i2{
+	margin-left: 18px;
+    margin-top: 2px
+}
+#path-section .line1 .menu{
+	float: left;
 }
 #path-section .line1 i{
 	margin-left: 29px;
@@ -450,6 +626,39 @@ header .mobile .call_button{
 	}
 }
 
+
+#patent-section{
+	margin-top: 71px;
+    letter-spacing: 0.5px;
+    margin-left: -2px;
+	font-family: 'SF UI Display';
+}
+#patent-section .title{
+	font-size: 33px;
+	
+}
+
+#patent-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	//margin-bottom: 44px;
+}
+
+#patent-section .text{
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing: 0px;
+	margin-top: 59px;
+	//margin-bottom: 30px;
+}
+#patent-section .foto{
+	background-image: url(../images/service_foto.jpg);
+	height: 252px;
+	background-size: cover;
+	margin-top: 30px;
+	//margin-bottom: 30px;
+}
 
 /* Footer
 ---------------------------------------------------------- */
@@ -665,7 +874,92 @@ header .mobile .call_button{
 	margin-top: 61px;
 	//margin-bottom: 52px;
 }
+@media (max-width: 576px) {
+	#clients-section{
+		font-family: 'SF UI Display';
+		background-image: url(../images/stripes.png);
+		margin-top: 43px;
+		padding-bottom: 34px;
+		padding-top: 46px;
+		margin-left: 6px;
+	}
+	#clients-section .title{
+		font-size: 24px;
+		letter-spacing: 0.1px;
+		margin-top: 0;
+		
+	}
 
+	#clients-section .line{
+		width: 57px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		//margin-bottom: 44px;
+	}
+
+	#clients-section .text{
+		font-size: 14px;
+		line-height: 2.2;
+		margin-top: 39px;
+		margin-bottom: 0px;
+	}
+	#clients-section .client_background{
+		 
+	}
+	#clients-section .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 5px;
+		border: 0;
+		margin-left: 3px;
+		margin-right: 1px;
+	}
+	#clients-section .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+	#clients-section .carousel-indicators {
+		position: relative;
+		margin-left: 12px;
+		margin-right: 6px;
+		top: -6px;
+		display: inline;
+	}
+	#clients-section .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#clients-section .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+		//background: no-repeat 50%/100% 100%;
+	}
+	#clients-section .picture{
+		height: 105px;
+		background-color: #F3F3F3;
+		border: 1px solid #E0E0E0;
+		margin-top: 18px;
+	}
+	#clients-section .picture_top{
+		margin-top: -6px;
+	}
+	#clients-section .picture_left{
+		
+	}
+	#clients-section .buttons {
+		text-align: center;
+		margin-top: 39px;
+		margin-left: -7px;
+	}
+}
 
 
 footer .line1 .image{

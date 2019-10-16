@@ -48,3 +48,11 @@ function prom_close_mm2() {
 	mmb.style.display = "none";
 }
 prom_close_mobile_menu();
+
+// request call back
+function prom_open_rcallback() {
+	document.getElementById('over-section').style.display = 'block';
+}
+function prom_close_rcallback() {
+	document.getElementById('over-section').style.display = 'none';
+}

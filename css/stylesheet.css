@@ -473,7 +473,6 @@
 	padding-top: 11px;
 	border: 0;
 }
-
 #experience-section .carousel-indicators li {
 	height: 10px;
 	width: 10px;
@@ -496,6 +495,131 @@
 	text-align: center;
 	margin-top: 80px;
 }
+@media (max-width: 576px) {
+	#experience-section{
+		margin-top: 117px;
+	}
+	#experience-section .title{
+		font-size: 24px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.6px;
+		margin-left: 6px;
+	}
+
+	#experience-section .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		//margin-bottom: 44px;
+		margin-left: 6px;
+	}
+
+	#experience-section .text_one{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 2.2;
+		margin-top: 40px;
+		margin-left: 7px;
+		//margin-bottom: 30px;
+	}
+	#experience-section .text_two{
+		margin-top: 20px;
+		letter-spacing: 0px;
+	}
+	#experience-section .border_radius{
+		width: 190px;
+		height: 190px;
+		border: 2px solid #DCDCDC;
+		border-radius: 96px;
+		font-size: 60px;
+		font-family: 'SF UI Display';
+		letter-spacing: 1.5px;
+		color: #8C0428;
+		//padding: 38px;
+		padding-top: 63px;
+		padding-left: 37px;
+		margin: 0 auto;
+		margin-left: 53px;
+		margin-top: 55px;
+	}
+	#experience-section .border_radius1{
+		margin-left: 38px;
+		padding-left: 33px;
+	}
+	#experience-section .border_radius2{
+		margin-left: 32px;
+		padding-left: 58px;
+	}
+	#experience-section .border_radius3{
+		margin-left: 25px;
+		padding-left: 36px;
+	}
+	#experience-section .twenty{
+		padding-left: 55px;
+	}
+	#experience-section .text1{
+		font-size: 22px;
+		font-family: 'SF UI Display';
+		text-align: center;
+		line-height: 1.6;
+		letter-spacing: 0.35px;
+		margin-left: 6px;
+		margin-top: 26px;
+	}
+	#experience-section .text2{
+		margin-left: 6px;
+	}
+	#experience-section .text3{
+		margin-left: -2px;
+	}
+	#experience-section .text4{
+		margin-left: -11px;
+	}
+	#experience-section .box {
+		margin: 0 auto;
+	}
+	#experience-section .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 5px;
+		border: 0;
+		margin-left: 3px;
+		margin-right: 1px;
+	}
+
+	#experience-section .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+	#experience-section .carousel-indicators {
+		position: relative;
+		margin-left: 12px;
+		margin-right: 6px;
+		top: -6px;
+		display: inline;
+	}
+	#experience-section .carousel-indicators-my li.active {
+		background: #8C0428;
+	}
+	#experience-section .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+		//background: no-repeat 50%/100% 100%;
+	}
+	#experience-section .buttons {
+		text-align: center;
+		margin-top: 50px;
+	}
+}
 #reviews-section .slider{
 	width: 196px;
 	height: 287px;
@@ -516,7 +640,7 @@
 	background: #8C0428;
 	border-radius: 30px;
 	text-align: center;
-	padding-top: 11px;
+	padding-top: 4px;
 	border: 0;
 }
 #reviews-section .carousel-indicators li {
@@ -1239,6 +1363,21 @@
 		font-size: 14px;
 		margin: -1px 2px;
 	}
+	#news-section2 .white_btn{
+		width: 182px;
+		height: 46px;
+		background-color: transparent;
+		color: #4D4D4D;
+		font-size: 12px;
+		font-family: 'SF UI Display';
+		padding-top: 16px;
+		padding-bottom: 14px;
+		border: 1px solid #DCDCDC;
+		margin-top: 11px;
+		padding-left: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 1px;
+	}
 }
 
 
@@ -1262,10 +1401,10 @@
 }
 #news-section .news_background{
 	width: 100%;
-	height: 236px;
+	//height: 236px;
     position: relative;
-	background: #F1F1F1;
-	width: 100%;
+	background: url(../images/intersection1.png);
+	background-size: cover;
     height: 236px;
 	margin-top: 17px;
 }
