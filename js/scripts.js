@@ -25,7 +25,7 @@ var menu_opened = false;
 				
 function prom_open_mobile_menu() {
 	menu_opened = true;
-	mobile_menu.style.maxHeight = '500px';
+	mobile_menu.style.maxHeight = '1000px';
 }
 function prom_close_mobile_menu() {
 	menu_opened = false;

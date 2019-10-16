@@ -182,7 +182,9 @@ header #mobile_menu .close1 {
 	color: #949494;
 	border: 0;
 	float: right;
-	margin-right: 35px;
+	margin-right: 9px;
+    font-size: 40px;
+    margin-top: 7px;
 }
 
 header #mobile_menu .back {
@@ -191,9 +193,13 @@ header #mobile_menu .back {
 	border: 0;
 	float: left;
 	margin-left: 12px;
+	margin-top: 22px;
 }
 header #mobile_menu ul li{
-	margin-bottom: 30px;
+	margin-bottom: 36px;
+	font-size: 16px;
+	font-family: 'SF UI Text';
+	    letter-spacing: -0.5px;
 }
 header #mobile_menu ul li a{
 	color: black !important;
@@ -207,19 +213,43 @@ header .logo_phone .menu_button{
 	border: 0;
 }
 header #mobile_menu ul {
-	margin-left: 50px;
+	margin-left: 44px;
+	margin-bottom: -3px;
+	margin-top: 26px;
+}
+header #mobile_menu ul#mm2 {
+	margin-left: 53px;
+    margin-top: 25px;
+}
+header #mobile_menu #mm2 li {
+	margin-bottom: 51px;
+	    letter-spacing: -0.2px;
+}
+header #mobile_menu #mm2 li.first {
+	//margin-bottom: 58px;
 }
 header #mobile_menu .bottom{
 	text-align: center;
-	//padding-top: 35px;
 	padding-bottom: 10px;
 }
 header #mobile_menu .bottom .number_link{
 	font-size: 18px;
 }
-header #mobile_menu .bottom .sbtn{
+header #mobile_menu .bottom .white_btn{
 	font-size: 14px;
-	margin-top: 15px;
+	margin-top: 12px;
+	width: 168px;
+	letter-spacing: 0.5px;
+    height: 39px;
+	padding-top: 13px;
+}
+header #mobile_menu .bottom .red_btn{
+	width: 168px;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 13px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
 }
 header .dropdown-menu{
 	line-height: 1.5;
