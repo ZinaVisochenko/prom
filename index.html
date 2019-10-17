@@ -34,22 +34,30 @@
 								<i class="fas fa-envelope"></i>
 							</div>
 							<div class="text2">
-								<a url = "info@promsob.ru" alt = "email">info@promsob.ru</a>
+								<a href = "#">info@promsob.ru</a>
 							</div>
 						</div>
 						<div class="col-4">
-							<div class="flag">
+							<!--<div class="flag">
 								<img src = "images/flag.svg" class = "img_flag">
-							</div>
+							</div>-->
 							<div class="lang_select">
 								<div class="dropdown show lang">
+										
 									  <button class="dropdown-toggle" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										RU
+										<!--<div class="flag">
+											<img src = "images/flag.svg" class = "img_flag">
+										</div>
+										RU-->
 									  </button>
 
 									  <div class="dropdown-menu" aria-labelledby="dropdownLang">
-										<a class="dropdown-item" href="?lang=ru">RU</a>
-										<a class="dropdown-item" href="?lang=en">EN</a>
+										<a class="dropdown-item" href="?lang=ru"><div class="flag">
+											<img src = "images/flag_ru.svg" class = "img_flag">
+										</div>RU</a>
+										<a class="dropdown-item" href="?lang=en"><div class="flag">
+											<img src = "images/flag_en.svg" class = "img_flag">
+										</div>EN</a>
 									  </div>
 								</div>
 							</div>
@@ -61,6 +69,7 @@
 			<div class = "container d-none d-sm-block">
 				<div class = "row line2">
 					<div class="col-4">
+						<a href="index.html">
 						<div class = "image">
 							<img src = "images/logo/logo_with_text.svg" class="logo">
 						</div>
@@ -68,10 +77,11 @@
 							Промышленная<br>
 							<span>собственность</span>
 						</div>
+						</a>
 					</div>
 					<div class="col-8">
 						<div class = "phone_number">
-							<a>+7 (495) 123-45-67</a>
+							<a href="#">+7 (495) 123-45-67</a>
 						</div>
 						<div class = "buttons">
 							<button class = "white_btn">Задать вопрос</button>&nbsp&nbsp
@@ -260,11 +270,12 @@
 		
 		
 		<section id="idea-section">
-			<div class = "background_home">
-				<div class = "container text-center text-md-left">
-					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+						
+					<div class="carousel-item active">
+						<div class = "background_home">
+							<div class = "container text-center text-md-left">
 								<div class = "row">			
 									<div class = "col-12 col-lg-5 col-md-5 title">
 										Идейные соображения высшего порядка
@@ -281,64 +292,89 @@
 											Открыть
 											<i class="fas fa-angle-right"></i>
 										</button>
-										
+										<div class = "text-left d-none d-md-block">
+											<ol class="carousel-indicators ">
+												<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+											</ol>
+										</div>
 									</div>
 								</div>	
-							</div>
-							<div class="carousel-item">
-								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5 title">
-										Идейные соображения высшего порядка
-									</div>
-								</div>
-								<div class = "row indent">			
-									<div class = "col-12 col-lg-5 col-md-5 text">
-										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
-									</div>
-								</div>
-								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5">
-										<button class = "open_btn">
-											Открыть
-											<i class="fas fa-angle-right"></i>
-										</button>
-										
-									</div>
-								</div>	
-							</div>
-							<div class="carousel-item">
-									<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5 title">
-										Идейные соображения высшего порядка
-									</div>
-								</div>
-								<div class = "row indent">			
-									<div class = "col-12 col-lg-5 col-md-5 text">
-										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
-									</div>
-								</div>
-								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5">
-										<button class = "open_btn">
-											Открыть
-											<i class="fas fa-angle-right"></i>
-										</button>
-										
-									</div>
-								</div>		
 							</div>
 						</div>
-						<div class = "text-left d-none d-md-block">
-							<ol class="carousel-indicators ">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-							</ol>
-						</div>							
 					</div>
+									
+					<div class="carousel-item">
+						<div class = "background_home">
+							<div class = "container text-center text-md-left">
+								<div class = "row">			
+									<div class = "col-12 col-lg-5 col-md-5 title">
+										Идейные соображения высшего порядка
+									</div>
+								</div>
+								<div class = "row indent">			
+									<div class = "col-12 col-lg-5 col-md-5 text">
+										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
+									</div>
+								</div>
+								<div class = "row">			
+									<div class = "col-12 col-lg-5 col-md-5">
+										<button class = "open_btn">
+											Открыть
+											<i class="fas fa-angle-right"></i>
+										</button>
+										<div class = "text-left d-none d-md-block">
+											<ol class="carousel-indicators ">
+												<li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+											</ol>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>								
+					</div>
+							
+					<div class="carousel-item">
+						<div class = "background_home">
+							<div class = "container text-center text-md-left">
+								<div class = "row">			
+									<div class = "col-12 col-lg-5 col-md-5 title">
+										Идейные соображения высшего порядка
+									</div>
+								</div>
+								<div class = "row indent">			
+									<div class = "col-12 col-lg-5 col-md-5 text">
+										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
+									</div>
+								</div>
+								<div class = "row">			
+									<div class = "col-12 col-lg-5 col-md-5">
+										<button class = "open_btn">
+											Открыть
+											<i class="fas fa-angle-right"></i>
+										</button>
+										<div class = "text-left d-none d-md-block">
+											<ol class="carousel-indicators ">
+												<li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+												<li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+											</ol>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</div>
-			</div>
+						
+			</div>	
 		</section>
+		
+		
 		<section id="consultation-section">
 			<div class = "container">
 				<div class = "container_border">
@@ -386,6 +422,8 @@
 				</div>
 			</div>
 		</section>
+		
+		
 		<section id="company-section">
 			<div class = "container">
 				<div class = "row">
@@ -428,6 +466,8 @@
 				</div>
 			</div>
 		</section>
+		
+		
 		<section id="advantages-section">
 			<div class = "container">
 				<div class = "row">
@@ -486,6 +526,8 @@
 				</div>	
 			</div>
 		</section>
+		
+		
 		<section id="services-section">
 			<div class = "container">
 				<div class = "row">

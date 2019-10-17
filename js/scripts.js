@@ -15,9 +15,18 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 var lang = getUrlParameter('lang');
 if (lang != undefined) {
-	dropdownLang.innerHTML = lang.toUpperCase();
-	dropdownLang2.innerHTML = lang.toUpperCase();
+	//dropdownLang.innerHTML = lang.toUpperCase();
+	//dropdownLang2.innerHTML = lang.toUpperCase();
 }
+function prom_set_lang(lang) {
+	if (/*lang == undefined*/ lang === 'en') {
+		dropdownLang.innerHTML = '<div class="flag"><img src = "images/flag_en.svg" class = "img_flag"></div>EN';
+	} else {
+		dropdownLang.innerHTML = '<div class="flag"><img src = "images/flag_ru.svg" class = "img_flag"></div>RU';
+	}
+	dropdownLang2.innerHTML = dropdownLang.innerHTML;
+}
+prom_set_lang(lang);
 
 // menu
 
