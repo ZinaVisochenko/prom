@@ -97,6 +97,8 @@
     border-left: 1px solid #DDDDDD;
     border-right: 1px solid #DDDDDD;
 	text-align: center;
+	vertical-align: middle;
+    line-height: 1.2;
 }
 #costs-section  th {
     background: #8C0428;
@@ -113,8 +115,9 @@
 #costs-section .home2{
 	height: 79px;
 }
-#costs-section .following{
-	
+#costs-section table th.following{
+	width: 25.7%;
+	padding-left: 28px;
 }
 #costs-section .th_padding{
 	//padding-top: 36px;
@@ -122,9 +125,11 @@
 }
 #costs-section table .first {
 	text-align: left;
-	width: 580px;
+	width: 51.3%;
 }
-
+#costs-section table th.first {
+	padding-left: 23px;
+}
 #costs-section table .sub td{
 	font-size: 18px;
 	border-top: 0;
@@ -1309,7 +1314,7 @@
 	padding-top: 67px;
 }
 #examples-section1 .top{
-	margin-top: 87px;
+	margin-top: 80px;
 }
 #examples-section1 .left .float{
 	float: left;
@@ -1319,15 +1324,14 @@
 	float: left;
 }
 #examples-section1 .top .reg1{
-	margin-left: 69px;
+	margin-left: 72px;
 }
 #examples-section1 .text3{
 	font-size: 18px;
-	margin-left: 5px;
-    line-height: 1.9;
-    margin-top: -7px;
-    letter-spacing: 0.6px;
-	float: left;
+    margin-left: 0px;
+    line-height: 1.7;
+    margin-top: 73px;
+    letter-spacing: 0px;
 }
 #examples-section1 .top .reg .registered{
 	font-size: 24px;
@@ -1381,7 +1385,7 @@
 }
 #examples-section1 .buttons {
 	text-align: center;
-	margin-top: 94px;
+	margin-top: 113px;
 }
 
 
@@ -2085,7 +2089,7 @@
 
 
 #news-section .title {
-	padding-top: 4px;
+	padding-top: 47px;
     letter-spacing: 0.4px;
 	font-size: 33px;
 	font-family: 'SF UI Display';
