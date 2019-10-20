@@ -35,11 +35,13 @@ var menu_opened = false;
 function prom_open_mobile_menu() {
 	menu_opened = true;
 	mobile_menu.style.maxHeight = '1000px';
+	mobile_menu.style.overflow = '';
 }
 function prom_close_mobile_menu() {
 	menu_opened = false;
 	mobile_menu.style.maxHeight = '0';
 	prom_close_mm2();
+	mobile_menu.style.overflow = 'hidden';
 }
 function prom_toggle_mobile_menu() {
 	menu_opened ? prom_close_mobile_menu() : prom_open_mobile_menu();

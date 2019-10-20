@@ -93,27 +93,12 @@ header p {
 }
 header .border-b{
 	border-bottom: 2px solid #eaeaea;
-	//position: fixed;
 }
 header .height_1{
 	height: 60px;
 	background-color: #8C0428;
 }
-header .info .img_flag{
-	display: block;
-    float: right;
-}
-header .info .lang{
-	font-size: 18px;
-	font-family: 'SF UI Display';
-	display: block;
-    //margin-top: -1px;
-    float: right;
-}
 header .language{
-	//display: block;
-    //margin-top: -1px;
-    //float: right;
 	margin-top: 20px;
 }
 header .style_block{
@@ -122,60 +107,13 @@ header .style_block{
 	font-size: 23px;
 	font-family: 'SF UI Display';
 }
-header .info .lang button{
-	border: 0;
-	background: transparent;
-}
-header .info{
-	padding-top: 18px;
-    padding-bottom: 18px;
-}
-header .info i{
-	color: #CACACA;
-	margin-right: 10px;
-}
-header .info .data{
-	font-size: 17px;
-	font-family: 'SF UI Display';
-}
-header .logo_phone{
-	margin-top: 38px;
-	margin-bottom: 35px;
-}
-.rowindexone{
-	height: 60px;
-}
-.divindexone{
-	margin-top: 42px;
-}
-header .logo_phone .number{
-	font-size: 23px;
-	font-family: 'SF UI Text';
-	padding-top: 25px;
-}
-header .logo_phone .logo {
-	max-width: 100%;
-}
-header .logo_phone .fa-phone{
-	color: #8C0428;
-}
 header nav .nav-link {
 	color: white !important;
 }
-header.border-b:hover{
-            //display: block;
-			display: none;
-            opacity: 1;
-            transition: 1s;
-            z-index: 100;
-}	
 header #mobile_menu {
 	background: white;
 	width: 100%;
-	//position: absolute;
-	//top: 0;
 	transition: .4s;
-	overflow: hidden;
 }
 header #mobile_menu .close1 {
 	background: transparent;
@@ -184,7 +122,7 @@ header #mobile_menu .close1 {
 	float: right;
 	margin-right: 9px;
     font-size: 40px;
-    margin-top: 7px;
+    margin-top: -19px;
 }
 
 header #mobile_menu .back {
@@ -193,7 +131,7 @@ header #mobile_menu .back {
 	border: 0;
 	float: left;
 	margin-left: 12px;
-	margin-top: 22px;
+	margin-top: -2px;
 }
 header #mobile_menu ul li{
 	margin-bottom: 36px;
@@ -208,10 +146,6 @@ header #mobile_menu ul li a i{
 	color: #BFBFBF;
 	margin-left: 30px;
 }
-header .logo_phone .menu_button{
-	background: transparent;
-	border: 0;
-}
 header #mobile_menu ul {
 	margin-left: 44px;
 	margin-bottom: -3px;
@@ -222,8 +156,9 @@ header #mobile_menu ul#mm2 {
     margin-top: 25px;
 }
 header #mobile_menu #mm2 li {
-	margin-bottom: 51px;
-	    letter-spacing: -0.2px;
+	margin-bottom: 46px;
+	letter-spacing: -0.2px;
+	line-height: 1.3;
 }
 header #mobile_menu #mm2 li.first {
 	//margin-bottom: 58px;
@@ -250,6 +185,12 @@ header #mobile_menu .bottom .red_btn{
     padding-top: 13px;
     margin-top: 10px;
     letter-spacing: 0.5px;
+}
+header #mobile_menu .lang{
+	margin-top: 19px;
+}
+header #mobile_menu .lang button{
+	font-size: 23px;
 }
 header .dropdown-menu{
 	line-height: 1.5;
@@ -308,7 +249,7 @@ header .line1 .image2 {
     margin-top: 1px;
 	float: left;
 }
-header .line1 .flag {
+header .flag {
     margin-right: 12px;
     margin-top: -2px;
     float: left;
@@ -317,13 +258,13 @@ header .line1 .lang_select {
 	width: 93px;
     float: right;
 }
-header .line1 .lang_select button{
+header .lang button{
 	background: transparent;
 	border: 0;
 	font-size: 18px;
 	letter-spacing: 1px;
 }
-header .line1 .lang_select img{
+header .lang img{
 	width: 31px;
 }
 header .dropdown-menu {
@@ -335,7 +276,7 @@ header .dropdown-menu .flag {
 header .line2{
 	padding-bottom: 41px;
 }
-header .line1 .lang_select button::after{
+header .lang button::after{
 	color: #BFBFBF;
 	font-size: 14px;
 }
