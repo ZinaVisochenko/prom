@@ -38,17 +38,11 @@
 							</div>
 						</div>
 						<div class="col-4">
-							<!--<div class="flag">
-								<img src = "images/flag.svg" class = "img_flag">
-							</div>-->
 							<div class="lang_select">
 								<div class="dropdown show lang">
 										
 									  <button class="dropdown-toggle" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										<!--<div class="flag">
-											<img src = "images/flag.svg" class = "img_flag">
-										</div>
-										RU-->
+										Lang
 									  </button>
 
 									  <div class="dropdown-menu" aria-labelledby="dropdownLang">
@@ -84,7 +78,7 @@
 							<a href="#">+7 (495) 123-45-67</a>
 						</div>
 						<div class = "buttons">
-							<button class = "white_btn"><a href = "#callback_section"  id = "quesh2">Задать вопрос</a></button>&nbsp&nbsp
+							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>&nbsp&nbsp
 							<button class = "red_btn" onclick="prom_open_rcallback();">
 								Заказать звонок
 							</button>
@@ -197,17 +191,25 @@
 					</button>
 					<br>
 					
-					<div class="dropdown show language">
-						  <button class="dropdown-toggle style_block" href="#" role="button" id="dropdownLang2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Flag & lang
-						  </button>
+					<div class="dropdown show lang">
+										
+						<button class="dropdown-toggle" href="#" role="button" id="dropdownLang2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Lang
+						</button>
 
-						  <div class="dropdown-menu" aria-labelledby="dropdownLang2">
-							<a class="dropdown-item" href="?lang=ru">RU</a>
-							<a class="dropdown-item" href="?lang=en">EN</a>
-						  </div>
+						<div class="dropdown-menu" aria-labelledby="dropdownLang2">
+							<a class="dropdown-item" href="?lang=ru">
+								<div class="flag">
+									<img src = "images/flag_ru.svg" class = "img_flag">
+								</div>
+								RU
+							</a>
+							<a class="dropdown-item" href="?lang=en"><div class="flag">
+								<img src = "images/flag_en.svg" class = "img_flag">
+							</div>EN</a>
+						</div>
 					</div>
-							
+				
 				</div>			
 			</div>
 			<div id="over-section">
@@ -229,8 +231,8 @@
 										<input type = "tel" placeholder = "Ваш телефон *">
 									</div>
 									<div class="squaredThree">
-										<input type="checkbox" value="None" id="squaredThree" name="check" checked=true/>
-										<label for="squaredThree"></label>
+										<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true/>
+										<label for="squaredThreeOs"></label>
 									</div>
 									<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
 									
@@ -374,7 +376,7 @@
 						</div>
 						<div class = "col-lg-3 col-xl-2 d-md-none">
 							<a href = "#" class="number">+7 (495) 123-45-67</a>
-							<button class = "white_btn"><a href = "#callback_section"  id = "quesh2">Задать вопрос</a></button>
+							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>
 						</div>
 						<div class = "col-lg-5 col-xl-7">
 							<div class = "row menu">
@@ -405,7 +407,7 @@
 							</div>
 						</div>
 						<div class = "col-lg-3 col-xl-2 d-none d-md-block">
-							<button class = "white_btn"><a href = "#callback_section"  id = "quesh2">Задать вопрос</a></button>
+							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>
 							<a href = "#" class="number text-dark">+7 (495) 123-45-67</a>
 						</div>
 					</div>
@@ -537,13 +539,6 @@
 			'<div style="margin-top: 10px;"></div>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
             '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.'
 			);
-		// плавное перемещение страницы к нужному блоку
-		$("#quesh2").click(function () {
-
-			elementClick = $(this).attr("href");
-			destination = $(elementClick).offset().top;
-			$("body,html").animate({scrollTop: destination }, 800);
-		});
 	});
 	</script>
 </html>

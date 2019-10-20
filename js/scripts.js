@@ -67,3 +67,14 @@ function prom_open_rcallback() {
 function prom_close_rcallback() {
 	document.getElementById('over-section').style.display = 'none';
 }
+
+$(document).ready(function() {
+	// slowly move to href target
+	$(".slow_quesh").each(function (element) {
+		$(this).click(function () {
+			elementClick = $(this).attr("href");
+			destination = $(elementClick).offset().top;
+			$("body,html").animate({scrollTop: destination }, 800);
+		});
+	});
+});
