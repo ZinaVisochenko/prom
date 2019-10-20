@@ -84,7 +84,7 @@
 							<a href="#">+7 (495) 123-45-67</a>
 						</div>
 						<div class = "buttons">
-							<button class = "white_btn">Задать вопрос</button>&nbsp&nbsp
+							<button class = "white_btn"><a href = "#callback_section"  id = "quesh1">Задать вопрос</a></button>&nbsp&nbsp
 							<button class = "red_btn" onclick="prom_open_rcallback();">
 								Заказать звонок
 							</button>
@@ -198,9 +198,8 @@
 					<br>
 					
 					<div class="dropdown show language">
-						<img src = "images/flag.svg" class = "img_flag">
 						  <button class="dropdown-toggle style_block" href="#" role="button" id="dropdownLang2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							RU
+							Flag & lang
 						  </button>
 
 						  <div class="dropdown-menu" aria-labelledby="dropdownLang2">
@@ -294,10 +293,17 @@
 						<div class = "line"></div>
 					</div>	
 				</div>
-				<div class = "row">
+				<div class = "row d-none d-md-block">
 					<div class = "col-lg-12">
 						<div class = "text1">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.
+						</div>
+					</div>	
+				</div>
+				<div class = "row d-md-none">
+					<div class = "col-lg-12">
+						<div class = "text1">
+							Повседневная показывает, что реализация плановых заданий требуют направлений развития.
 						</div>
 					</div>	
 				</div>
@@ -313,21 +319,31 @@
 						</div>
 					</div>	
 				</div>
+				<div class = "row d-md-none">
+					<div class = "col-lg-12">
+						<div class = "text1 text3">
+							Значимость этих проблем настолько очевидна.
+						</div>
+					</div>	
+				</div>
 			</div>
 		</section>
 		<section id="costs-section">
 			<div class = "container">
-				<div class = "row">
+				<div class = "row ">
 					<div class = "col-lg-12">
-						<div class = "title">
+						<div class = "title d-none d-md-block">
 							Стоимость услуг
+						</div>
+						<div class = "title d-md-none">
+							Стоимость</br> услуг
 						</div>
 						<div class = "line"></div>
 					</div>
 				</div>
 				<div class = "row">
 					<div class = "col-lg-12">		
-						<table>
+						<table class = "table-responsive-md">
 							<tr class = "">
 								<th class='first th_padding'>Название услуги</th>
 								<th class = "following">Время</br> выполнения</th>
@@ -383,56 +399,74 @@
 			<div class = "container">
 				<div class = "row">
 					<div class = "col-lg-12">
-						<div class = "title">
+						<div class = "title d-none d-md-block">
 							Стоимость услуг
+						</div>
+						<div class = "title d-md-none">
+							Стоимость</br> услуг
 						</div>
 						<div class = "line"></div>
 					</div>
 				</div>
+				
 				<div class = "row">
 					<div class = "col-lg-12">		
-						<table>
-							<tr class = "">
-								<th class='first th_padding'>Название услуги</th>
-								<th class = "following">Время</br> выполнения</th>
-								<th>Стоимость</br> услуг</th>
+						<table class = "table-responsive-md">
+							<tr>
+								<th class = "c1">Название услуги</th>
+								<th class = "c2">Время</br> выполнения</th>
+								<th class = "c3">Стоимость</br> услуг</th>
+								<th class = "c4">Пошлина</th>
 							</tr>
-							<tr class = "home">
-								<td class='first'>Название услуги</td>
+							<tr class = "r1">
+								<td class='c1'>Название услуги</td>
 								<td class = "">2 месяца</td>
+								<td>от 1000 руб.</td>
 								<td>от 1000 руб.</td>
 							</tr>
 							<tr class="sub home">
-								<td class='first'>Название услуги</td>
+								<td class='c1'>Название услуги</td>
 								<td class = "">+1 неделя</td>
+								<td>+ 1000 руб.</td>
 								<td>+ 1000 руб.</td>
 							</tr>
 							<tr class="sub last_row home">
-								<td class='first'>Название услуги</td>
+								<td class='c1'>Название услуги</td>
 								<td class = "">+1 неделя</td>
+								<td>+ 1000 руб.</td>
 								<td>+ 1000 руб.</td>
 							</tr>
 							<tr class="last_row home1">
-								<td class='first'>Название услуги</td>
+								<td class='c1'>Название услуги</td>
 								<td class = "">1 месяц</td>
+								<td>от 1000 руб.</td>
 								<td>от 1000 руб.</td>
 							</tr>
 							<tr class="last_row home1">
-								<td class='first'>Название услуги</td>
+								<td class='c1'>Название услуги</td>
 								<td class = "">1 месяц</td>
+								<td>от 1000 руб.</td>
 								<td>от 1000 руб.</td>
 							</tr>
 							<tr class = "home2">
-								<td class='first'>Название услуги</td>
+								<td class='c1'>Название услуги</td>
 								<td class = "">1 месяц</td>
+								<td>от 1000 руб.</td>
 								<td>от 1000 руб.</td>
 							</tr>
 							<tr class="sub last_row home2">
-								<td class='first'>Название услуги</td>
+								<td class='c1'>Название услуги</td>
 								<td class = "">+1 неделя</td>
+								<td>+ 1000 руб.</td>
 								<td>+ 1000 руб.</td>
 							</tr>
 						</table>
+					</div>
+				</div>
+				<div class = "row d-md-none">
+					<div class = "col-lg-12">	
+						<button class = "red_btn">Заказать звонок</button>	
+						<button class = "red_btn white_btn">Задать вопрос</button>&nbsp;&nbsp;&nbsp;&nbsp;
 					</div>
 				</div>
 			</div>
@@ -449,7 +483,7 @@
 				</div>
 				<div class = "row">
 					<div class = "col-lg-12">
-						<div class = "text">
+						<div class = "text d-none d-md-block">
 							Идейные соображения высшего порядка, а также Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.
 						</div>
 					</div>
@@ -457,19 +491,22 @@
 				<div class = "row also">
 					<div class = "col-lg-4">
 						<div class = "earth-globe">
-							<img src = "images/may_also_interest_you/earth-globe.svg">
+							<img src = "images/may_also_interest_you/earth-globe.svg" class = "d-none d-md-block">
+							<img src = "images/may_also_interest_you/earth-globe.png" class = "d-md-none">
 							<div class = "text1">Патентование</br> за рубежом</div>
 						</div>
 					</div>	
 					<div class = "col-lg-4">
 						<div class = "earth-globe earth-globe1">
-							<img src = "images/may_also_interest_you/diploma.svg" class = "diploma_img">
+							<img src = "images/may_also_interest_you/diploma.svg" class = "diploma_img d-none d-md-block">
+							<img src = "images/may_also_interest_you/diploma(2).png" class = "diploma_img d-md-none">
 							<div class = "text1 text2">Евразийский</br> патент</div>
 						</div>
 					</div>	
 					<div class = "col-lg-4">
 						<div class = "earth-globe earth-globe2">
-							<img src = "images/may_also_interest_you/capitol.svg">
+							<img src = "images/may_also_interest_you/capitol.svg" class = "d-none d-md-block">
+							<img src = "images/may_also_interest_you/capitol.png" class = "d-md-none">
 							<div class = "text1 text3">Патент</br> США</div>
 						</div>
 					</div>
@@ -503,7 +540,7 @@
 						</div>
 					</div>
 				</div>	
-				<div class = "row">
+				<div class = "row d-none d-sm-flex">
 					<div class = "col-lg-3 col-md-5">
 						<div class = "border_radius">
 							30+
@@ -536,6 +573,84 @@
 							Значимость этих</br> проблем настолько</br> очевидна
 						</div>
 					</div>
+				</div>	
+				<div class = "row d-block d-sm-none">
+					<div class = "col-lg-12">
+						<div id="carouselWeN" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									
+										<div class = "box">
+											<div class = "border_radius">
+												30+
+											</div>
+											<div class = "text1">
+												Успешных проектов</br> с отличными</br> результатами
+											</div>
+										</div>
+									
+								</div>
+								<div class="carousel-item">
+									
+										
+										<div class = "box">
+											<div class = "border_radius">
+												90%
+											</div>
+											<div class = "text1">
+												Значимость этих</br> проблем настолько</br> очевидна
+											</div>
+										</div>
+										
+										
+								</div>
+								<div class="carousel-item">
+									
+										
+										<div class = "box">
+											<div class = "border_radius twenty">
+												20
+											</div>
+											<div class = "text1">
+												С другой стороны</br> рамки и место</br> обучения
+											</div>
+										</div>
+				
+										
+								</div>
+								<div class="carousel-item">
+									<div class = "box">
+										
+											<div class = "border_radius">
+												20%
+											</div>
+											<div class = "text1">
+												Значимость этих</br> проблем настолько</br> очевидна
+											</div>
+										
+									</div>
+								</div>
+							</div>
+							
+							<div class = "buttons">
+								<button class="sl_but" href="#carouselWeN" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</button>
+								<ol class="carousel-indicators">
+									<li data-target="#carouselWeN" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselWeN" data-slide-to="1"></li>
+									<li data-target="#carouselWeN" data-slide-to="2"></li>
+									<li data-target="#carouselWeN" data-slide-to="3"></li>
+								</ol>
+								<button class="sl_but" href="#carouselWeN" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 			<div class = "through_call d-none d-md-block">
@@ -546,6 +661,21 @@
 						</div>
 						<div class = "col-lg-3 textCenter col-md-3 col-12">
 							<button class = "red_btn send">
+								Отправить заявку
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "through_call d-md-none contsss">
+				<div class="mask2"></div>
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-lg-9 col-md-9 col-12">
+							<div class = "sales">Хотите увеличить продажи? Закажите звонок,</br> и мы с Вами свяжемся!</div>
+						</div>
+						<div class = "col-lg-3 text-center col-md-3 col-12">
+							<button class = "red_btn">
 								Отправить заявку
 							</button>
 						</div>
@@ -563,7 +693,7 @@
 						<div class = "line"></div>
 					</div>
 
-					<div class = "col-lg-12">
+					<div class = "col-lg-12 d-none d-md-block">
 						<div id="carouselFeedbackAboutUs" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -682,8 +812,66 @@
 							</div>
 						</div>
 					</div>
-				
 					
+					<div class = "col-lg-12 d-md-none">
+						<div id="carouselWEx" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class = "">
+										<div class = "box">
+											<div class = "slider"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "">
+										<div class = "box">
+											<div class = "slider"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "">
+										<div class = "box">
+											<div class = "slider"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "">
+										<div class = "box">
+											<div class = "slider"></div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "">
+										<div class = "box">
+											<div class = "slider"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class = "col-lg-12 buttons">
+								<button class="sl_but" href="#carouselWEx" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</button>
+								<ol class="carousel-indicators">
+									<li data-target="#carouselWEx" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselWEx" data-slide-to="1"></li>
+									<li data-target="#carouselWEx" data-slide-to="2"></li>
+									<li data-target="#carouselWEx" data-slide-to="3"></li>
+									<li data-target="#carouselWEx" data-slide-to="4"></li>
+								</ol>
+								<button class="sl_but" href="#carouselWEx" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</button>
+							</div>
+						</div>
+					</div>
 					
 				</div>
 				
@@ -698,155 +886,168 @@
 						</div>
 						<div class = "line"></div>
 					</div>
-				</div>
-				<div class = "row">
 					<div class = "col-lg-12">
-						<div class = "text">
+						<div class = "text d-none d-md-block">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.  
 						</div>
-					</div>
-				</div>
-				<div class = "col-lg-12 ">
-					<div id="carousel2" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate sign">знак компании</div>
-									</div>
-									<div class = "col-lg-9 top left">
-										<div class = "reg">
-											<div class = "registered">Зарегистрировано:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-										<div class = "reg reg1">
-											<div class = "registered">Приоритет товарного знака:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate sign">знак компании</div>
-									</div>
-									<div class = "col-lg-9 top left">
-										<div class = "reg">
-											<div class = "registered">Зарегистрировано:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-										<div class = "reg reg1">
-											<div class = "registered">Приоритет товарного знака:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate sign">знак компании</div>
-									</div>
-									<div class = "col-lg-9 top left">
-										<div class = "reg">
-											<div class = "registered">Зарегистрировано:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-										<div class = "reg reg1">
-											<div class = "registered">Приоритет товарного знака:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate sign">знак компании</div>
-									</div>
-									<div class = "col-lg-9 top left">
-										<div class = "reg">
-											<div class = "registered">Зарегистрировано:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-										<div class = "reg reg1">
-											<div class = "registered">Приоритет товарного знака:</div>
-											<div class = "registered date_of">1 января 2019</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						
+						<div class = "text d-md-none">
+							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших развития.  
 						</div>
-						
-						<div class = "col-lg-12 buttons">
-							<button class="sl_but" href="#carousel2" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</button>
-							<ol class="carousel-indicators">
-								<li data-target="#carousel2" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel2" data-slide-to="1"></li>
-								<li data-target="#carousel2" data-slide-to="2"></li>
-								<li data-target="#carousel2" data-slide-to="3"></li>
-							</ol>
-							<button class="sl_but" href="#carousel2" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</button>
+					</div>
+					<div class = "col-lg-12 ">
+						<div id="carousel2" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate">сертификат</div>
+										</div>
+										<div class = "col-lg-9 left">
+											<div class = "text1 d-none d-md-block">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+											</div>
+											<div class = "text1 d-md-none">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+											</div>
+											<div class = "text1 text2">
+												Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+											</div>
+										</div>
+									</div>
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate sign">знак компании</div>
+										</div>
+										<div class = "col-lg-9 top left">
+											<div class = "reg">
+												<div class = "registered">Зарегистрировано:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+											<div class = "reg reg1">
+												<div class = "registered">Приоритет товарного знака:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate">сертификат</div>
+										</div>
+										<div class = "col-lg-9 left">
+											<div class = "text1 d-none d-md-block">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+											</div>
+											<div class = "text1 d-md-none">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+											</div>
+											<div class = "text1 text2">
+												Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+											</div>
+										</div>
+									</div>
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate sign">знак компании</div>
+										</div>
+										<div class = "col-lg-9 top left">
+											<div class = "reg">
+												<div class = "registered">Зарегистрировано:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+											<div class = "reg reg1">
+												<div class = "registered">Приоритет товарного знака:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate">сертификат</div>
+										</div>
+										<div class = "col-lg-9 left">
+											<div class = "text1 d-none d-md-block">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+											</div>
+											<div class = "text1 d-md-none">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+											</div>
+											<div class = "text1 text2">
+												Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+											</div>
+										</div>
+									</div>
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate sign">знак компании</div>
+										</div>
+										<div class = "col-lg-9 top left">
+											<div class = "reg">
+												<div class = "registered">Зарегистрировано:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+											<div class = "reg reg1">
+												<div class = "registered">Приоритет товарного знака:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate">сертификат</div>
+										</div>
+										<div class = "col-lg-9 left">
+											<div class = "text1 d-none d-md-block">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+											</div>
+											<div class = "text1 d-md-none">
+												Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+											</div>
+											<div class = "text1 text2">
+												Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+											</div>
+										</div>
+									</div>
+									<div class = "row">
+										<div class = "col-lg-3 left">
+											<div class = "certificate sign">знак компании</div>
+										</div>
+										<div class = "col-lg-9 top left">
+											<div class = "reg">
+												<div class = "registered">Зарегистрировано:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+											<div class = "reg reg1">
+												<div class = "registered">Приоритет товарного знака:</div>
+												<div class = "registered date_of">1 января 2019</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+							
+							<div class = "buttons">
+								<button class="sl_but" href="#carousel2" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</button>
+								<ol class="carousel-indicators">
+									<li data-target="#carousel2" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel2" data-slide-to="1"></li>
+									<li data-target="#carousel2" data-slide-to="2"></li>
+									<li data-target="#carousel2" data-slide-to="3"></li>
+								</ol>
+								<button class="sl_but" href="#carousel2" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -862,164 +1063,178 @@
 						<div class = "line"></div>
 					</div>
 				</div>
-				
-					<div id="carousel3" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									
-									<div class = "col-7 top left">
-										<div class = "float">
-											<div class = "reg">
-												<div class = "registered">Зарегистрировано:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>										
-											<div class = "reg reg1">
-												<div class = "registered">Приоритет товарного знака:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>
-										</div>
-									</div>
-									<div class = "col-5 text3">	
-										Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
-									</div>
-									
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-7 top left">
-										<div class = "float">
-											<div class = "reg">
-												<div class = "registered">Зарегистрировано:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>										
-											<div class = "reg reg1">
-												<div class = "registered">Приоритет товарного знака:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>
-										</div>
-									</div>
-									<div class = "col-5 text3">	
-										Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-7 top left">
-										<div class = "float">
-											<div class = "reg">
-												<div class = "registered">Зарегистрировано:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>										
-											<div class = "reg reg1">
-												<div class = "registered">Приоритет товарного знака:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>
-										</div>
-									</div>
-									<div class = "col-5 text3">	
-										Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class = "row">
-									<div class = "col-lg-3 left">
-										<div class = "certificate">сертификат</div>
-									</div>
-									<div class = "col-lg-9 left">
-										<div class = "text1">
-											Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
-										</div>
-										<div class = "text1 text2">
-											Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
-										</div>
-									</div>
-								</div>
-								<div class = "row">
-									<div class = "col-7 top left">
-										<div class = "float">
-											<div class = "reg">
-												<div class = "registered">Зарегистрировано:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>										
-											<div class = "reg reg1">
-												<div class = "registered">Приоритет товарного знака:</div>
-												<div class = "registered date_of">1 января 2019</div>
-											</div>
-										</div>
-									</div>
-									<div class = "col-5 text3">	
-										Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
-									</div>
-								</div>
-							</div>
+				<div class = "row">
+					<div class = "col-lg-12">
+						<div class = "text d-none d-md-block">
+							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.  
 						</div>
-						
-						
-						<div class = "col-lg-12 buttons">
-							<button class="sl_but" href="#carousel3" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</button>
-							<ol class="carousel-indicators">
-								<li data-target="#carousel3" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel3" data-slide-to="1"></li>
-								<li data-target="#carousel3" data-slide-to="2"></li>
-								<li data-target="#carousel3" data-slide-to="3"></li>
-							</ol>
-							<button class="sl_but" href="#carousel3" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</button>
+						<div class = "text d-md-none">
+							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших развития.  
 						</div>
-						
 					</div>
-				
-				
+				</div>
+				<div id="carousel3" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class = "row">
+								<div class = "col-lg-3 left">
+									<div class = "certificate">сертификат</div>
+								</div>
+								<div class = "col-lg-9 left">
+									<div class = "text1 d-none d-md-block">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+									</div>
+									<div class = "text1 d-md-none">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+									</div>
+									<div class = "text1 text2">
+										Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+									</div>
+								</div>
+							</div>
+							<div class = "row">	
+								<div class = "col-12 col-md-7 top left">
+									<div class = "float">
+										<div class = "reg">
+											<div class = "registered">Зарегистрировано:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>										
+										<div class = "reg reg1">
+											<div class = "registered">Приоритет товарного знака:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>
+									</div>
+								</div>
+								<div class = "col-5 text3">	
+									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
+								</div>
+							
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class = "row">
+								<div class = "col-lg-3 left">
+									<div class = "certificate">сертификат</div>
+								</div>
+								<div class = "col-lg-9 left">
+									<div class = "text1 d-none d-md-block">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+									</div>
+									<div class = "text1 d-md-none">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+									</div>
+									<div class = "text1 text2">
+										Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+									</div>
+								</div>
+							</div>
+							<div class = "row">
+								<div class = "col-12 col-md-7 top left">
+									<div class = "float">
+										<div class = "reg">
+											<div class = "registered">Зарегистрировано:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>										
+										<div class = "reg reg1">
+											<div class = "registered">Приоритет товарного знака:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>
+									</div>
+								</div>
+								<div class = "col-5 text3">	
+									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class = "row">
+								<div class = "col-lg-3 left">
+									<div class = "certificate">сертификат</div>
+								</div>
+								<div class = "col-lg-9 left">
+									<div class = "text1 d-none d-md-block">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+									</div>
+									<div class = "text1 d-md-none">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+									</div>
+									<div class = "text1 text2">
+										Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+									</div>
+								</div>
+							</div>
+							<div class = "row">
+								<div class = "col-12 col-md-7 top left">
+									<div class = "float">
+										<div class = "reg">
+											<div class = "registered">Зарегистрировано:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>										
+										<div class = "reg reg1">
+											<div class = "registered">Приоритет товарного знака:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>
+									</div>
+								</div>
+								<div class = "col-5 text3">	
+									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class = "row">
+								<div class = "col-lg-3 left">
+									<div class = "certificate">сертификат</div>
+								</div>
+								<div class = "col-lg-9 left">
+									<div class = "text1 d-none d-md-block">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Таким образом дальнейшее развитие различных форм деятельности.
+									</div>
+									<div class = "text1 d-md-none">
+										Равным образом рамки и место обучения кадров способствует подготовки и реализации модели развития. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+									</div>
+									<div class = "text1 text2">
+										Значимость этих проблем настолько очевидна, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. Равным образом рамки и место обучения кадров способствует подготовки и реализации новых предложений.
+									</div>
+								</div>
+							</div>
+							<div class = "row">
+								<div class = "col-12 col-md-7 top left">
+									<div class = "float">
+										<div class = "reg">
+											<div class = "registered">Зарегистрировано:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>										
+										<div class = "reg reg1">
+											<div class = "registered">Приоритет товарного знака:</div>
+											<div class = "registered date_of">1 января 2019</div>
+										</div>
+									</div>
+								</div>
+								<div class = "col-5 text3">	
+									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class = "buttons">
+						<button class="sl_but" href="#carousel3" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</button>
+						<ol class="carousel-indicators">
+							<li data-target="#carousel3" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel3" data-slide-to="1"></li>
+							<li data-target="#carousel3" data-slide-to="2"></li>
+							<li data-target="#carousel3" data-slide-to="3"></li>
+						</ol>
+						<button class="sl_but" href="#carousel3" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</button>
+					</div>
 					
-				
+				</div>
 			</div>
 		</section>
 		
@@ -1084,40 +1299,40 @@
 							</div>
 						</div>
 						<div class = "col-lg-3 col-xl-2 d-md-none">
-							<div class="number">+7 (495) 123-45-67</div>
-							<button class = "white_btn">Задать вопрос</button>
+							<div class="number"><a href = "#" class="text-dark">+7 (495) 123-45-67</a></div>
+							<button class = "white_btn"><a href = "#callback_section"  id = "quesh1">Задать вопрос</a></button>
 						</div>
 						<div class = "col-lg-5 col-xl-7">
 							<div class = "row menu">
 								<div class = "col-6 col-xl-4">
-									Главная
+									<a href = "index.html" class = "a">Главная</a>
 								</div>
 								<div class = "col-6 col-xl-4 m2">
-									Услуги
+									<a href = "services.html" class = "a">Услуги</a>
 								</div>
 								<div class = "col-6 col-xl-4">
-									Новости
+									<a href = "news.html" class = "a">Новости</a>
 								</div>
 								<div class = "col-6 col-xl-4 r2">
-									О компании
+									<a href = "#" class = "a">О компании</a>
 								</div>
 								<div class = "col-6 col-xl-4 r2 m2">
-									Практика
+									<a href = "#" class = "a">Практика</a>
 								</div>
 								<div class = "col-6 col-xl-4 r2">
-									Контакты
+									<a href = "#" class = "a">Контакты</a>
 								</div>
-								<div class = "col-12 col-xl-4 r3 gr">
-									Карта сайта
+								<div class = "col-12 col-xl-4 r3 ">
+									<a href = "#" class = "gr">Карта сайта</a>
 								</div>
-								<div class = "col-xl-8 r3 m2 gr pk">
-									Политика конфиденциальности
+								<div class = "col-xl-8 r3 m2  pk">
+									<a href = "#" class = "gr">Политика конфиденциальности</a>
 								</div>
 							</div>
 						</div>
 						<div class = "col-lg-3 col-xl-2 d-none d-md-block">
-							<button class = "white_btn">Задать вопрос</button>
-							<div class="number">+7 (495) 123-45-67</div>
+							<button class = "white_btn"><a href = "#callback_section"  id = "quesh1">Задать вопрос</a></button>
+							<a href = "#" class="number">+7 (495) 123-45-67</a>
 						</div>
 					</div>
 					<div class="row line2">
@@ -1127,7 +1342,7 @@
 							</div>
 							<div class="col-12 col-md-6 right text-left text-md-right">
 								<i class="fas fa-envelope"></i>
-								<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
+								<a href = "info@promsob.ru" class = "a1" alt = "foto">info@promsob.ru</a>
 							</div>
 							<div class="col-12 col-md-12">	
 								<hr class = "cborder"/>
@@ -1152,4 +1367,15 @@
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script>
+		$(document).ready(function() {
+			// плавное перемещение страницы к нужному блоку
+			$("#quesh1").click(function () {
+
+				elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top;
+				$("body,html").animate({scrollTop: destination }, 800);
+			});
+		});
+	</script>
 </html>

@@ -84,7 +84,7 @@
 							<a href="#">+7 (495) 123-45-67</a>
 						</div>
 						<div class = "buttons">
-							<button class = "white_btn">Задать вопрос</button>&nbsp&nbsp
+							<button class = "white_btn"><a href = "#callback_section"  id = "quesh">Задать вопрос</a></button>&nbsp&nbsp
 							<button class = "red_btn" onclick="prom_open_rcallback();">
 								Заказать звонок
 							</button>
@@ -198,9 +198,8 @@
 					<br>
 					
 					<div class="dropdown show language">
-						<img src = "images/flag.svg" class = "img_flag">
 						  <button class="dropdown-toggle style_block" href="#" role="button" id="dropdownLang2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							RU
+							Flag & lang
 						  </button>
 
 						  <div class="dropdown-menu" aria-labelledby="dropdownLang2">
@@ -1204,40 +1203,40 @@
 							</div>
 						</div>
 						<div class = "col-lg-3 col-xl-2 d-md-none">
-							<div class="number">+7 (495) 123-45-67</div>
-							<button class = "white_btn">Задать вопрос</button>
+							<div class="number"><a href = "#" class="text-dark">+7 (495) 123-45-67</a></div>
+							<button class = "white_btn"><a href = "#callback_section"  id = "quesh">Задать вопрос</a></button>
 						</div>
 						<div class = "col-lg-5 col-xl-7">
 							<div class = "row menu">
 								<div class = "col-6 col-xl-4">
-									Главная
+									<a href = "index.html" class = "a">Главная</a>
 								</div>
 								<div class = "col-6 col-xl-4 m2">
-									Услуги
+									<a href = "services.html" class = "a">Услуги</a>
 								</div>
 								<div class = "col-6 col-xl-4">
-									Новости
+									<a href = "news.html" class = "a">Новости</a>
 								</div>
 								<div class = "col-6 col-xl-4 r2">
-									О компании
+									<a href = "#" class = "a">О компании</a>
 								</div>
 								<div class = "col-6 col-xl-4 r2 m2">
-									Практика
+									<a href = "#" class = "a">Практика</a>
 								</div>
 								<div class = "col-6 col-xl-4 r2">
-									Контакты
+									<a href = "#" class = "a">Контакты</a>
 								</div>
-								<div class = "col-12 col-xl-4 r3 gr">
-									Карта сайта
+								<div class = "col-12 col-xl-4 r3 ">
+									<a href = "#" class = "gr">Карта сайта</a>
 								</div>
-								<div class = "col-xl-8 r3 m2 gr pk">
-									Политика конфиденциальности
+								<div class = "col-xl-8 r3 m2  pk">
+									<a href = "#" class = "gr">Политика конфиденциальности</a>
 								</div>
 							</div>
 						</div>
 						<div class = "col-lg-3 col-xl-2 d-none d-md-block">
-							<button class = "white_btn">Задать вопрос</button>
-							<div class="number">+7 (495) 123-45-67</div>
+							<button class = "white_btn"><a href = "#callback_section"  id = "quesh">Задать вопрос</a></button>
+							<a href = "#" class="number">+7 (495) 123-45-67</a>
 						</div>
 					</div>
 					<div class="row line2">
@@ -1247,7 +1246,7 @@
 							</div>
 							<div class="col-12 col-md-6 right text-left text-md-right">
 								<i class="fas fa-envelope"></i>
-								<a url = "info@promsob.ru" alt = "foto">info@promsob.ru</a>
+								<a href = "info@promsob.ru" class = "a1" alt = "foto">info@promsob.ru</a>
 							</div>
 							<div class="col-12 col-md-12">	
 								<hr class = "cborder"/>
@@ -1291,32 +1290,20 @@
 						'</div>' +
 						'<div class = "news_body_text">' +
 							text +
-							'<br>' +
-							'<span id="' + newsText2Id(id) + '">' + text2 + '</span>' + 
+						'</div>' +
+						'<div class = "news_body_button">' +
 							'<a id="' + newsMoreId(id) + '" href="news.html">' +
-								'<div><i class="fas fa-chevron-right"></i>Читать далее</div></a>' +
-							'<button id="' + newsLessId(id) + '" onClick="clickLess(' + id + ');">' +
-								'<i class="fas fa-chevron-left"></i>Скрыть</button>' +
+								'<button><i class="fas fa-chevron-right"></i>Читать далее</button></a>' +
 						'</div>' +
 					'</div>' +
 					'</div>';
 				
 			var container = document.getElementById('news-box');
 			container.innerHTML += news;
-			clickLess(id);
+			//clickLess(id);
 		}
 		
-		function clickMore(id) {
-			hide(document.getElementById(newsMoreId(id)));
-			show(document.getElementById(newsLessId(id)));
-			show(document.getElementById(newsText2Id(id)));
-		}
 		
-		function clickLess(id) {
-			show(document.getElementById(newsMoreId(id)));
-			hide(document.getElementById(newsLessId(id)));
-			hide(document.getElementById(newsText2Id(id)));
-		}
 		
 		function newsText2Id(id) {
 			return 'news_text2_' + id;
@@ -1328,13 +1315,7 @@
 			return 'news_less_' + id;
 		}
 		
-		function hide(element) {
-			element.style.display = 'none';
-		}
-		
-		function show(element){
-			element.style.display = '';
-		}
+
 		
 		$(document).ready(function() {
 			addNews(
@@ -1348,6 +1329,7 @@
 				0,
 				'06.09.2019',
 				'Повседневная практика показывает успех',
+				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'+
 				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.',
 				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'
 				);
@@ -1358,6 +1340,14 @@
 				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.',
 				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'
 				);
+				
+			// плавное перемещение страницы к нужному блоку
+			$("#quesh").click(function () {
+
+				elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top;
+				$("body,html").animate({scrollTop: destination }, 800);
+			});
 		});
 	</script>
 </html>
