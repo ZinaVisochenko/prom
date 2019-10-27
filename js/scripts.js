@@ -1,3 +1,5 @@
+
+
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
         sURLVariables = sPageURL.split('&'),
@@ -77,4 +79,87 @@ $(document).ready(function() {
 			$("body,html").animate({scrollTop: destination }, 800);
 		});
 	});
+	
+});
+
+function initOwlCarousel() {
+	$('.owl-carousel').owlCarousel({
+		items: 6,
+	});
+}
+
+function initCallbackSection() {
+	
+	$("#cb_phone_input").mask("+7(999) 999-9999", {
+		completed: function(){ alert("Вы ввели номер: " + this.val()); }
+	});
+	
+	$("#callback_form").validate({
+		rules:{
+			cb_name_input:{
+			  required: true,
+			  minlength: 2,
+			  maxlength: 16,
+			},
+			
+			cb_phone_input:{
+			  required: true,
+			  //minlength: 1,
+			  //maxlength: 16,
+			},
+			cb_email_input: {
+			  required: true,
+			  email: true
+			},
+			squaredThreeCb: {
+				required: true,
+			}
+		},
+		messages:{
+			cb_name_input:{
+				required: "Это поле обязательно для заполнения",
+				minlength: "Имя должно быть минимум 2 символа",
+				maxlength: "Максимальное число символов - 16",
+			},
+			cb_phone_input:{
+				required: "Это поле обязательно для заполнения",
+				//minlength: "Пароль должен быть минимум 6 символа",
+				//maxlength: "Пароль должен быть максимум 16 символов",
+			},
+			cb_email_input: {
+				required: "Это поле обязательно для заполнения",
+				//minlength: "Пароль должен быть минимум 6 символа",
+				//maxlength: "Почта должна быть максимум 50 символов",
+			},
+			squaredThreeCb: {
+				required: "Это поле обязательно для заполнения",
+			}
+		}
+		
+	});
+}
+
+function initCallbackSection2() {
+	(function() {
+	  'use strict';
+	  window.addEventListener('load', function() {
+		// Fetch all the forms we want to apply custom Bootstrap validation styles to
+		var forms = document.getElementsByClassName('needs-validation');
+		// Loop over them and prevent submission
+		var validation = Array.prototype.filter.call(forms, function(form) {
+		  form.addEventListener('submit', function(event) {
+			if (form.checkValidity() === false) {
+			  event.preventDefault();
+			  event.stopPropagation();
+			}
+			form.classList.add('was-validated');
+		  }, false);
+		});
+	  }, false);
+	})();
+}
+
+$(document).ready(function() {
+	initCallbackSection();
+	initOwlCarousel();
 });

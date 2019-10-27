@@ -675,8 +675,8 @@
 #services-section .button1{
 	color: #4D4D4D;
 	border: 1px solid #DCDCDC;
-	margin-left: 9px;
-	padding-top: 20px;
+	margin-left: 26px;
+	//padding-top: 20px;
 }
 #services-section .through_call{
 	width: 100%;
@@ -889,6 +889,38 @@
 		margin-top: 30px;
 	}
 }
+
+@media (max-width: 766px) {
+	#services-section .button1 {
+		margin-left: 0px;
+	}
+	#services-section .through_call {
+		padding-top: 45px;
+	}
+	#services-section .through_call .sales {
+		margin-left: 0px;
+	}
+	#services-section .red_btn {
+		margin-left: 0px;
+		margin-top: 35px;
+	}
+}
+
+@media (max-width: 991px) {
+	#services-section .earth-globe {
+		padding: 24px;
+	}
+	
+}
+
+@media (max-width: 1198px) {
+	#services-section .earth-globe {
+		padding: 24px;
+	}
+	
+}
+
+
 #experience-section{
 	margin-top: 77px;
 }
@@ -926,19 +958,19 @@
     padding-top: 64px;
 	padding-left: 37px;
 	margin: 0 auto;
-	margin-left: 43px;
+	//margin-left: 43px;
 	margin-top: 110px;
 }
 #experience-section .border_radius1{
-	margin-left: 38px;
+	//margin-left: 38px;
 	padding-left: 33px;
 }
 #experience-section .border_radius2{
-	margin-left: 32px;
+	//margin-left: 32px;
 	padding-left: 58px;
 }
 #experience-section .border_radius3{
-	margin-left: 25px;
+	//margin-left: 25px;
 	padding-left: 36px;
 }
 #experience-section .twenty{
@@ -1040,11 +1072,11 @@
 		padding-top: 63px;
 		padding-left: 37px;
 		margin: 0 auto;
-		margin-left: 53px;
+		//margin-left: 0px;
 		margin-top: 55px;
 	}
 	#experience-section .border_radius1{
-		margin-left: 38px;
+		//margin-left: 38px;
 		padding-left: 33px;
 	}
 	#experience-section .border_radius2{
@@ -1119,6 +1151,12 @@
 	#experience-section .buttons {
 		text-align: center;
 		margin-top: 50px;
+	}
+}
+
+@media (max-width: 766px) {
+	.line {
+		margin-bottom: 44px;
 	}
 }
 
@@ -2276,6 +2314,8 @@
 #consultation-section .red_btn{
 	margin-right: 31px;
 }
+
+
 @media (max-width: 576px) {
 	#consultation-section .container_border {
 		margin: 6px;
@@ -2354,6 +2394,167 @@
 	}
 }
 
+@media (max-width: 768px) {
+	#consultation-section .container_border {
+		margin: 6px;
+		margin-top: -46px;
+		padding-bottom: 22px;
+	}
+	#consultation-section .receive{
+		font-size: 20px;
+		padding-left: 37px;
+		padding-top: 36px;
+		letter-spacing: -0.25px;
+	}
+	#consultation-section .text_leave{
+		font-size: 14px;
+		margin-top: 16px;
+		padding-left: 56px;
+		padding-right: 53px;
+		line-height: 1.4;
+		text-align: center;
+		letter-spacing: -0.1px;
+		margin-bottom: 9px;
+	}
+	#consultation-section .inputs input {
+		width: 91%;
+		height: 50px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 15px;
+		padding-left: 9px;
+		font-size: 14px;
+		padding-top: 3px;
+
+	}
+	#consultation-section .inputs input.first {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	#consultation-section .personal {
+		margin-top: 14px;
+	}
+	#consultation-section .checktext {
+		font-size: 13px;
+		float: none;
+		margin-left: 46px;
+		margin-top: -7px;
+	}
+	#consultation-section .checktext a{
+		line-height: 2;
+		text-decoration: underline;
+		color: #4E4E4E;
+		letter-spacing: -0.45px;
+	}
+	.squaredThree {
+		margin-left: 2px;
+	}
+	.squaredThree label {
+		width: 16px;
+		height: 16px;
+	}
+	.squaredThree label:after {
+		width: 9px;
+		height: 6px;
+		top: 3px;
+		left: 2px;
+		border: 2px solid #DD5A58;
+		border-top: none;
+		border-right: none;
+	}
+	#consultation-section .red_btn {
+		font-size: 15px;
+		width: 154px;
+		height: 45px;
+		margin-right: 0;
+		margin-top: 3px;
+		letter-spacing: 0.5px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#consultation-section .container_border{
+		background-color: white;
+		border: 1px solid #DCDCDC;
+		padding-bottom: 25px;
+		margin-top: -163px;
+		z-index: 10;
+		position: relative;
+	}
+	#consultation-section .text_leave{
+		font-size: 18px;
+		font-family: 'SF UI Display';
+		color: #424242;
+		margin-top: 23px;
+		margin-bottom: 31px;
+		padding-left: 45px;
+	}
+	#consultation-section .receive{
+		font-size: 25px;
+		font-family: 'SF UI Display';
+		color: #333333;
+		padding-left: 46px;
+		padding-top: 31px;
+		font-weight: 600;
+	}
+	#consultation-section .inputs {
+		white-space: nowrap;
+	}
+	#consultation-section .inputs input{
+		width: 200px;
+		height: 47px;
+		border: 1px solid #CCCCCC;
+		background: white;
+		padding-left: 15px;
+		margin-bottom: 5px;
+		font-size: 15px;
+		padding-top: 4px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#consultation-section .inputs input.first{
+		margin-left: 29px;
+	}
+	#consultation-section .personal{
+		color: #4E4E4E;
+		margin-top: 26px;
+		margin-bottom: 7px;
+		padding-left: 46px;
+	}
+	#consultation-section .checktext{
+		margin-top: -18px;
+	}
+	#consultation-section .checktext a{
+		color: #4E4E4E;
+		text-decoration: underline;
+	}
+	#consultation-section .red_btn{
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+		max-width: 960px;
+	}
+	#consultation-section .checktext{
+		float: left;
+		margin-left: 28px;
+		margin-top: -17px;
+		letter-spacing: -0.65px;
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1163px;
+	}
+	#consultation-section .red_btn{
+		margin-right: 0px;
+	}
+} 
 
 #company-section{
 	//margin-bottom: 60px;
@@ -2674,6 +2875,19 @@
 		margin-top: 50px;
 	}
 }
+
+@media (max-width: 991px){
+	#advantages-section .back_grey {
+		margin-top: 55px;
+	}
+}
+
+@media (max-width: 1198px){
+	#advantages-section .back_grey {
+		padding: 24px;
+	}
+}
+
 #news-section2{
 	margin-top: 63px;
 }
@@ -2733,7 +2947,7 @@
     overflow: hidden;
 }
 #news-section2 .border1{
-	width: 358px;
+	//width: 358px;
 	border: 1px solid #DCDCDC;
 	margin-top: 22px;
 	padding-bottom: 0px;

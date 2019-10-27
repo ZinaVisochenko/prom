@@ -397,6 +397,69 @@ header .mobile .call_button{
 }
 
 
+@media (max-width: 991px) {
+	header .border-b {
+		border-bottom: 0px solid #f3f3f3;
+	}
+	header .line1 {
+		display: none;
+	}
+	header .mobile .call_button{
+		//display: block;
+	}
+	header .line2 .phone_number a {
+		color: black;
+		//display: none;
+	}
+}
+
+
+@media (min-width: 768px){
+	.container {
+		max-width: 720px;
+	}
+}
+
+
+@media (min-width: 992px){
+	.container {
+		max-width: 960px;
+	}
+	header .line2 .phone_number{
+		padding-top: 64px;
+		padding-left: 0px;
+		font-size: 16px;
+		font-family: 'SF UI Text';
+		letter-spacing: 0.9px;
+		float: left;
+	}
+	header .line2 .buttons{
+		padding-top: 48px;
+		//padding-left: 53px;
+		text-align: right;
+	}
+}
+
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1163px;
+	}
+	header .line2 .phone_number{
+		padding-top: 64px;
+		padding-left: 84px;
+		font-size: 23px;
+		font-family: 'SF UI Text';
+		letter-spacing: 0.9px;
+		float: left;
+	}
+	header .line2 .buttons{
+		padding-top: 48px;
+		padding-left: 53px;
+		text-align: right;
+	}
+} 
+
 
 #over-section {
 	position: fixed;
@@ -508,6 +571,9 @@ header .mobile .call_button{
 	margin-top: 45px;
     letter-spacing: 0.5px;
 	padding-top: 15px;
+}
+#over-section .window .back_call .red_btn a{
+	color: #FFFFFF;
 }
 @media (max-width: 576px) {
 	#over-section {
@@ -743,6 +809,11 @@ header .mobile .call_button{
 	color: white;
 	font-family: 'SF UI Text';
 	font-size: 22px;
+	width: 100%;
+	border-bottom: 1px solid grey;
+    padding-bottom: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 #callback_section input.last{
 	margin-top: 13px;
@@ -750,12 +821,7 @@ header .mobile .call_button{
 #callback_section input::placeholder {
   color: white;
 }
-#callback_section .form{
-	border-bottom: 1px solid grey;
-	padding-bottom: 16px;
-	margin-top: 15px;
-    margin-bottom: 15px;
-}
+
 #callback_section .back_call span{
 	border-bottom: 1px solid white;
 }
@@ -774,7 +840,7 @@ header .mobile .call_button{
 #callback_section .cb .squaredThree label{
 	height: 21px;
 	width: 21px;
-	margin-left: 1px;
+	margin-left: -6px;
 }
 #callback_section .cb .squaredThree label:after {
 	width: 13px;
@@ -799,6 +865,10 @@ header .mobile .call_button{
 	font-size: 19px;
 	font-family: 'SF UI Display';
 	letter-spacing: 0.65px;
+	text-align: center;
+}
+#callback_section .red_btn a{
+	color: #FFFFFF;
 }
 @media (max-width: 576px) {
 	#callback_section .back_call {
@@ -830,10 +900,11 @@ header .mobile .call_button{
 	}
 	#callback_section .cb{
 		margin-top: 23px;
+		margin-left: 10px;
 	}
 	#callback_section .cbtext {
 		font-size: 13px;
-		margin-left: 83px;
+		margin-left: 55px;
 		margin-top: -7px;
 		letter-spacing: -0.5px;
 	}
@@ -846,7 +917,7 @@ header .mobile .call_button{
 	#callback_section .cb .squaredThree label{
 		height: 17px;
 		width: 17px;
-		margin-left: 1px;
+		margin-left: -32px;
 	}
 	#callback_section .cb .squaredThree label:after {
 		width: 10px;
@@ -1046,7 +1117,7 @@ footer .line1 .text span{
 footer .line1 .white_btn{
 	margin-top: 45px;
     height: 56px;
-	margin-left: -82px;
+	margin-left: 15px;
     width: 245px;
 	font-size: 19px;
 	letter-spacing: 0.6px;
@@ -1058,10 +1129,12 @@ footer .line1 .white_btn a{
 footer .line1 .number{
 	font-size: 24px;
 	font-family: 'SF UI Text';
-	margin-left: -81px;
+	margin-left: 15px;
     margin-top: 32px;
     letter-spacing: 1px;
 	white-space: nowrap;
+}
+footer .line1 .number a{
 	color: black;
 }
 footer .menu {
@@ -1123,7 +1196,8 @@ footer .line3{
 footer .cborder{
 	color: grey;
 }
-@media (max-width: 576px) {
+/*@media (max-width: 576px) {*/
+@media (max-width: 1200px) {
 	footer .line1 .image{
 		width: 54px;
 		padding-top: 49px;
@@ -1210,6 +1284,133 @@ footer .cborder{
 		margin-top: 22px;
 	}
 }
+
+
+/*@media (max-width: 991px){
+	footer .mob_footer {
+		display: block;
+	}
+}
+
+@media (min-width: 576px){
+	.container {
+		max-width: 540px;
+	}
+	footer .line1 .number {
+		font-size: 18px;
+		font-family: 'SF UI Text';
+		//margin-left: -81px;
+		margin-top: 32px;
+		letter-spacing: 1px;
+		white-space: nowrap;
+		font-weight: 900;
+	}
+	footer .line1 .r3 {
+		margin-top: 29px;
+	}
+	footer .line1 .white_btn {
+		margin-top: 0px;
+		height: 52px;
+		width: 180px;
+		font-size: 1rem;
+		letter-spacing: 0.6px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px){
+	.container {
+		max-width: 720px;
+	}
+	footer .line1 .number {
+		font-size: 18px;
+		font-family: 'SF UI Text';
+		//margin-left: -81px;
+		margin-top: 32px;
+		letter-spacing: 1px;
+		white-space: nowrap;
+		font-weight: 900;
+	}
+	footer .line1 .r3 {
+		margin-top: 29px;
+	}
+	footer .line1 .white_btn {
+		margin-top: 0px;
+		height: 52px;
+		width: 180px;
+		font-size: 1rem;
+		letter-spacing: 0.6px;
+		margin-bottom: 30px;
+	}
+	
+}
+
+@media (min-width: 992px){
+	.container {
+		max-width: 960px;
+	}
+	footer .menu .m2{
+		//margin-left: -23px;
+	}
+	footer .mob_footer {
+		display: block;
+	}
+	footer .line2{
+		font-size: 1rem;
+	}
+	footer .line3 {
+		font-size: 1rem;
+	}
+}
+
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1163px;
+	}
+	footer .menu .m2{
+		margin-left: -23px;
+	}
+	footer .menu {
+		font-size: 20px;
+		margin-top: 33px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.5px;
+		margin-left: 17px;
+	}
+	footer .line1 .white_btn{
+		margin-top: 45px;
+		//height: 56px;
+		//margin-left: -82px;
+		//width: 245px;
+		font-size: 1rem;
+		letter-spacing: 0.6px;
+		margin-bottom: 30px;
+	}
+	footer .line1 .number{
+		font-size: 18px;
+		margin-left: 5px;
+		margin-top: 28px;
+		letter-spacing: 0.75px;
+	}
+	footer .menu .r3 {
+		margin-top: 29px;
+	}
+	footer .mob_footer {
+		display: none;
+	}
+	footer .line2{
+		font-size: 18px;
+		font-family: 'SF UI Display';
+		padding-top: 18px;
+	}
+	footer .line3 {
+		margin-top: 10px;
+		font-size: 18px;
+		margin-bottom: 24px;
+		font-family: Roboto;
+	}
+}*/
 
 /* Controls
 ---------------------------------------------------------- */

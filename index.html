@@ -12,16 +12,16 @@
 	  <link rel="stylesheet" href="css/fonts.css">
 	  <link rel="stylesheet" href="fonts/roboto/roboto.css">
 	  <link rel="stylesheet" href="css/stylesheet_common.css">	 
-	  <link rel="stylesheet" href="css/stylesheet.css">	 
-	 
+	  <link rel="stylesheet" href="css/stylesheet.css">	
+	  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
 	</head>
 	
 	<body>
 		<header>
-			<div class="border-b d-none d-sm-block">
+			<div class="border-b d-none d-lg-block">
 				<div class = "container">
 					<div class="row line1">
-						<div class="col-4">
+						<div class="col-xl-4 col-lg-5 col-4 ">
 							<div class="image1">
 								<i class="fas fa-map-marker-alt"></i>
 							</div>
@@ -29,7 +29,7 @@
 								Москва, ул. Монтажная, д.2А, стр.1	
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-xl-6 col-lg-4 col-4">
 							<div class="image2">
 								<i class="fas fa-envelope"></i>
 							</div>
@@ -37,7 +37,7 @@
 								<a href = "#">info@promsob.ru</a>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-xl-2 col-lg-3 col-3">
 							<div class="lang_select">
 								<div class="dropdown show lang">
 										
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			
-			<div class = "container d-none d-sm-block">
+			<div class = "container d-none d-lg-block">
 				<div class = "row line2">
 					<div class="col-4">
 						<a href="index.html">
@@ -84,14 +84,9 @@
 							</button>
 						</div>
 					</div>
-					<!--<div class="col-3 d-block d-sm-none">
-						<i class="fas fa-phone"></i>
-						<button class = "menu_button" onclick="prom_toggle_mobile_menu();">
-						<i class="fas fa-bars"></i></button>
-					</div>-->
 				</div>
 			</div>
-			<div class = "height_1 d-none d-sm-block">
+			<div class = "height_1 d-none d-lg-block">
 				<div class = "container">
 					<div class = "row line_menu">
 						<div class="col-12">					
@@ -139,7 +134,7 @@
 					</div>
 				</div>
 			</div>
-			<div class = "container mobile d-block d-sm-none">
+			<div class = "container mobile d-block d-lg-none">
 				<div class="image">
 					<img src = "images/logo/logo_with_text.svg" class="logo">
 				</div>
@@ -156,7 +151,7 @@
 					</button>
 				</div>
 			</div>
-			<div id="mobile_menu" class="d-block d-sm-none">
+			<div id="mobile_menu" class="d-block d-lg-none">
 				<button class="close1" onclick="prom_close_mobile_menu();">
 					&times;
 				</button>
@@ -221,47 +216,31 @@
 								<div class = "col-12">
 									<div class = "title">Заказать звонок</div>
 									<div class = "text">Оставив заявку сейчас, с Вами</br> свяжется в ближайшее время наш специалист</div>
-									<div class = "form fline1">
-										<input type = "text" placeholder = "Ваше имя">
-									</div>
-									<div class = "form">
-										<input type = "email" placeholder = "Ваша почта" class = "last">
-									</div>
-									<div class = "form">
-										<input type = "tel" placeholder = "Ваш телефон *">
-									</div>
-									<div class="squaredThree">
-										<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true/>
-										<label for="squaredThreeOs"></label>
-									</div>
-									<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
-									
+									<form>
+										<div class = "form fline1">
+											<input type = "text" name = "name" placeholder = "Ваше имя">
+										</div>
+										<div class = "form">
+											<input type = "text" name = "email" placeholder = "Ваша почта" class = "last">
+										</div>
+										<div class = "form">
+											<input type = "text" name = "phone" placeholder = "Ваш телефон *">
+										</div>
+										<div class="squaredThree">
+											<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true/>
+											<label for="squaredThreeOs"></label>
+										</div>
+										<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
+										<div class = "col-12 text-center">
+											<div class = "red_btn">
+												<a onclick="clickCallBack" href="javascript:void(0);">Заказать звонок</a>
+											</div>
+										</div>
+									</form>
 								</div>
 							</div>
 							<div class = "row ">
-								<div class = "col-lg-4 ">
-									
-								</div>
-								<div class = "col-lg-4">
-									
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-lg-8">
-									
-								</div>
-							</div>
-							<div class = "row ">
-								<div class = "col-lg-8">
-									
-								</div>
-							</div>
-							<div class = "row text-center">
-								<div class = "col-12">
-									<button class = "red_btn">
-										Заказать звонок
-									</button>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -276,19 +255,19 @@
 						
 					<div class="carousel-item active">
 						<div class = "background_home">
-							<div class = "container text-center text-md-left">
+							<div class = "container text-center text-lg-left text-md-left">
 								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5 title">
+									<div class = "col-xl-5 col-lg-12 col-md-12 col-12 title">
 										Идейные соображения высшего порядка
 									</div>
 								</div>
 								<div class = "row indent">			
-									<div class = "col-12 col-lg-5 col-md-5 text">
+									<div class = "col-xl-5 col-lg-8 col-md-12 col-12 text">
 										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
 									</div>
 								</div>
 								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5">
+									<div class = "col-xl-5 col-lg-5 col-md-5 col-12">
 										<button class = "open_btn">
 											Открыть
 											<i class="fas fa-angle-right"></i>
@@ -308,19 +287,19 @@
 									
 					<div class="carousel-item">
 						<div class = "background_home">
-							<div class = "container text-center text-md-left">
+							<div class = "container text-center text-lg-left text-md-left">
 								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5 title">
+									<div class = "col-xl-5 col-lg-12 col-md-12 col-12 title">
 										Идейные соображения высшего порядка
 									</div>
 								</div>
 								<div class = "row indent">			
-									<div class = "col-12 col-lg-5 col-md-5 text">
+									<div class = "col-xl-5 col-lg-8 col-md-12 col-12 text">
 										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
 									</div>
 								</div>
 								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5">
+									<div class = "col-xl-5 col-lg-5 col-md-5 col-12">
 										<button class = "open_btn">
 											Открыть
 											<i class="fas fa-angle-right"></i>
@@ -340,19 +319,19 @@
 							
 					<div class="carousel-item">
 						<div class = "background_home">
-							<div class = "container text-center text-md-left">
+							<div class = "container text-center text-lg-left text-md-left">
 								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5 title">
+									<div class = "col-xl-5 col-lg-12 col-md-12 col-12 title">
 										Идейные соображения высшего порядка
 									</div>
 								</div>
 								<div class = "row indent">			
-									<div class = "col-12 col-lg-5 col-md-5 text">
+									<div class = "col-xl-5 col-lg-8 col-md-12 col-12 text">
 										Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени систем участия.  
 									</div>
 								</div>
 								<div class = "row">			
-									<div class = "col-12 col-lg-5 col-md-5">
+									<div class = "col-xl-5 col-lg-5 col-md-5 col-12">
 										<button class = "open_btn">
 											Открыть
 											<i class="fas fa-angle-right"></i>
@@ -379,37 +358,41 @@
 		<section id="consultation-section">
 			<div class = "container">
 				<div class = "container_border">
-					<div class = "row">
-						<div class = "col-12 receive">
-							Получить консультацию
-						</div>
-						<div class = "col-12 text_leave">
-							Оставив заявку сейчас, с Вами свяжется в ближайшее время наш специалист
-						</div>
-						<div class = "col-lg-9 col-md-6 col-12">
-							<div class = "row">
-								<div class = "col-12 inputs">
-									<input type = "text" placeholder = "Ваше имя" class = "first">
-									<input type = "tel" placeholder = "Ваш телефон *" class = "">
-									<input type = "email" placeholder = "Ваша почта" class = "last">
-								</div>
-								<div class = "col-12 personal">
-									<div class="squaredThree">
-										<input type="checkbox" value="None" id="squaredThreeCon" name="check" checked=true/>
-										<label for="squaredThreeCon"></label>
+					<form>
+						<div class = "row">
+							<div class = "col-12 receive">
+								Получить консультацию
+							</div>
+							<div class = "col-12 text_leave">
+								Оставив заявку сейчас, с Вами свяжется в ближайшее время наш специалист
+							</div>
+						
+							<div class = "col-xl-9 col-lg-12 col-md-12 col-12">
+								<div class = "row">
+									<div class = "col-12 inputs  ">
+										<input class="" type = "text" name = "name" placeholder = "Ваше имя" class = "first">
+										<input class="" type = "text" name = "phone" placeholder = "Ваш телефон *" class = "">
+										<input class="" type = "text" name = "email" placeholder = "Ваша почта" class = "last">
 									</div>
-									<div class="checktext">
-										Согласен(а) на обработку <a href="#">персональных данных</a>
+									<div class = "col-12 personal">
+										<div class="squaredThree">
+											<input type="checkbox" value="None" id="squaredThreeCon" name="check" checked=true/>
+											<label for="squaredThreeCon"></label>
+										</div>
+										<div class="checktext w-100 d-block d-sm-block d-md-block">
+											Согласен(а) на обработку <a href="#">персональных данных</a>
+										</div>
 									</div>
 								</div>
 							</div>
+							<div class = "col-xl-3 col-lg-12 col-md-12 col-12 text-center text-md-center">
+								<button class = "red_btn">
+									Отправить заявку
+								</button>
+							</div>
+						
 						</div>
-						<div class = "col-lg-3 col-md-6 col-12 text-center text-md-right">
-							<button class = "red_btn">
-								Отправить заявку
-							</button>
-						</div>
-					</div>
+					</form>
 						
 				</div>
 			</div>
@@ -487,27 +470,27 @@
 							Значимость этих проблем настолько очевидна, что укрепление и развитие структуры представляет интересный эксперимент проверки. 
 						</div>
 					</div>	
-					<div class = "col-lg-6 col-md-6 col-12">
+					<div class = "col-md-12 col-lg-6  col-12">
 						<div class="row">
-							<div class = "col-lg-6 col-12">
+							<div class = "col-md-6 col-lg-6 col-12">
 								<div class = "back_grey">
 									<img src = "images/advantages/handshake.png" class = "img"></br>
 									<div class = "these_text">Значимость этих</br> проблем очевидна</div>
 								</div>
 							</div>
-							<div class = "col-lg-6 col-12">
+							<div class = "col-md-6 col-lg-6 col-12">
 								<div class = "back_grey">
 									<img src = "images/advantages/briefcase.png" class = "img"></br>
 									<div class = "these_text2">Повседневная практика показывает рост</div>
 								</div>
 							</div>
-							<div class = "col-lg-6 col-12 ">
+							<div class = "col-md-6 col-lg-6 col-12 ">
 								<div class = "back_grey back_grey3">
 									<img src = "images/advantages/stats.png" class = "img3"></br>
 									<div class = "these_text3">Идейные соображения высшего порядка</div>
 								</div>
 							</div>
-							<div class = "col-lg-6 col-12">
+							<div class = "col-md-6 col-lg-6 col-12">
 								<div class = "back_grey back_grey4">
 									<img src = "images/advantages/exam.png" class = "img4"></br>
 									<div class = "these_text4">Разнообразный и</br> богатый опыт</div>
@@ -577,12 +560,12 @@
 				</div>
 				<div class = "row">
 					<div class = "col-lg-12 text-center text-md-left">	
-						<button class = "button">Смотреть все услуги</button>&nbsp;&nbsp;&nbsp;&nbsp;
+						<button class = "button">Смотреть все услуги</button>
 						<button class = "button button1">Задать вопрос</button>	
 					</div>
 				</div>
 			</div>
-			<div class = "through_call d-none d-md-block">
+			<div class = "through_call d-none d-sm-block d-md-block text-sm-center">
 				<div class = "container">
 					<div class = "row">
 						<div class = "col-lg-9 col-md-9 col-12">
@@ -596,7 +579,7 @@
 					</div>
 				</div>
 			</div>
-			<div class = "through_call d-md-none contsss">
+			<div class = "through_call d-sm-none d-md-none contsss">
 				<div class="mask2"></div>
 				<div class = "container">
 					<div class = "row">
@@ -640,7 +623,7 @@
 					</div>
 				</div>	
 				<div class = "row d-none d-sm-flex">
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-xl-3 col-lg-5 col-md-5">
 						<div class = "border_radius">
 							30+
 						</div>
@@ -648,7 +631,7 @@
 							Успешных проектов</br> с отличными</br> результатами
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-xl-3 col-lg-5 col-md-5">
 						<div class = "border_radius border_radius1">
 							90%
 						</div>
@@ -656,7 +639,7 @@
 							Значимость этих</br> проблем настолько</br> очевидна
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-xl-3 col-lg-5 col-md-5">
 						<div class = "border_radius  border_radius2">
 							20
 						</div>
@@ -664,7 +647,7 @@
 							С другой стороны</br> рамки и место</br> обучения
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-xl-3 col-lg-5 col-md-5">
 						<div class = "border_radius border_radius3">
 							20%
 						</div>
@@ -971,23 +954,27 @@
 								</button>
 							</div>
 						</div>
+						
+						
+						<div class="owl-carousel owl-theme">
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+							<div class = "picture margin_picture"></div>
+						</div>						
 					</div>
-					<!--<div class = "col-lg-12 buttons">
-						<button class="sl_but" href="#carouselOurClients" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</button>
-						<ol class="carousel-indicators">
-							<li data-target="#carouselOurClients" data-slide-to="0"></li>
-							<li data-target="#carouselOurClients" data-slide-to="1"></li>
-							<li data-target="#carouselOurClients" data-slide-to="2"></li>
-							<li data-target="#carouselOurClients" data-slide-to="3"></li>
-						</ol>
-						<button class="sl_but" href="#carouselOurClients" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</button>
-					</div>-->
+
 				</div>
 				
 				<div class = "row d-md-none">
@@ -1031,7 +1018,7 @@
 								<div class="carousel-item">
 									<div class = "row">	
 										<div class = "col-6 col-md-4 col-lg-2">
-											<div class = "picture "></div>
+											<div class = "picture"></div>
 										</div>
 										<div class = "col-6 mr-bottom col-md-4 col-lg-2">
 											<div class = "picture picture_left"></div>
@@ -1154,41 +1141,40 @@
 							<div class = "line"></div>
 						</div>
 					</div>
-					<div class = "row fline1">
-						<div class = "col-lg-4 ">
-							<div class = "form">
-								<input type = "text" placeholder = "Ваше имя">
+					<form id="callback_form" action="#" class="needs-validation" novalidate>
+						<div class = "form-row fline1">
+							<div class = "col-lg-4 ">
+								<label for="cb_name_input"></label>
+								<input type="text" name="cb_name_input" id="cb_name_input" value = "" placeholder="Ваше имя" required>
+							</div>
+							<div class = "col-lg-4">
+								<label for="cb_phone_input"></label>
+								<input type ="text" name="cb_phone_input" id="cb_phone_input" value = "" placeholder="Ваш телефон *" required>
 							</div>
 						</div>
-						<div class = "col-lg-4">
-							<div class = "form">
-								<input type = "tel" placeholder = "Ваш телефон *">
+						<div class = "row">
+							<div class = "col-lg-8">
+								<label for="cb_email_input"></label>
+								<input type="email" name="cb_email_input" id="cb_email_input" value = "" placeholder="Ваша почта" class="last" required>
 							</div>
 						</div>
-					</div>
-					<div class = "row">
-						<div class = "col-lg-8">
-							<div class = "form">
-								<input type = "email" placeholder = "Ваша почта" class = "last">
+						<div class = "row cb">
+							<div class = "col-lg-8">
+								<div class="squaredThree">
+									<input type="checkbox" value="None" id="squaredThreeCb" name="check" checked="true" required>
+									<label for="squaredThreeCb"></label>
+								</div>
+								<div class="cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
 							</div>
 						</div>
-					</div>
-					<div class = "row cb">
-						<div class = "col-lg-8">
-							<div class="squaredThree">
-								<input type="checkbox" value="None" id="squaredThreeCb" name="check" checked=true/>
-								<label for="squaredThreeCb"></label>
+						<div class = "row text-center text-md-left">
+							<div class = "col-lg-12">
+								<!--a onclick="clickCallSend" href="javascript:void(0);"-->
+								<button type="submit" class="red_btn">Отправить заявку</button>
+								<!--/a-->
 							</div>
-							<div class="cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
 						</div>
-					</div>
-					<div class = "row text-center text-md-left">
-						<div class = "col-lg-12">
-							<button class = "red_btn">
-								Отправить заявку
-							</button>
-						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</section>
@@ -1196,7 +1182,7 @@
 		<footer>
 			<div class = "container">
 					<div class = "row line1">
-						<div class = "col-lg-4 col-xl-3">
+						<div class = "col-12 col-lg-4 col-xl-3">
 							<div class="image">
 								<img src = "images/logo/logo_with_text.svg">
 							</div>
@@ -1204,11 +1190,13 @@
 								Промышленная<br><span>собственность</span>
 							</div>
 						</div>
-						<div class = "col-lg-3 col-xl-2 d-md-none">
-							<div class="number"><a href = "#" class="text-dark">+7 (495) 123-45-67</a></div>
-							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>
+						<div class = "col-12 col-lg-3 col-xl-2 d-md-none">
+							<div class="number">
+								<a href = "#">+7 (495) 123-45-67</a>
+							</div>
+							<button class = "white_btn slow_quesh" href = "#callback_section">Задать вопрос</button>
 						</div>
-						<div class = "col-lg-5 col-xl-7">
+						<div class = "col-12 col-md-8 col-lg-5 col-xl-6">
 							<div class = "row menu">
 								<div class = "col-6 col-xl-4">
 									<a href = "index.html" class = "a">Главная</a>
@@ -1236,23 +1224,23 @@
 								</div>
 							</div>
 						</div>
-						<div class = "col-lg-3 col-xl-2 d-none d-md-block">
-							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>
-							<a href = "#" class="number">+7 (495) 123-45-67</a>
+						<div class = "col-12 col-md-4 col-lg-3 col-xl-3 d-none d-md-block">
+							<button class = "white_btn slow_quesh" href = "#callback_section">Задать вопрос</button>
+							<a href = "#" class="number text-dark">+7 (495) 123-45-67</a>
 						</div>
 					</div>
 					<div class="row line2">
-							<div class="col-12 col-md-6 left">				
-								<i class="fas fa-map-marker-alt"></i>
-								Москва, ул. Монтажная, д.2А, стр.1	
-							</div>
-							<div class="col-12 col-md-6 right text-left text-md-right">
-								<i class="fas fa-envelope"></i>
-								<a href = "info@promsob.ru" class = "a1" alt = "foto">info@promsob.ru</a>
-							</div>
-							<div class="col-12 col-md-12">	
-								<hr class = "cborder"/>
-							</div>
+						<div class="col-12 col-md-6 left">				
+							<i class="fas fa-map-marker-alt"></i>
+							Москва, ул. Монтажная, д.2А, стр.1	
+						</div>
+						<div class="col-12 col-md-6 right text-left text-md-right">
+							<i class="fas fa-envelope"></i>
+							<a href = "info@promsob.ru" class = "a1" alt = "foto">info@promsob.ru</a>
+						</div>
+						<div class="col-12 col-md-12">	
+							<hr class = "cborder"/>
+						</div>
 					</div>
 					<div class="row line3">
 						<div class="col-12 col-md-7 left">				
@@ -1265,12 +1253,20 @@
 				
 			</div>
 		</footer>
+		
 	</body>
+	
 	<script language="javascript" type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
+	<script language="javascript" type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+	<script language="javascript" type="text/javascript" src="js/jquery.validate.js"></script>
 	<script language="javascript" type="text/javascript" src="js/popper.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+	
 	<script language="javascript" type="text/javascript" src="js/scripts.js"></script>
+	
 	<script language="javascript" type="text/javascript" >
+	
 	    var newsIdMax = 0;
 		function generateNewsId() {
 			return newsIdMax++;
