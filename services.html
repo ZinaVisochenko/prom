@@ -18,10 +18,10 @@
 	
 	<body>
 		<header>
-			<div class="border-b d-none d-sm-block">
+			<div class="border-b d-none d-lg-block">
 				<div class = "container">
 					<div class="row line1">
-						<div class="col-4">
+						<div class="col-xl-4 col-lg-5 col-4 ">
 							<div class="image1">
 								<i class="fas fa-map-marker-alt"></i>
 							</div>
@@ -29,7 +29,7 @@
 								Москва, ул. Монтажная, д.2А, стр.1	
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-xl-6 col-lg-4 col-4">
 							<div class="image2">
 								<i class="fas fa-envelope"></i>
 							</div>
@@ -37,7 +37,7 @@
 								<a href = "#">info@promsob.ru</a>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-xl-2 col-lg-3 col-3">
 							<div class="lang_select">
 								<div class="dropdown show lang">
 										
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			
-			<div class = "container d-none d-sm-block">
+			<div class = "container d-none d-lg-block">
 				<div class = "row line2">
 					<div class="col-4">
 						<a href="index.html">
@@ -78,20 +78,15 @@
 							<a href="#">+7 (495) 123-45-67</a>
 						</div>
 						<div class = "buttons">
-							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>&nbsp&nbsp
+							<button class = "white_btn slow_quesh" href = "#callback_section">Задать вопрос</button>&nbsp&nbsp
 							<button class = "red_btn" onclick="prom_open_rcallback();">
 								Заказать звонок
 							</button>
 						</div>
 					</div>
-					<!--<div class="col-3 d-block d-sm-none">
-						<i class="fas fa-phone"></i>
-						<button class = "menu_button" onclick="prom_toggle_mobile_menu();">
-						<i class="fas fa-bars"></i></button>
-					</div>-->
 				</div>
 			</div>
-			<div class = "height_1 d-none d-sm-block">
+			<div class = "height_1 d-none d-lg-block">
 				<div class = "container">
 					<div class = "row line_menu">
 						<div class="col-12">					
@@ -139,7 +134,7 @@
 					</div>
 				</div>
 			</div>
-			<div class = "container mobile d-block d-sm-none">
+			<div class = "container mobile d-block d-lg-none">
 				<div class="image">
 					<img src = "images/logo/logo_with_text.svg" class="logo">
 				</div>
@@ -156,7 +151,7 @@
 					</button>
 				</div>
 			</div>
-			<div id="mobile_menu" class="d-block d-sm-none">
+			<div id="mobile_menu" class="d-block d-lg-none">
 				<button class="close1" onclick="prom_close_mobile_menu();">
 					&times;
 				</button>
@@ -209,7 +204,7 @@
 							</div>EN</a>
 						</div>
 					</div>
-							
+					
 				</div>			
 			</div>
 			<div id="over-section">
@@ -221,47 +216,31 @@
 								<div class = "col-12">
 									<div class = "title">Заказать звонок</div>
 									<div class = "text">Оставив заявку сейчас, с Вами</br> свяжется в ближайшее время наш специалист</div>
-									<div class = "form fline1">
-										<input type = "text" placeholder = "Ваше имя">
-									</div>
-									<div class = "form">
-										<input type = "email" placeholder = "Ваша почта" class = "last">
-									</div>
-									<div class = "form">
-										<input type = "tel" placeholder = "Ваш телефон *">
-									</div>
-									<div class="squaredThree">
-										<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true/>
-										<label for="squaredThreeOs"></label>
-									</div>
-									<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
-									
+									<form>
+										<div class = "form fline1">
+											<input type = "text" name = "name" id= "ov_name_input" placeholder = "Ваше имя" required>
+										</div>
+										<div class = "form">
+											<input type = "email" name = "email" id= "ov_email_input" placeholder = "Ваша почта" class = "last" required>
+										</div>
+										<div class = "form">
+											<input type = "text" name = "phone" id= "ov_phone_input" placeholder = "Ваш телефон *" required>
+										</div>
+										<div class="squaredThree">
+											<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true required>
+											<label for="squaredThreeOs"></label>
+										</div>
+										<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
+										<div class = "col-12 text-center">
+											<button class = "red_btn" type="submit">
+												Заказать звонок
+											</button>
+										</div>
+									</form>
 								</div>
 							</div>
 							<div class = "row ">
-								<div class = "col-lg-4 ">
-									
-								</div>
-								<div class = "col-lg-4">
-									
-								</div>
-							</div>
-							<div class = "row">
-								<div class = "col-lg-8">
-									
-								</div>
-							</div>
-							<div class = "row ">
-								<div class = "col-lg-8">
-									
-								</div>
-							</div>
-							<div class = "row text-center">
-								<div class = "col-12">
-									<button class = "red_btn">
-										Заказать звонок
-									</button>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -288,7 +267,7 @@
 		<section id="patent-section">
 			<div class = "container">
 				<div class = "row">
-					<div class = "col-lg-12">
+					<div class = "col-12">
 						<text class = "title">
 							Патентование изобретений
 						</text>
@@ -296,33 +275,33 @@
 					</div>	
 				</div>
 				<div class = "row d-none d-md-block">
-					<div class = "col-lg-12">
+					<div class = "col-12">
 						<div class = "text1">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.
 						</div>
 					</div>	
 				</div>
 				<div class = "row d-md-none">
-					<div class = "col-lg-12">
+					<div class = "col-12">
 						<div class = "text1">
 							Повседневная показывает, что реализация плановых заданий требуют направлений развития.
 						</div>
 					</div>	
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12">
+					<div class = "col-12">
 						<div class = "foto"></div>
 					</div>	
 				</div>		
 				<div class = "row">
-					<div class = "col-lg-12">		
+					<div class = "col-12">		
 						<div class = " text1 text2">
 							Идейные соображения высшего порядка, а также укрепление и развитие структуры требуют от нас анализа соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности способствует подготовки и реализации дальнейших направлений развития.
 						</div>
 					</div>	
 				</div>
 				<div class = "row d-md-none">
-					<div class = "col-lg-12">
+					<div class = "col-12">
 						<div class = "text1 text3">
 							Значимость этих проблем настолько очевидна.
 						</div>
@@ -333,7 +312,7 @@
 		<section id="costs-section">
 			<div class = "container">
 				<div class = "row ">
-					<div class = "col-lg-12">
+					<div class = "col-12">
 						<div class = "title d-none d-md-block">
 							Стоимость услуг
 						</div>
@@ -344,7 +323,7 @@
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12">		
+					<div class = "col-12">		
 						<table class = "table-responsive-md">
 							<tr class = "">
 								<th class='first th_padding'>Название услуги</th>
@@ -390,9 +369,9 @@
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12">	
+					<div class = "col-12 button_center">	
 						<button class = "red_btn">Заказать звонок</button>	
-						<button class = "red_btn white_btn">Задать вопрос</button>&nbsp;&nbsp;&nbsp;&nbsp;
+						<button class = "red_btn white_btn">Задать вопрос</button>
 					</div>
 				</div>
 			</div>
@@ -466,9 +445,9 @@
 					</div>
 				</div>
 				<div class = "row d-md-none">
-					<div class = "col-lg-12">	
+					<div class = "col-lg-12 button_center">	
 						<button class = "red_btn">Заказать звонок</button>	
-						<button class = "red_btn white_btn">Задать вопрос</button>&nbsp;&nbsp;&nbsp;&nbsp;
+						<button class = "red_btn white_btn">Задать вопрос</button>
 					</div>
 				</div>
 			</div>
@@ -493,22 +472,22 @@
 				<div class = "row also">
 					<div class = "col-lg-4">
 						<div class = "earth-globe">
-							<img src = "images/may_also_interest_you/earth-globe.svg" class = "d-none d-md-block">
-							<img src = "images/may_also_interest_you/earth-globe.png" class = "d-md-none">
+							<img src = "images/may_also_interest_you/earth-globe.svg" class = "d-none d-md-block d-sm-block">
+							<img src = "images/may_also_interest_you/earth-globe.png" class = "d-md-none d-sm-none">
 							<div class = "text1">Патентование</br> за рубежом</div>
 						</div>
 					</div>	
 					<div class = "col-lg-4">
 						<div class = "earth-globe earth-globe1">
-							<img src = "images/may_also_interest_you/diploma.svg" class = "diploma_img d-none d-md-block">
-							<img src = "images/may_also_interest_you/diploma(2).png" class = "diploma_img d-md-none">
+							<img src = "images/may_also_interest_you/diploma.svg" class = "diploma_img d-none d-md-block d-sm-block">
+							<img src = "images/may_also_interest_you/diploma(2).png" class = "diploma_img d-md-none d-sm-none">
 							<div class = "text1 text2">Евразийский</br> патент</div>
 						</div>
 					</div>	
 					<div class = "col-lg-4">
 						<div class = "earth-globe earth-globe2">
-							<img src = "images/may_also_interest_you/capitol.svg" class = "d-none d-md-block">
-							<img src = "images/may_also_interest_you/capitol.png" class = "d-md-none">
+							<img src = "images/may_also_interest_you/capitol.svg" class = "d-none d-md-block d-sm-block">
+							<img src = "images/may_also_interest_you/capitol.png" class = "d-md-none d-sm-none">
 							<div class = "text1 text3">Патент</br> США</div>
 						</div>
 					</div>
@@ -543,7 +522,7 @@
 					</div>
 				</div>	
 				<div class = "row d-none d-sm-flex">
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-lg-3 col-md-6 col-sm-6">
 						<div class = "border_radius">
 							30+
 						</div>
@@ -551,7 +530,7 @@
 							Успешных проектов</br> с отличными</br> результатами
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-lg-3 col-md-6 col-sm-6">
 						<div class = "border_radius border_radius1">
 							90%
 						</div>
@@ -559,7 +538,7 @@
 							Значимость этих</br> проблем настолько</br> очевидна
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-lg-3 col-md-6 col-sm-6">
 						<div class = "border_radius  border_radius2">
 							20
 						</div>
@@ -567,7 +546,7 @@
 							С другой стороны</br> рамки и место</br> обучения
 						</div>
 					</div>
-					<div class = "col-lg-3 col-md-5">
+					<div class = "col-lg-3 col-md-6 col-sm-6">
 						<div class = "border_radius border_radius3">
 							20%
 						</div>
@@ -655,7 +634,7 @@
 					
 				</div>
 			</div>
-			<div class = "through_call d-none d-md-block">
+			<div class = "through_call d-none  d-md-block d-sm-block text-sm-center">
 				<div class = "container">
 					<div class = "row">
 						<div class = "col-lg-9 col-md-9 col-12">
@@ -669,7 +648,7 @@
 					</div>
 				</div>
 			</div>
-			<div class = "through_call d-md-none contsss">
+			<div class = "through_call d-md-none d-sm-none contsss">
 				<div class="mask2"></div>
 				<div class = "container">
 					<div class = "row">
@@ -1067,9 +1046,9 @@
 				</div>
 				<div class = "row">
 					<div class = "col-lg-12">
-						<div class = "text d-none d-md-block">
+						<!--<div class = "text d-none d-md-block">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития.  
-						</div>
+						</div>-->
 						<div class = "text d-md-none">
 							Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших развития.  
 						</div>
@@ -1107,7 +1086,7 @@
 										</div>
 									</div>
 								</div>
-								<div class = "col-5 text3">	
+								<div class = "col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12 text3">	
 									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
 								</div>
 							
@@ -1143,7 +1122,7 @@
 										</div>
 									</div>
 								</div>
-								<div class = "col-5 text3">	
+								<div class = "col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12 text3">	
 									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
 								</div>
 							</div>
@@ -1178,7 +1157,7 @@
 										</div>
 									</div>
 								</div>
-								<div class = "col-5 text3">	
+								<div class = "col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12 text3">	
 									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
 								</div>
 							</div>
@@ -1213,7 +1192,7 @@
 										</div>
 									</div>
 								</div>
-								<div class = "col-5 text3">	
+								<div class = "col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12 text3">	
 									Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения дальнейших направлений развития. 
 								</div>
 							</div>

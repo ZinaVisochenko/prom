@@ -678,6 +678,26 @@ header .mobile .call_button{
 #path-section .line1 a{
 	color: black;
 }
+
+@media (max-width: 766px) {
+	#path-section .line1 .pat {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	#path-section .line1 .i1 {
+		margin-left: 17px;
+	}
+	#path-section .line1 .serv {
+		margin-left: 8px;
+	}
+	#path-section .line1 .i2 {
+		margin-left: 18px;
+	}
+	#path-section .line1 i {
+		margin-left: 21px;
+	}
+}
+
 @media (max-width: 576px) {
 	#path-section .line1 {
 		font-size: 15px;
@@ -690,25 +710,39 @@ header .mobile .call_button{
 		margin-right: 23px;
 	}
 	#path-section .line1 .serv{
-		margin-left: 19px;
+		margin-left: 5px;
 	}
 	#path-section .line1 .pat{
-		margin-left: 20px;
-		margin-top: 17px;
+		margin-left: 5px;
+		margin-top: 0px;
 	}
 	#path-section .line1 .i1{
 		margin-left: 5px;
-		margin-top: 2px
+		margin-top: -3px
 	}
 	#path-section .line1 .i2{
-		margin-left: 18px;
-		margin-top: 2px
+		margin-left: 5px;
+		margin-top: -3px
 	}
 	#path-section .line1 .menu{
 		float: left;
 	}
 	#path-section .line1 a{
 		color: black;
+	}
+}
+
+@media (max-width: 474px) {
+	#path-section .line1 .pat {
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 468px) {
+	#path-section .line1 .pat {
+		margin-left: 0px;
+		margin-top: 23px !important;
 	}
 }
 
@@ -746,6 +780,16 @@ header .mobile .call_button{
 #patent-section .text2{
 	margin-top: 33px;
 }
+
+@media (max-width: 766px) {
+	#patent-section .text1 {
+		margin-top: 0px;
+	}
+	#patent-section .text2{
+		margin-top: 33px;
+	}
+}
+
 @media (max-width: 576px) {
 	#patent-section{
 		margin-top: 47px;
@@ -767,7 +811,7 @@ header .mobile .call_button{
 		font-size: 14px;
 		line-height: 2.2;
 		letter-spacing: 0px;
-		margin-top: 41px;
+		//margin-top: 41px;
 		margin-left: 1px;
 	}
 	#patent-section .foto{
@@ -885,7 +929,7 @@ header .mobile .call_button{
 		margin-left: 5px;
 	}
 	#callback_section .fline1{
-		margin-top: 27px;
+		margin-top: -34px;
 	}
 	#callback_section input{
 		font-size: 18px;
@@ -934,6 +978,59 @@ header .mobile .call_button{
 }
 
 
+.owl-dots {
+	text-align: center !important;
+}
+.owl-dots button {
+	height: 14px !important;
+	width: 14px !important;
+	background: #DCDCDC !important;
+	border: 0 !important;
+	border-radius: 10px !important;
+}
+.owl-dots button.active {
+	background: #8C0428 !important;
+}
+.owl-nav {
+	text-align: center !important;
+}
+.owl-nav button {
+	height: 48px !important;
+	width: 48px !important;
+	background: #8C0428 !important;
+	border-radius: 30px !important;
+	text-align: center !important;
+	padding-top: 6px !important;
+	border: 0 !important;
+	color: white !important;
+	font-size: 36px !important;
+}
+@media (max-width: 576px) {
+	.owl-dots {
+		
+	}
+	.owl-dots button {
+		height: 10px !important;
+		width: 10px !important;
+		
+	}
+	.owl-nav {
+		
+	}
+	.owl-nav button {
+		height: 34px !important;
+		width: 34px !important;
+		
+		font-size: 28px !important;
+	}
+	.owl-nav button.owl-prev {
+		
+	}
+}
+	
+	
+
+
 
 #clients-section{
 	font-family: 'SF UI Display';
@@ -958,9 +1055,9 @@ header .mobile .call_button{
 	font-size: 18px;
 	line-height: 1.7;
 	margin-top: 69px;
-	margin-bottom: 39px;
+	margin-bottom: 9px;
 }
-#clients-section .client_background{
+/*#clients-section .client_background{
 	 
 }
 #clients-section .sl_but {
@@ -991,19 +1088,52 @@ header .mobile .call_button{
 }
 #clients-section .carousel-indicators li.active {
 	background: #8C0428;
+}*/
+#clients-section .owl-dots {
+	margin-top: -31px;
+	margin-bottom: 14px;
+}
+#clients-section .owl-dots button {
+	margin: 0 5px;
+}
+#clients-section .owl-nav {
+	margin-top: 61px;
+}
+#clients-section .owl-nav button {
+	margin: 0 66px;
 }
 #clients-section .picture{
 	height: 135px;
 	background-color: #F3F3F3;
 	border: 1px solid #E0E0E0;
+	max-width: 165px;
+    margin: 0 auto;
 }
 #clients-section .margin_picture{
-	//margin-left: 10px;
+	margin-top: 30px;
 }
 #clients-section .buttons {
 	text-align: center;
 	margin-top: 61px;
 	//margin-bottom: 52px;
+}
+@media (max-width: 1200px){
+	#clients-section .owl-nav button {
+		margin: 0 78px;
+	}
+}
+@media (max-width: 992px){
+	#clients-section .owl-nav button {
+		margin: 0 94px;
+	}
+}
+@media (max-width: 768px){
+	#clients-section .owl-nav button {
+		margin: 0 0;
+	}
+	#clients-section .owl-nav button.owl-prev {
+		margin-right: 206px;
+	}
 }
 @media (max-width: 576px) {
 	#clients-section{
@@ -1031,10 +1161,10 @@ header .mobile .call_button{
 	#clients-section .text{
 		font-size: 14px;
 		line-height: 2.2;
-		margin-top: 39px;
+		margin-top: -6px;
 		margin-bottom: 0px;
 	}
-	#clients-section .client_background{
+	/*#clients-section .client_background{
 		 
 	}
 	#clients-section .sl_but {
@@ -1072,6 +1202,27 @@ header .mobile .call_button{
 		width: 11px;
 		height: 20px;
 		//background: no-repeat 50%/100% 100%;
+	}*/
+	#clients-section .owl-dots {
+		margin-top: -26px;
+		margin-bottom: 10px;
+	}
+	#clients-section .owl-dots button {
+		height: 10px;
+		width: 10px;
+		margin: 0 4px;
+	}
+	#clients-section .owl-nav {
+		margin-top: 46px;
+	}
+	#clients-section .owl-nav button {
+		height: 34px;
+		width: 34px;
+		margin: 0 0;
+		font-size: 28px;
+	}
+	#clients-section .owl-nav button.owl-prev {
+		margin-right: 207px;
 	}
 	#clients-section .picture{
 		height: 105px;

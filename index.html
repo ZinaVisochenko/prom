@@ -78,7 +78,7 @@
 							<a href="#">+7 (495) 123-45-67</a>
 						</div>
 						<div class = "buttons">
-							<button class = "white_btn"><a class="slow_quesh" href = "#callback_section">Задать вопрос</a></button>&nbsp&nbsp
+							<button class = "white_btn slow_quesh" href = "#callback_section">Задать вопрос</button>&nbsp&nbsp
 							<button class = "red_btn" onclick="prom_open_rcallback();">
 								Заказать звонок
 							</button>
@@ -218,23 +218,23 @@
 									<div class = "text">Оставив заявку сейчас, с Вами</br> свяжется в ближайшее время наш специалист</div>
 									<form>
 										<div class = "form fline1">
-											<input type = "text" name = "name" placeholder = "Ваше имя">
+											<input type = "text" name = "name" id= "ov_name_input" placeholder = "Ваше имя" required>
 										</div>
 										<div class = "form">
-											<input type = "text" name = "email" placeholder = "Ваша почта" class = "last">
+											<input type = "email" name = "email" id= "ov_email_input" placeholder = "Ваша почта" class = "last" required>
 										</div>
 										<div class = "form">
-											<input type = "text" name = "phone" placeholder = "Ваш телефон *">
+											<input type = "text" name = "phone" id= "ov_phone_input" placeholder = "Ваш телефон *" required>
 										</div>
 										<div class="squaredThree">
-											<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true/>
+											<input type="checkbox" value="None" id="squaredThreeOs" name="check" checked=true required>
 											<label for="squaredThreeOs"></label>
 										</div>
 										<div class="cb cbtext">Согласен(а) на обработку <a href="#">персональных данных</a></div>
 										<div class = "col-12 text-center">
-											<div class = "red_btn">
-												<a onclick="clickCallBack" href="javascript:void(0);">Заказать звонок</a>
-											</div>
+											<button class = "red_btn" type="submit">
+												Заказать звонок
+											</button>
 										</div>
 									</form>
 								</div>
@@ -370,13 +370,13 @@
 							<div class = "col-xl-9 col-lg-12 col-md-12 col-12">
 								<div class = "row">
 									<div class = "col-12 inputs  ">
-										<input class="" type = "text" name = "name" placeholder = "Ваше имя" class = "first">
-										<input class="" type = "text" name = "phone" placeholder = "Ваш телефон *" class = "">
-										<input class="" type = "text" name = "email" placeholder = "Ваша почта" class = "last">
+										<input type = "text" name = "name" placeholder = "Ваше имя" class = "first" required>
+										<input type = "text" name = "phone" placeholder = "Ваш телефон *" class = "" required>
+										<input type = "email" name = "email" placeholder = "Ваша почта" class = "last required">
 									</div>
 									<div class = "col-12 personal">
 										<div class="squaredThree">
-											<input type="checkbox" value="None" id="squaredThreeCon" name="check" checked=true/>
+											<input type="checkbox" value="None" id="squaredThreeCon" name="check" checked=true required>
 											<label for="squaredThreeCon"></label>
 										</div>
 										<div class="checktext w-100 d-block d-sm-block d-md-block">
@@ -386,7 +386,7 @@
 								</div>
 							</div>
 							<div class = "col-xl-3 col-lg-12 col-md-12 col-12 text-center text-md-center">
-								<button class = "red_btn">
+								<button type="submit" class = "red_btn">
 									Отправить заявку
 								</button>
 							</div>
@@ -522,39 +522,39 @@
 				</div>
 				<div class = "row">
 					<div class = "col-lg-4 col-md-4 col-12 padding">
-						<div class = "earth-globe">
+						<div class = "card earth-globe">
 							<img src = "images/services/light-bulb.svg" class = "img">
-							<div class = "text1">Регистрация</br> товарного знака</br> (торговой марки)</div>
+							<a href="#" class = "text1 stretched-link">Регистрация</br> товарного знака</br> (торговой марки)</a>
 						</div>
 					</div>	
 					<div class = "col-lg-4 col-md-4 col-12 padding">
-						<div class = "earth-globe mobile1">
+						<div class = "card earth-globe mobile1">
 							<img src = "images/services/diploma.svg" class = "img img1">
-							<div class = "text1 text2">Патентование</br> изобретений</div>
+							<a href="#" class = "text1 text2 stretched-link">Патентование</br> изобретений</a>
 						</div>
 					</div>	
 					<div class = "col-lg-4 col-md-4 col-12 padding">
-						<div class = "earth-globe mobile2">
+						<div class = "card earth-globe mobile2">
 							<img src = "images/services/model.svg" class = "img">
-							<div class = "text1">Патентование</br> полезных</br> моделей</div>
+							<a href="#" class = "text1 stretched-link">Патентование</br> полезных</br> моделей</a>
 						</div>
 					</div>
 					<div class = "col-lg-4 col-md-4 col-12 padding">
-						<div class = "earth-globe mobile3">
+						<div class = "card earth-globe mobile3">
 							<img src = "images/services/exam.svg" class = "img img3">
-							<div class = "text1 text3">Патентование</br> промышленных</br> образцов</div>
+							<a href="#" class = "text1 text3 stretched-link">Патентование</br> промышленных</br> образцов</a>
 						</div>
 					</div>	
 					<div class = "col-lg-4 col-md-4 col-12 padding">
-						<div class = "earth-globe mobile4">
+						<div class = "card earth-globe mobile4">
 							<img src = "images/services/network.svg" class = "img img4">
-							<div class = "text1 text4">Регистрация</br> компьютерных программ,</br> баз данных</div>
+							<a href="#" class = "text1 text4 stretched-link">Регистрация</br> компьютерных программ,</br> баз данных</a>
 						</div>
 					</div>	
 					<div class = "col-lg-4 col-md-4 col-12 padding">
-						<div class = "earth-globe mobile5">
+						<div class = "card earth-globe mobile5">
 							<img src = "images/services/bank.svg" class = "img img5">
-							<div class = "text1 text2">Разрешение споров в Палате</br> по патентным спорам и в</br> суде</div>
+							<a href="#" class = "text1 text2 stretched-link">Разрешение споров в Палате</br> по патентным спорам и в</br> суде</a>
 						</div>
 					</div>
 				</div>
@@ -595,6 +595,8 @@
 				</div>
 			</div>
 		</section>
+		
+		
 		<section id="experience-section">
 			<div class = "container">
 				<div class = "row">
@@ -622,8 +624,8 @@
 						</div>
 					</div>
 				</div>	
-				<div class = "row d-none d-sm-flex">
-					<div class = "col-xl-3 col-lg-5 col-md-5">
+				<div class = "owl-carousel owl-theme owl-carousel-wc">
+					<div class = "item">
 						<div class = "border_radius">
 							30+
 						</div>
@@ -631,7 +633,7 @@
 							Успешных проектов</br> с отличными</br> результатами
 						</div>
 					</div>
-					<div class = "col-xl-3 col-lg-5 col-md-5">
+					<div class = "item">
 						<div class = "border_radius border_radius1">
 							90%
 						</div>
@@ -639,7 +641,7 @@
 							Значимость этих</br> проблем настолько</br> очевидна
 						</div>
 					</div>
-					<div class = "col-xl-3 col-lg-5 col-md-5">
+					<div class = "item">
 						<div class = "border_radius  border_radius2">
 							20
 						</div>
@@ -647,7 +649,7 @@
 							С другой стороны</br> рамки и место</br> обучения
 						</div>
 					</div>
-					<div class = "col-xl-3 col-lg-5 col-md-5">
+					<div class = "item">
 						<div class = "border_radius border_radius3">
 							20%
 						</div>
@@ -656,7 +658,7 @@
 						</div>
 					</div>
 				</div>	
-				<div class = "row d-block d-sm-none">
+				<!--div class = "row d-block d-sm-none">
 					<div class = "col-lg-12">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
@@ -731,7 +733,7 @@
 							<span class="sr-only">Next</span>
 						</button>
 					</div>
-				</div>
+				</div-->
 			</div>
 		</section>
 		<section id="news-section2">
@@ -771,9 +773,9 @@
 						</div>
 					</div>
 				</div>
-				<div class = "row d-none d-md-block">
+				<div class = "row">
 					<div class = "col-lg-12">
-						<div id="carouselOurClients" class="carousel slide" data-ride="carousel">
+						<!--div id="carouselOurClients" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
 									<div class = "row">	
@@ -953,31 +955,104 @@
 									<span class="sr-only">Next</span>
 								</button>
 							</div>
-						</div>
+						</div-->
 						
 						
-						<div class="owl-carousel owl-theme">
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
-							<div class = "picture margin_picture"></div>
+						<div class="owl-carousel owl-theme owl-carousel-oc">
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
+							<div class="item">
+								<div class = "picture margin_picture"></div>
+								<div class = "picture margin_picture"></div>
+							</div>
 						</div>						
 					</div>
 
 				</div>
 				
-				<div class = "row d-md-none">
+				<!--div class = "row d-md-none">
 					<div class = "col-lg-12">
 						<div id="carouselOurClients" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
@@ -1070,23 +1145,8 @@
 							</div>
 						</div>
 					</div>
-					<!--<div class = "col-lg-12 buttons">
-						<button class="sl_but" href="#carouselOurClients" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</button>
-						<ol class="carousel-indicators">
-							<li data-target="#carouselOurClients" data-slide-to="0"></li>
-							<li data-target="#carouselOurClients" data-slide-to="1"></li>
-							<li data-target="#carouselOurClients" data-slide-to="2"></li>
-							<li data-target="#carouselOurClients" data-slide-to="3"></li>
-						</ol>
-						<button class="sl_but" href="#carouselOurClients" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</button>
-					</div>-->
-				</div>
+
+				</div-->
 				
 				<!--<div class = "row">
 					<div class = "col-lg-2 col-md-2 col-xs-2">
