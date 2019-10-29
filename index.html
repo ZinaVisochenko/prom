@@ -178,11 +178,11 @@
 				<div class = "bottom" id="mmd">
 					<a class = "number_link">+7 (495) 123-45-67</a>
 					<br>
-					<button class = "white_btn sbtn">
+					<button class = "white_btn sbtn slow_quesh" href = "#callback_section">
 						Задать вопрос
 					</button>
 					<br>
-					<button class = "red_btn sbtn">
+					<button class = "red_btn sbtn" onclick="prom_open_rcallback();">
 						Заказать звонок
 					</button>
 					<br>
@@ -240,9 +240,6 @@
 									</form>
 								</div>
 							</div>
-							<div class = "row ">
-								
-							</div>
 						</div>
 					</div>
 				</div>
@@ -267,17 +264,10 @@
 							</div>
 							<div class = "row">			
 								<div class = "col-xl-5 col-lg-5 col-md-5 col-12">
-									<button class = "open_btn">
+									<button class = "open_btn" href="#">
 										Открыть
 										<i class="fas fa-angle-right"></i>
 									</button>
-									<!--div class = "text-left d-none d-md-block">
-										<ol class="carousel-indicators ">
-											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-										</ol>
-									</div-->
 								</div>
 							</div>	
 						</div>
@@ -302,13 +292,6 @@
 										Открыть
 										<i class="fas fa-angle-right"></i>
 									</button>
-									<!--div class = "text-left d-none d-md-block">
-										<ol class="carousel-indicators ">
-											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-										</ol>
-									</div-->
 								</div>
 							</div>	
 						</div>
@@ -333,13 +316,6 @@
 										Открыть
 										<i class="fas fa-angle-right"></i>
 									</button>
-									<!--div class = "text-left d-none d-md-block">
-										<ol class="carousel-indicators ">
-											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-										</ol>
-									</div-->
 								</div>
 							</div>	
 						</div>
@@ -364,9 +340,9 @@
 							<div class = "col-xl-9 col-lg-12 col-md-12 col-12">
 								<div class = "row">
 									<div class = "col-12 inputs  ">
-										<input type = "text" name = "name" placeholder = "Ваше имя" class = "first" required>
-										<input type = "text" name = "phone" placeholder = "Ваш телефон *" class = "" required>
-										<input type = "email" name = "email" placeholder = "Ваша почта" class = "last required">
+										<input type = "text" name = "name" id = "rc_name_input" placeholder = "Ваше имя" class = "first" required>
+										<input type = "text" name = "phone" id = "rc_phone_input" placeholder = "Ваш телефон *" class = "" required>
+										<input type = "email" name = "email" id = "rc_email_input" placeholder = "Ваша почта" class = "last required">
 									</div>
 									<div class = "col-12 personal">
 										<div class="squaredThree">
@@ -414,12 +390,10 @@
 					</div>	
 				</div>
 				<div class = "row">
-					<div class = "col-12 col-lg-12 col-md-12">
+					<div class = "col-12">
 						<div class = "company_foto"></div>
 					</div>	
-				</div>		
-				<div class = "row">
-					<div class = "col-12 col-lg-12 col-md-12">		
+					<div class = "col-12">		
 						<div class = "text1">
 							Идейные соображения высшего порядка, а также укрепление и развитие структуры требуют от нас анализа соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности способствует подготовки и реализации дальнейших направлений развития.
 						</div>
@@ -427,10 +401,8 @@
 							Значимость этих проблем настолько очевидна
 						</div>
 					</div>	
-				</div>
-				<div class = "row">
-					<div class = "col-lg-12 col-md-12 col-12">		
-						<button class = "button">Узнать больше</button>
+					<div class = "col-12">		
+						<button class = "button" href="#">Узнать больше</button>
 					</div>
 				</div>
 			</div>
@@ -553,9 +525,9 @@
 					</div>
 				</div>
 				<div class = "row">
-					<div class = "col-lg-12 text-center text-md-left">	
-						<button class = "button">Смотреть все услуги</button>
-						<button class = "button button1">Задать вопрос</button>	
+					<div class = "col-12 text-center text-md-left">	
+						<button class = "button"  href="#">Смотреть все услуги</button>
+						<button class = "button button1"  href="#">Задать вопрос</button>	
 					</div>
 				</div>
 			</div>
@@ -566,7 +538,7 @@
 							<div class = "sales">Хотите увеличить продажи? Закажите звонок, и мы с Вами свяжемся!</div>
 						</div>
 						<div class = "col-lg-3 textCenter col-md-3 col-12">
-							<button class = "red_btn send">
+							<button class = "red_btn send"  href="#">
 								Отправить заявку
 							</button>
 						</div>
@@ -581,7 +553,7 @@
 							<div class = "sales">Хотите увеличить продажи? Закажите звонок,</br> и мы с Вами свяжемся!</div>
 						</div>
 						<div class = "col-lg-3 text-center col-md-3 col-12">
-							<button class = "red_btn">
+							<button class = "red_btn"  href="#">
 								Отправить заявку
 							</button>
 						</div>
@@ -654,6 +626,8 @@
 				</div>
 			</div>
 		</section>
+		
+		
 		<section id="news-section2">
 			<div class = "container">
 				<div class = "row">
@@ -669,11 +643,13 @@
 				</div>
 				<div class = "row these_text">
 					<div class = "col-lg-12 col-md-12 col-12 text-center text-md-left">
-						<button class = "white_btn">Открыть все новости</button>
+						<button class = "white_btn" onclick="location.href='news.html';">Открыть все новости</button>
 					</div>
 				</div>
 			</div>				
 		</section>
+		
+		
 		<section id="clients-section">
 			<div class = "container">
 				<div class = "row">

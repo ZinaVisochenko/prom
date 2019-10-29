@@ -406,33 +406,6 @@
 #experience-section .owl-nav button.owl-prev {
 	margin-right: 120px;
 }
-/*#experience-section .sl_but {
-	height: 48px;
-	width: 48px;
-	background: #8C0428;
-	border-radius: 30px;
-	text-align: center;
-	padding-top: 11px;
-	border: 0;
-}
-#experience-section .carousel-indicators li {
-	height: 10px;
-	width: 10px;
-	background: #DCDCDC;
-	display: inline-block;
-	border: 0;
-	border-radius: 10px;
-}
-#experience-section .carousel-indicators {
-	position: relative;
-	margin-left: 20px;
-	margin-right: 20px;
-	top: -10px;
-	display: inline;
-}
-#experience-section .carousel-indicators li.active {
-	background: #8C0428;
-}*/
 #experience-section .buttons {
 	text-align: center;
 	margin-top: 80px;
@@ -1502,3 +1475,179 @@
 		margin-left: 1px;
 	}
 }
+
+
+
+#clients-section{
+	font-family: 'SF UI Display';
+	background-image: url(../images/stripes.png);
+	margin-top: 53px;
+	padding-bottom: 52px;
+}
+#clients-section .title{
+	font-size: 33px;
+	letter-spacing: 0.5px;
+	margin-top: 57px;
+}
+
+#clients-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 23px;
+	//margin-bottom: 44px;
+}
+
+#clients-section .text{
+	font-size: 18px;
+	line-height: 1.7;
+	margin-top: 69px;
+	margin-bottom: 9px;
+}
+/*#clients-section .client_background{
+	 
+}
+#clients-section .sl_but {
+	height: 48px;
+	width: 48px;
+	background: #8C0428;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 6px;
+	border: 0;
+	margin-left: -3px;
+    margin-right: -2px;
+}
+#clients-section .carousel-indicators li {
+	height: 14px;
+	width: 14px;
+	background: #DCDCDC;
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+}
+#clients-section .carousel-indicators {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: -4px;
+	display: inline;
+}
+#clients-section .carousel-indicators li.active {
+	background: #8C0428;
+}*/
+#clients-section .owl-dots {
+	margin-top: -31px;
+	margin-bottom: 14px;
+}
+#clients-section .owl-dots button {
+	margin: 0 5px;
+}
+#clients-section .owl-nav {
+	margin-top: 61px;
+}
+#clients-section .owl-nav button {
+	margin: 0 66px;
+}
+#clients-section .picture{
+	height: 135px;
+	background-color: #F3F3F3;
+	border: 1px solid #E0E0E0;
+	max-width: 165px;
+    margin: 0 auto;
+}
+#clients-section .margin_picture{
+	margin-top: 30px;
+}
+#clients-section .buttons {
+	text-align: center;
+	margin-top: 61px;
+	//margin-bottom: 52px;
+}
+@media (max-width: 1200px){
+	#clients-section .owl-nav button {
+		margin: 0 78px;
+	}
+}
+@media (max-width: 992px){
+	#clients-section .owl-nav button {
+		margin: 0 94px;
+	}
+}
+@media (max-width: 768px){
+	#clients-section .owl-nav button {
+		margin: 0 0;
+	}
+	#clients-section .owl-nav button.owl-prev {
+		margin-right: 206px;
+	}
+}
+@media (max-width: 576px) {
+	#clients-section{
+		font-family: 'SF UI Display';
+		background-image: url(../images/stripes.png);
+		margin-top: 43px;
+		padding-bottom: 34px;
+		padding-top: 46px;
+		margin-left: 6px;
+	}
+	#clients-section .title{
+		font-size: 24px;
+		letter-spacing: 0.1px;
+		margin-top: 0;
+		
+	}
+
+	#clients-section .line{
+		width: 57px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		//margin-bottom: 44px;
+	}
+
+	#clients-section .text{
+		font-size: 14px;
+		line-height: 2.2;
+		margin-top: -6px;
+		margin-bottom: 0px;
+	}
+	#clients-section .owl-dots {
+		margin-top: -26px;
+		margin-bottom: 10px;
+	}
+	#clients-section .owl-dots button {
+		height: 10px;
+		width: 10px;
+		margin: 0 4px;
+	}
+	#clients-section .owl-nav {
+		margin-top: 46px;
+	}
+	#clients-section .owl-nav button {
+		height: 34px;
+		width: 34px;
+		margin: 0 0;
+		font-size: 28px;
+	}
+	#clients-section .owl-nav button.owl-prev {
+		margin-right: 207px;
+	}
+	#clients-section .picture{
+		height: 105px;
+		background-color: #F3F3F3;
+		border: 1px solid #E0E0E0;
+		margin-top: 18px;
+	}
+	#clients-section .picture_top{
+		margin-top: -6px;
+	}
+	#clients-section .picture_left{
+		
+	}
+	#clients-section .buttons {
+		text-align: center;
+		margin-top: 39px;
+		margin-left: -7px;
+	}
+}
+
+

@@ -70,7 +70,10 @@ function prom_close_rcallback() {
 	document.getElementById('over-section').style.display = 'none';
 }
 
-$(document).ready(function() {
+
+
+
+function initSlowNavigation() {
 	// slowly move to href target
 	$(".slow_quesh").each(function (element) {
 		$(this).click(function () {
@@ -80,7 +83,7 @@ $(document).ready(function() {
 		});
 	});
 	
-});
+}
 
 function initOwlCarousel() {
 	$('.owl-carousel-oc').owlCarousel({
@@ -175,6 +178,9 @@ function initCallbackSection() {
 	$("#ov_phone_input").mask("+7(999) 999-9999", {
 		completed: function(){ /*alert("Вы ввели номер: " + this.val());*/ }
 	});
+	$("#rc_phone_input").mask("+7(999) 999-9999", {
+		completed: function(){ /*alert("Вы ввели номер: " + this.val());*/ }
+	});
 	
 	$("#callback_form").validate({
 		rules:{
@@ -242,6 +248,10 @@ function initCallbackSection2() {
 }
 
 $(document).ready(function() {
+	initSlowNavigation();
 	initCallbackSection();
 	initOwlCarousel();
 });
+
+
+
