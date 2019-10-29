@@ -127,6 +127,40 @@ function initOwlCarousel() {
 			}
 		}
 	});
+	$('.owl-carousel-pr1').owlCarousel({
+		margin: 0,
+		autoplay: true,
+		nav: true,
+		items:1
+	});
+	$('.owl-carousel-he').owlCarousel({
+		margin: 0,
+		autoplay: true,
+		nav: false,
+		items:1
+	});
+	$('.owl-carousel-oo').owlCarousel({
+		margin: 30,
+		autoplay: true,
+		nav: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			576:{
+				items:2
+			},
+			768:{
+				items:3
+			},
+			992:{
+				items:4
+			},
+			1200:{
+				items:5
+			}
+		}
+	});
 }
 
 function initCallbackSection() {

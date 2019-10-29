@@ -1441,15 +1441,15 @@
 		margin-top: 55px;
 	}
 	#experience-section1 .border_radius1{
-		margin-left: 38px;
+
 		padding-left: 33px;
 	}
 	#experience-section1 .border_radius2{
-		margin-left: 32px;
+
 		padding-left: 58px;
 	}
 	#experience-section1 .border_radius3{
-		margin-left: 25px;
+
 		padding-left: 36px;
 	}
 	#experience-section1 .twenty{
@@ -1601,7 +1601,7 @@
 	height: 287px;
 	background-color: #E8E8E8;
 	border: 1px solid #B7B7B7;
-	
+	margin: 0 auto;
 }
 #reviews-section .slider_margin{
 	margin-left: 5px;
@@ -1619,8 +1619,7 @@
 	margin-left: 58px;
 }
 #reviews-section .box {
-	display: inline-block;
-	width: 19%;
+
 	margin-top: 76px;
 }
 #reviews-section .sl_but {
@@ -1696,8 +1695,7 @@
 		margin-left: 58px;
 	}
 	#reviews-section .box {
-		display: inline-block;
-		width: 19%;
+
 		margin-top: 37px;
 		margin-left: 6px;
 	}
@@ -2414,9 +2412,37 @@
     list-style: none;
 	margin: -12px -4px;
 }
-#idea-section .carousel-indicators li {
-	width: 45px;
-    height: 5px;
+#idea-section .owl-dots{
+	position: absolute;
+    margin-top: -232px;
+    left: 50%;
+    margin-left: -569px;
+}
+#idea-section .owl-dots button {
+	width: 45px !important;
+    height: 5px !important;
+	border-radius: 0 !important;
+	margin-right: 6px;
+	background: #a5a5a56b !important;
+}
+#idea-section .owl-dots button.active {
+	background: white !important;
+}
+@media (max-width: 1200px){
+	#idea-section .owl-dots {
+		margin-left: -467px;
+	}
+}
+@media (max-width: 992px){
+	#idea-section .owl-dots {
+		margin-left: -347px;
+
+	}
+}
+@media (max-width: 768px){
+	#idea-section .owl-dots {
+		margin-left: -76px;
+	}
 }
 @media (max-width: 576px) {
 	#idea-section .title {
@@ -2437,6 +2463,9 @@
 	#idea-section .background_home {
         padding-bottom: 81px;
     }
+	#idea-section .owl-dots {
+		margin-top: -74px;
+	}
 }
 
 
@@ -2694,10 +2723,11 @@
 		background: white;
 		padding-left: 15px;
 		margin-bottom: 5px;
+		display: block;
+		width: 91%;
 		font-size: 15px;
 		padding-top: 4px;
-		margin-left: 15px;
-		margin-right: 15px;
+		margin-left: 29px;
 	}
 	#consultation-section .inputs input.first{
 		margin-left: 29px;
@@ -2707,6 +2737,8 @@
 		margin-top: 26px;
 		margin-bottom: 7px;
 		padding-left: 46px;
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 	#consultation-section .checktext{
 		margin-top: -18px;
