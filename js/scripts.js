@@ -87,6 +87,7 @@ function initOwlCarousel() {
 		margin: 30,
 		autoplay: true,
 		nav: true,
+		loop: true,
 		responsive:{
 			0:{
 				items:2
@@ -109,6 +110,7 @@ function initOwlCarousel() {
 		margin: 30,
 		autoplay: true,
 		nav: true,
+		loop: true,
 		responsive:{
 			0:{
 				items:1
@@ -131,6 +133,7 @@ function initOwlCarousel() {
 		margin: 0,
 		autoplay: true,
 		nav: true,
+		loop: true,
 		items:1
 	});
 	$('.owl-carousel-he').owlCarousel({
@@ -143,6 +146,7 @@ function initOwlCarousel() {
 		margin: 30,
 		autoplay: true,
 		nav: true,
+		loop: true,
 		responsive:{
 			0:{
 				items:1

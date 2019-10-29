@@ -1,0 +1,1766 @@
+/* Sections ---------------------------------------------------------- */
+
+
+#costs-section{
+	margin-top: 45px;
+}
+#costs-section .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+
+#costs-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	margin-left: -1px;
+}
+#costs-section table {
+    width: 100%;
+    border-collapse: collapse;
+	font-size: 20px;
+	margin-top: 50px;
+   }
+#costs-section td, th {
+    padding-left: 15px;
+    padding: 15px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+	text-align: center;
+	vertical-align: middle;
+    line-height: 1.2;
+}
+#costs-section  th {
+    background: #8C0428;
+	border: 1px solid #707070;
+	color: white;
+	height: 92px;
+}
+#costs-section .home{
+	height: 81px;
+}
+#costs-section .home1{
+	height: 99px;
+}
+#costs-section .home2{
+	height: 79px;
+}
+#costs-section table th.following{
+	width: 25.7%;
+	padding-left: 28px;
+}
+#costs-section table .first {
+	text-align: left;
+	width: 51.3%;
+}
+#costs-section table th.first {
+	padding-left: 23px;
+}
+#costs-section table .sub td{
+	font-size: 18px;
+	border-top: 0;
+}
+#costs-section table .sub td.first:before{
+	content: "\25cf";
+	padding-right: 10px;
+	color: #8C0428;
+}
+
+#costs-section table .last_row {
+	border-bottom: 1px solid #DDDDDD;
+}
+#costs-section .red_btn{
+	width: 261px;
+    height: 63px;
+    background-color: transparent;
+    color: #8C0428;
+    border: 1px solid #8C0428;
+    font-size: 19px;
+    font-family: 'SF UI Display';
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 51px;
+    margin-left: 0px;
+	padding-left: 6px;
+    letter-spacing: 0.6px;
+}
+#costs-section .white_btn{
+	color: #4D4D4D;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid #DCDCDC;
+	margin-left: 26px;
+}
+
+@media (max-width: 766px) {
+	#costs-section .button_center{
+		text-align: center;
+	}
+	#costs-section .button_center .white_btn {
+		margin-left: 0px; 
+	}
+}
+
+@media (max-width: 576px) {
+	#costs-section{
+		margin-top: 47px;
+	}
+	#costs-section .title{
+		font-size: 24px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.5px;
+		margin-left: 5px;
+		line-height: 1.2
+	}
+	#costs-section .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 17px;
+		margin-left: 5px;
+	}
+	#costs-section table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 14px;
+		margin-top: 15px;
+	   }
+	#costs-section   td, #costs-section th {
+		padding: 15px;
+		padding-bottom: 0px;
+		padding-top: 6px;
+		border-left: 1px solid #DDDDDD;
+		border-right: 1px solid #DDDDDD;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 1.2;
+	}
+	#costs-section  th {
+		background: #8C0428;
+		border: 1px solid #707070;
+		color: white;
+		height: 61px;
+	}
+	#costs-section .home{
+		height: 67px;
+	}
+	#costs-section .home1{
+		height: 63px;
+	}
+	#costs-section .home2{
+		height: 62px;
+	}
+	#costs-section table th.following{
+		width: 25.7%;
+		padding-left: 28px;
+	}
+	#costs-section table .first {
+		text-align: left;
+		width: 51.3%;
+	}
+	#costs-section table th.first {
+		padding-left: 29px;
+		text-align: center;
+	}
+	#costs-section table .sub td{
+		font-size: 14px;
+		border-top: 0;
+	}
+	#costs-section table .sub td.first:before{
+		content: "\25cf";
+		padding-right: 10px;
+		color: #8C0428;
+	}
+
+	#costs-section table .last_row {
+		border-bottom: 1px solid #DDDDDD;
+	}
+	#costs-section .red_btn{
+		width: 182px;
+		height: 46px;
+		background-color: transparent;
+		color: #8C0428;
+		border: 1px solid #8C0428;
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		padding-top: 14px;
+		padding-bottom: 14px;
+		margin-top: 25px;
+		margin-left: 0px;
+		padding-left: 8px;
+		letter-spacing: 0.4px;
+	}
+	#costs-section .white_btn{
+		color: #4D4D4D;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		border: 1px solid #DCDCDC;
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+		margin-top: 10px;
+		padding-left: 10px;
+	}
+	#costs-section .button_center {
+		text-align: center;
+	}
+	#costs-section .button_center .white_btn {
+		margin-left: 0px; 
+	}
+}
+
+@media (max-width: 532px) {
+	#costs-section .top .reg1 {
+		
+	}
+}
+
+@media (max-width: 516px) {
+	#costs-section .top .reg1 {
+		
+	}
+}	
+
+@media (max-width: 508px) {
+	#costs-section .top .reg1 {
+		
+	}
+}	
+
+@media (max-width: 504px) {
+	#costs-section .top .reg1 {
+		
+	}
+}
+
+@media (max-width: 486px) {
+	#costs-section .top .reg1 {
+		
+	}
+}
+
+@media (max-width: 480px) {
+	#costs-section .top .reg1 {
+		
+	}
+}
+
+
+#costs-section1{
+	margin-top: 53px;
+}
+#costs-section1 .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+
+#costs-section1 .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	margin-left: -1px;
+}
+#costs-section1 table {
+    width: 100%;
+    border-collapse: collapse;
+	font-size: 20px;
+	margin-top: 50px;
+   }
+#costs-section1 td, #costs-section1 th {
+    padding: 15px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+	text-align: center;
+}
+#costs-section1 th {
+    background: #8C0428;
+	border: 1px solid #707070;
+	color: white;
+	height: 92px;
+}
+#costs-section1 table td.c1{
+	padding-top: 42px;
+}
+#costs-section1 table .r1 td.c1{
+	padding-top: 55px;
+}
+#costs-section1 .home1{
+	height: 99px;
+}
+#costs-section1 .home2{
+	height: 79px;
+}
+#costs-section1 .following{
+	width: 21.4%;
+}
+#costs-section1 table .c1 {
+	text-align: left;
+}
+#costs-section1 table th.c1 {
+	padding-left: 23px;
+	width: 34%;
+}
+#costs-section1 table th.c2 {
+	width: 21.4%;
+}
+#costs-section1 table th.c3 {
+	width: 21.4%;
+}
+#costs-section1 table th.c4 {
+	padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 18px;
+}
+#costs-section1 table td.c1 {
+	padding-left: 27px;
+}
+
+#costs-section1 table .sub td.c1 {
+	padding-left: 61px;
+}
+#costs-section1 table .sub td {
+    padding-top: 29px;
+    padding-bottom: 28px;
+}
+#costs-section1 table .sub td{
+	font-size: 18px;
+	border-top: 0;
+}
+#costs-section1 table .sub td.c1:before{
+	content: "\25cf";
+	padding-right: 10px;
+	color: #8C0428;
+}
+
+#costs-section1 table .last_row {
+	border-bottom: 1px solid #DDDDDD;
+}
+#costs-section1 .red_btn{
+	width: 261px;
+    height: 63px;
+    background-color: transparent;
+    color: #8C0428;
+    border: 1px solid #8C0428;
+    font-size: 19px;
+    font-family: 'SF UI Display';
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 51px;
+    margin-left: 0px;
+	padding-left: 6px;
+    letter-spacing: 0.6px;
+}
+#costs-section1 .white_btn{
+	color: #4D4D4D;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid #DCDCDC;
+	margin-left: 26px;
+}
+
+@media (max-width: 576px) {
+	#costs-section1{
+		margin-top: 51px;
+	}
+	#costs-section1 .title{
+		font-size: 24px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.5px;
+		margin-left: 5px;
+		line-height: 1.2
+	}
+	#costs-section1 .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 18px;
+		margin-left: 5px;
+	}
+	#costs-section1 table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 14px;
+		margin-top: 15px;
+	   }
+	#costs-section1 td, #costs-section1 th {
+		padding: 15px;
+		padding-bottom: 0px;
+		padding-top: 4px;
+		border-left: 1px solid #DDDDDD;
+		border-right: 1px solid #DDDDDD;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 1.2;
+	}
+	#costs-section1  th {
+		background: #8C0428;
+		border: 1px solid #707070;
+		color: white;
+		height: 61px;
+	}
+	#costs-section1 table th.c1 {
+		width: 34%;
+		text-align: center;
+	}
+	#costs-section1 table .r1 td {
+		padding-top: 10px;
+	}
+	#costs-section1 table .r1 td.c1 {
+		padding-top: 10px;
+	}
+	#costs-section1 table .sub td.c1 {
+		padding-left: 27px;
+	}
+	#costs-section1 table .sub td {
+		padding-top: 19px;
+		padding-bottom: 0px;
+	}
+	#costs-section1 table .last_row td {
+		padding-bottom: 20px;
+	}
+	#costs-section1 .home1{
+		height: 63px;
+	}
+	#costs-section1 table td.c1 {
+		padding-top: 17px;
+	}
+	#costs-section1 .home2{
+		height: 62px;
+	}
+	#costs-section1 table th.following{
+		width: 25.7%;
+		padding-left: 28px;
+	}
+	#costs-section1 .th_padding{
+		//padding-top: 36px;
+		//padding-left: 24px;
+	}
+	#costs-section1 table .first {
+		text-align: left;
+		width: 51.3%;
+	}
+	#costs-section1 table th.first {
+		padding-left: 23px;
+	}
+	#costs-section1 table .sub td{
+		font-size: 14px;
+		border-top: 0;
+	}
+	#costs-section1 table .sub td.first:before{
+		content: "\25cf";
+		padding-right: 10px;
+		color: #8C0428;
+	}
+
+	#costs-section1 table .last_row {
+		border-bottom: 1px solid #DDDDDD;
+	}
+	#costs-section1 .red_btn{
+		width: 182px;
+		height: 46px;
+		background-color: transparent;
+		color: #8C0428;
+		border: 1px solid #8C0428;
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		padding-top: 14px;
+		padding-bottom: 14px;
+		margin-top: 25px;
+		margin-left: 0px;
+		padding-left: 8px;
+		letter-spacing: 0.4px;
+	}
+	#costs-section1 .white_btn{
+		color: #4D4D4D;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		border: 1px solid #DCDCDC;
+		margin-left: 10px !important;
+		margin-top: 10px;
+		padding-left: 10px;
+	}
+	#costs-section1 .button_center {
+		text-align: left;
+	}
+}
+
+@media (max-width: 766px) {
+	.button_center{
+		text-align: center;
+	}
+	#costs-section1 .button_center .white_btn {
+		margin-left: 0px; 
+	}
+}
+
+
+
+
+#also-section{
+	margin-top: 56px;
+	font-family: 'SF UI Display';
+}
+#also-section .title{
+	font-size: 33px;
+	letter-spacing: 0.4px;
+}
+
+#also-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 23px;
+	margin-left: -1px;
+}
+#also-section .also{
+	margin-top: 44px;
+}
+#also-section .text{
+	font-size: 18px;
+	line-height: 1.7;
+	margin-top: 35px;
+	letter-spacing: 0px;
+}
+#also-section .earth-globe{
+	//width: 358px;
+	height: 319px;
+	border: 1px solid #DCDCDC;
+	
+	padding-top: 59px;
+}
+#also-section .earth-globe img{
+	margin: 0 auto;
+}
+#also-section .earth-globe1{
+	padding-top: 70px;
+}
+#also-section .earth-globe2{
+	padding-top: 61px;
+}
+#also-section .earth-globe .text1 {
+	font-size: 21px;
+	margin-top: 32px;
+    line-height: 1.2;
+	text-align: center;
+}
+#also-section .earth-globe1 .text2 {
+	margin-top: 36px;
+}
+#also-section .earth-globe2 .text3 {
+	margin-top: 28px;
+}
+@media (max-width: 576px) {
+	#also-section{
+		margin-top: 41px;
+		font-family: 'SF UI Display';
+	}
+	#also-section .title{
+		font-size: 24px;
+		letter-spacing: 0.4px;
+		line-height: 1.2;
+		margin-left: 5px;
+	}
+
+	#also-section .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 21px;
+		margin-left: 5px;
+	}
+	#also-section .also{
+		margin-top: 19px;
+	}
+	#also-section .text{
+		font-size: 18px;
+		line-height: 1.7;
+		margin-top: 35px;
+		letter-spacing: 0px;
+	}
+	#also-section .earth-globe{
+		//width: 278px;
+		height: 244px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 45px;
+		margin-left: 7px;
+	}
+	#also-section .earth-globe1{
+		padding-top: 54px;
+		margin-top: 19px;
+	}
+	#also-section .earth-globe2{
+		padding-top: 47px;
+		margin-top: 19px;
+	}
+	#also-section .earth-globe .text1 {
+		font-size: 14px;
+		margin-top: 20px;
+		line-height: 1.2;
+	}
+	#also-section .earth-globe1 .text2 {
+		margin-top: 24px;
+	}
+	#also-section .earth-globe2 .text3 {
+		margin-top: 22px;
+	}
+}
+
+@media (max-width: 991px) {
+	#also-section .earth-globe1 {
+		margin-top: 23px;
+	}
+	#also-section .earth-globe2 {
+		margin-top: 23px;
+	}
+}
+
+
+
+
+#experience-section1{
+	margin-top: 54px;
+}
+#experience-section1 .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+
+#experience-section1 .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	//margin-bottom: 44px;
+	margin-left: -1px;
+}
+
+#experience-section1 .text{
+	font-size: 18px;
+    font-family: 'SF UI Display';
+    line-height: 1.7;
+    margin-top: 56px;
+    //margin-bottom: 30px;
+}
+#experience-section1 .border_radius{
+	width: 190px;
+	height: 190px;
+	border: 2px solid #DCDCDC;
+	border-radius: 96px;
+	font-size: 60px;
+	font-family: 'SF UI Display';
+	letter-spacing: 1.5px;
+	color: #8C0428;
+    //padding: 38px;
+    padding-top: 64px;
+	padding-left: 37px;
+	margin: 0 auto;
+	//margin-left: 43px;
+	margin-top: 110px;
+}
+#experience-section1 .border_radius1{
+	//margin-left: 38px;
+	padding-left: 33px;
+}
+#experience-section1 .border_radius2{
+	//margin-left: 32px;
+	padding-left: 58px;
+}
+#experience-section1 .border_radius3{
+	//margin-left: 25px;
+	padding-left: 36px;
+}
+#experience-section1 .twenty{
+	//padding-left: 58px;
+}
+#experience-section1 .text1{
+	font-size: 22px;
+	font-family: 'SF UI Display';
+	text-align: center;
+	line-height: 1.6;
+	letter-spacing: 0.35px;
+    //margin-left: 12px;
+	margin-top: 26px;
+}
+#experience-section1 .text2{
+    //margin-left: 6px;
+}
+#experience-section1 .text3{
+    //margin-left: -2px;
+}
+#experience-section1 .text4{
+    //margin-left: -11px;
+}
+#experience-section1 .box {
+	margin: 0 auto;
+}
+#experience-section1 .sl_but {
+	height: 48px;
+	width: 48px;
+	background: #8C0428;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 11px;
+	border: 0;
+}
+#experience-section1 .carousel-indicators li {
+	height: 10px;
+	width: 10px;
+	background: #DCDCDC;
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+}
+#experience-section1 .carousel-indicators {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: -10px;
+	display: inline;
+}
+#experience-section1 .carousel-indicators li.active {
+	background: #8C0428;
+}
+#experience-section1 .buttons {
+	text-align: center;
+	margin-top: 80px;
+}
+#experience-section1 .through_call{
+	width: 100%;
+	height: 224px;
+	background-image: url(../images/blocks_background/through_call_background.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 101px;
+	margin-top: 85px;
+}
+#experience-section1 .through_call .sales{
+	font-size: 23px;
+	font-family: 'SF UI Display';
+	color: white;
+	margin-left: 70px;
+	letter-spacing: 0.29px;
+}
+#experience-section1 .red_btn{
+	width: 192px;
+    height: 56px;
+    font-size: 19px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    letter-spacing: 0.5px;
+    margin-left: -1px;
+	margin-top: -17px;
+}
+@media (max-width: 576px) {
+	#experience-section1{
+		margin-top: 66px;
+	}
+	#experience-section1 .title{
+		font-size: 24px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.3px;
+		margin-left: 6px;
+	}
+
+	#experience-section1 .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		//margin-bottom: 44px;
+		margin-left: 6px;
+	}
+
+	#experience-section1 .text_one{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 2.2;
+		//margin-top: 40px;
+		margin-left: 7px;
+		//margin-bottom: 30px;
+	}
+	#experience-section1 .text_two{
+		margin-top: 20px;
+		letter-spacing: 0px;
+	}
+	#experience-section1 .border_radius{
+		width: 190px;
+		height: 190px;
+		border: 2px solid #DCDCDC;
+		border-radius: 96px;
+		font-size: 60px;
+		font-family: 'SF UI Display';
+		letter-spacing: 1.5px;
+		color: #8C0428;
+		//padding: 38px;
+		padding-top: 63px;
+		padding-left: 37px;
+		margin: 0 auto;
+		//margin-left: 53px;
+		margin-top: 55px;
+	}
+	#experience-section1 .border_radius1{
+
+		padding-left: 33px;
+	}
+	#experience-section1 .border_radius2{
+
+		padding-left: 58px;
+	}
+	#experience-section1 .border_radius3{
+
+		padding-left: 36px;
+	}
+	#experience-section1 .twenty{
+		padding-left: 55px;
+	}
+	#experience-section1 .text1{
+		font-size: 22px;
+		font-family: 'SF UI Display';
+		text-align: center;
+		line-height: 1.6;
+		letter-spacing: 0.35px;
+		margin-left: 6px;
+		margin-top: 26px;
+	}
+	#experience-section1 .text2{
+		margin-left: 6px;
+	}
+	#experience-section1 .text3{
+		margin-left: -2px;
+	}
+	#experience-section1 .text4{
+		margin-left: -11px;
+	}
+	#experience-section1 .box {
+		margin: 0 auto;
+	}
+	#experience-section1 .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 5px;
+		border: 0;
+		margin-left: 3px;
+		margin-right: 1px;
+	}
+
+	#experience-section1 .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+	#experience-section1 .carousel-indicators {
+		position: relative;
+		margin-left: 12px;
+		margin-right: 6px;
+		top: -6px;
+		display: inline;
+	}
+	#experience-section1 .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#experience-section1 .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+		//background: no-repeat 50%/100% 100%;
+	}
+	#experience-section1 .buttons {
+		text-align: center;
+		margin-top: 50px;
+	}
+	#experience-section1 .through_call{
+		width: 100%;
+		height: 224px;
+		background-image: url(../images/blocks_background/intersection.png);
+		background-size: cover;
+		background-position: initial;
+		padding-top: 92px;
+		margin-top: 57px;
+	}
+	#experience-section1 .contsss {
+		position: relative;
+	}
+	#experience-section1 .mask2 { 
+		position: absolute;		
+		top: 0; 
+		width: 100%;
+		height: auto;
+		left: 0; 
+		right: 0; 
+		bottom: -68px;
+		background: rgba(0,0,0,.6);  
+		transition: 0.5s;
+		opacity: 1; 
+	}
+	#experience-section1 .through_call .sales{
+		font-size: 18px;
+		font-family: 'SF UI Display';
+		text-align: center;
+		color: white;
+		margin-left: 0px;
+		letter-spacing: 0.3px;
+		line-height: 1.2;
+	}
+	#experience-section1 .red_btn{
+		width: 155px;
+		height: 45px;
+		font-size: 14px;
+		padding-top: 14px;
+		padding-bottom: 15px;
+		letter-spacing: 0.5px;
+		margin-left: -4px;
+		margin-top: 40px;
+		padding-left: 9px;
+	}
+}
+
+@media (max-width: 766px) {
+	#experience-section1 .button1 {
+		margin-left: 0px;
+	}
+	#experience-section1 .through_call {
+		padding-top: 45px;
+	}
+	#experience-section1 .through_call .sales {
+		margin-left: 0px;
+	}
+	#experience-section1 .red_btn {
+		margin-left: 0px;
+		margin-top: 35px;
+	}
+}
+
+
+
+#reviews-section{
+	margin-top: 92px;
+}
+#reviews-section .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+
+#reviews-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	//margin-bottom: 44px;
+	margin-left: -1px;
+}
+#reviews-section .slider{
+	width: 196px;
+	height: 287px;
+	background-color: #E8E8E8;
+	border: 1px solid #B7B7B7;
+	margin: 0 auto;
+}
+#reviews-section .slider_margin{
+	margin-left: 5px;
+}
+#reviews-section .slider_margin1{
+	margin-left: 14px;
+}
+#reviews-section .slider_margin2{
+	margin-left: 28px;
+}
+#reviews-section .slider_margin3{
+	margin-left: 44px;
+}
+#reviews-section .slider_margin4{
+	margin-left: 58px;
+}
+#reviews-section .box {
+
+	margin-top: 76px;
+}
+#reviews-section .sl_but {
+	height: 48px;
+	width: 48px;
+	background: #8C0428;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 6px;
+	border: 0;
+	margin-left: -3px;
+    margin-right: -2px;
+}
+#reviews-section .carousel-indicators li {
+	height: 14px;
+	width: 14px;
+	background: #DCDCDC;
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+}
+#reviews-section .carousel-indicators {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: -4px;
+	display: inline;
+}
+#reviews-section .carousel-indicators li.active {
+	background: #8C0428;
+}
+#reviews-section .buttons {
+	text-align: center;
+	margin-top: 70px;
+}
+#reviews-section .owl-dots {
+margin-top: -31px;
+margin-bottom: 14px;
+}
+#reviews-section .owl-dots button {
+margin: 0 5px;
+}
+#reviews-section .owl-nav {
+margin-top: 61px;
+}
+#reviews-section .owl-nav button.owl-prev {
+margin-right: 120px;
+}
+@media (max-width: 576px) {
+	#reviews-section{
+		margin-top: 121px;
+	}
+	#reviews-section .title{
+		font-size: 24px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.5px;
+		margin-left: 6px;
+	}
+
+	#reviews-section .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 15px;
+		margin-left: 6px;
+	}
+	#reviews-section .slider{
+		width: 278px;
+		height: 339px;
+		background-color: #E8E8E8;
+		border: 1px solid #B7B7B7;
+		
+	}
+	#reviews-section .slider_margin{
+		margin-left: 5px;
+	}
+	#reviews-section .slider_margin1{
+		margin-left: 14px;
+	}
+	#reviews-section .slider_margin2{
+		margin-left: 28px;
+	}
+	#reviews-section .slider_margin3{
+		margin-left: 44px;
+	}
+	#reviews-section .slider_margin4{
+		margin-left: 58px;
+	}
+	#reviews-section .box {
+
+		margin-top: 37px;
+		margin-left: 6px;
+	}
+	#reviews-section .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 6px;
+		border: 0;
+		margin-left: -26px;
+		margin-right: -27px;
+	}
+	#reviews-section .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+	}
+	#reviews-section .carousel-indicators {
+		position: relative;
+		margin-left: 29px;
+		margin-right: 29px;
+		top: -4px;
+		display: inline;
+	}
+	#reviews-section .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#reviews-section .buttons {
+		text-align: center;
+		margin-top: 34px;
+	}
+	#reviews-section .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+		//background: no-repeat 50%/100% 100%;
+	}
+}
+
+
+
+
+#examples-section{
+	font-family: 'SF UI Display';
+	background-image: url(../images/stripes.png);
+	padding-bottom: 82px;
+	padding-top: 58px;
+	margin-top: 42px;
+}
+#examples-section .title{
+	font-size: 33px;
+	letter-spacing: 0.5px;
+}
+
+#examples-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 23px;
+	margin-left: -1px;
+}
+
+#examples-section .text{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-top: 60px;
+}
+#examples-section .text1{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-top: 69px;
+}
+#examples-section .text2{
+    margin-top: 20px;
+}
+#examples-section .certificate{
+	//width: 261px;
+	height: 319px;
+	background-color: #DCDCDC;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+	margin-top: 73px;
+	text-align: center;
+	padding-top: 148px;
+}
+#examples-section .sign{
+	height: 151px;	
+	margin-top: 48px;
+	padding-top: 67px;
+}
+#examples-section .top{
+	margin-top: 87px;
+}
+#examples-section .top .reg{
+	display: inline-block;
+}
+#examples-section .top .reg1{
+	margin-left: 69px;
+}
+#examples-section .top .reg .registered{
+	font-size: 24px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.3px;
+}
+#examples-section .top .reg .date_of{
+	color: #8C0428;
+	margin-top: 26px;
+    margin-left: 1px;
+}
+#examples-section .section_examples_text{
+	font-size: 40px;
+	font-family: 'SF UI Display';
+	//color: white;
+}
+#examples-section .left{
+	
+}
+#examples-section .sl_but {
+	height: 48px;
+	width: 48px;
+	background: #8C0428;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 6px;
+	border: 0;
+	margin-left: -3px;
+    margin-right: -2px;
+}
+#examples-section .carousel-indicators li {
+	height: 14px;
+	width: 14px;
+	background: #DCDCDC;
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+}
+#examples-section .carousel-indicators li.active {
+	background: #8C0428;
+}
+#examples-section .carousel-indicators {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: -4px;
+	display: inline;
+}
+#examples-section .buttons {
+	text-align: center;
+	margin-top: 78px;
+}
+#examples-section .owl-dots {
+margin-top: -31px;
+margin-bottom: 14px;
+}
+#examples-section .owl-dots button {
+margin: 0 5px;
+}
+#examples-section .owl-nav {
+margin-top: 61px;
+}
+#examples-section .owl-nav button.owl-prev {
+margin-right: 120px;
+}
+
+@media (max-width: 766px) {
+	#examples-section .top .reg1 {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	#examples-section{
+		font-family: 'SF UI Display';
+		background-image: url(../images/stripes.png);
+		padding-bottom: 82px;
+		padding-top: 58px;
+		margin-top: 38px;
+	}
+	#examples-section .title{
+		font-size: 24px;
+		letter-spacing: 0.4px;
+		margin-left: 5px;
+	}
+
+	#examples-section .line{
+		width: 57px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		margin-left: 5px;
+	}
+
+	#examples-section .text{
+		font-size: 14px;
+		line-height: 2.2;
+		margin-top: 15px;
+		margin-left: 5px;
+		letter-spacing: 0px;
+		margin-right: 5px;
+	}
+	#examples-section .text1{
+		font-size: 18px;
+		line-height: 1.7;
+		margin-top: 28px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#examples-section .text2{
+		margin-top: 20px;
+	}
+	#examples-section .certificate{
+		height: 220px;
+		//width: 278px;
+		background-color: #DCDCDC;
+		border: 1px solid #CCCCCC;
+		font-size: 14px;
+		margin-top: 32px;
+		text-align: center;
+		padding-top: 102px;
+		margin-left: 5px;
+	}
+	#examples-section .sign{
+		height: 151px;	
+		margin-top: 29px;
+		padding-top: 67px;
+	}
+	#examples-section .top{
+		margin-top: 51px;
+	}
+	#examples-section .top .reg{
+		display: inline-block;
+	}
+	#examples-section .top .reg1{
+		margin-left: 28px;
+		margin-top: 0px;
+	}
+	#examples-section .top .reg .registered{
+		font-size: 20px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.3px;
+	}
+	#examples-section .top .reg1 .registered{
+		margin-top: 15px;
+	}
+	#examples-section .top .reg .date_of{
+		color: #8C0428;
+		margin-top: 19px;
+		margin-left: 1px;
+	}
+	#examples-section .section_examples_text{
+		font-size: 40px;
+		font-family: 'SF UI Display';
+		//color: white;
+	}
+	#examples-section .top .reg1 .left{
+		margin-left: -70px;
+	}
+	#examples-section .sl_but {
+		height: 48px;
+		width: 48px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 6px;
+		border: 0;
+		margin-left: -3px;
+		margin-right: -2px;
+	}
+	#examples-section .carousel-indicators li {
+		height: 14px;
+		width: 14px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+	}
+	#examples-section .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#examples-section .carousel-indicators {
+		position: relative;
+		margin-left: 20px;
+		margin-right: 20px;
+		top: -4px;
+		display: inline;
+	}
+	#examples-section .buttons {
+		text-align: center;
+		margin-top: 72px;
+	}
+	#examples-section .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 6px;
+		border: 0;
+		margin-left: -26px;
+		margin-right: -27px;
+	}
+	#examples-section .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+	}
+	#examples-section .carousel-indicators {
+		position: relative;
+		margin-left: 29px;
+		margin-right: 29px;
+		top: -7px;
+		display: inline;
+	}
+	#examples-section .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#examples-section .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+		//background: no-repeat 50%/100% 100%;
+	}
+}
+
+@media (max-width: 532px) {
+	#examples-section .top .reg1 {
+		margin-left: 26px;
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+#examples-section1{
+	font-family: 'SF UI Display';
+	background-image: url(../images/stripes.png);
+	padding-bottom: 66px;
+	padding-top: 77px;
+	margin-top: 24px;
+}
+#examples-section1 .title{
+	font-size: 33px;
+	letter-spacing: 0.5px;
+}
+
+#examples-section1 .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 23px;
+	//margin-bottom: 44px;
+	margin-left: -1px;
+}
+#examples-section1 .text{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-top: 60px;
+}
+#examples-section1 .text1{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-top: 46px;
+}
+#examples-section1 .text2{
+    margin-top: 20px;
+}
+#examples-section1 .certificate{
+	//width: 261px;
+	height: 319px;
+	background-color: #DCDCDC;
+	border: 1px solid #CCCCCC;
+	font-size: 14px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 148px;
+}
+#examples-section1 .sign{
+	height: 151px;	
+	margin-top: 48px;
+	padding-top: 67px;
+}
+#examples-section1 .top{
+	margin-top: 80px;
+}
+#examples-section1 .left .float{
+	float: left;
+}
+#examples-section1 .top .reg{
+	display: inline-block;
+	float: left;
+}
+#examples-section1 .top .reg1{
+	margin-left: 72px;
+}
+#examples-section1 .text3{
+	font-size: 18px;
+    margin-left: 0px;
+    line-height: 1.7;
+    margin-top: 73px;
+    letter-spacing: 0px;
+}
+#examples-section1 .top .reg .registered{
+	font-size: 24px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.3px;
+}
+#examples-section1 .top .reg .date_of{
+	color: #8C0428;
+	margin-top: 26px;
+    margin-left: 1px;
+}
+#examples-section1 .section_examples_text{
+	font-size: 40px;
+	font-family: 'SF UI Display';
+	//color: white;
+}
+#examples-section1 .left{
+	
+}
+#examples-section1 .sl_but {
+	height: 48px;
+	width: 48px;
+	background: #8C0428;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 6px;
+	border: 0;
+	margin-left: -3px;
+    margin-right: -2px;
+}
+#examples-section1 .carousel-indicators li {
+	height: 14px;
+	width: 14px;
+	background: #DCDCDC;
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+}
+#examples-section1 .carousel-indicators li.active {
+	background: #8C0428;
+}
+#examples-section1 .carousel-indicators {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: -4px;
+	display: inline;
+}
+#examples-section1 .carousel-indicators-my li.active {
+	background: #8C0428;
+}
+#examples-section1 .buttons {
+	text-align: center;
+	margin-top: 113px;
+}
+#examples-section1 .owl-dots {
+	margin-top: -31px;
+	margin-bottom: 14px;
+}
+#examples-section1 .owl-dots button {
+	margin: 0 5px;
+}
+#examples-section1 .owl-nav {
+	margin-top: 61px;
+}
+#examples-section1 .owl-nav button.owl-prev {
+	margin-right: 120px;
+}
+
+@media (max-width: 1198px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 766px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	#examples-section1{
+		font-family: 'SF UI Display';
+		background-image: url(../images/stripes.png);
+		padding-bottom: 91px;
+		padding-top: 17px;
+		margin-top: 38px;
+	}
+	#examples-section1 .title{
+		font-size: 24px;
+		letter-spacing: 0.4px;
+		margin-left: 5px;
+	}
+
+	#examples-section1 .line{
+		width: 57px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		margin-left: 5px;
+	}
+
+	#examples-section1 .text{
+		font-size: 14px;
+		line-height: 2.2;
+		margin-top: 15px;
+		margin-left: 5px;
+		letter-spacing: 0px;
+		margin-right: 5px;
+	}
+	#examples-section1 .text1{
+		font-size: 18px;
+		line-height: 1.7;
+		margin-top: 28px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#examples-section1 .text2{
+		margin-top: 20px;
+	}
+	#examples-section1 .certificate{
+		height: 220px;
+		margin-left: 5px;
+		    margin-right: 5px;
+		background-color: #DCDCDC;
+		border: 1px solid #CCCCCC;
+		font-size: 14px;
+		margin-top: 32px;
+		text-align: center;
+		padding-top: 102px;
+		width: auto;
+	}
+	#examples-section1 .sign{
+		height: 151px;	
+		margin-top: -1px;
+		padding-top: 67px;
+	}
+	#examples-section1 .top{
+		margin-top: 43px;
+	}
+	#examples-section1 .top .reg{
+		display: inline-block;
+		//margin-left: 5px;
+	}
+	#examples-section1 .top .reg1{
+		margin-left: 46px;
+		margin-top: 0px;
+	}
+	#examples-section1 .text3{
+		font-size: 18px;
+		margin-left: 0px;
+		line-height: 1.7;
+		margin-top: 73px;
+		letter-spacing: 0px;
+		display: none;
+	}
+	#examples-section1 .top .reg .registered{
+		font-size: 20px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.3px;
+	}
+	#examples-section1 .top .reg .date_of{
+		color: #8C0428;
+		margin-top: 19px;
+		margin-left: 1px;
+	}
+	#examples-section1 .section_examples_text{
+		font-size: 40px;
+		font-family: 'SF UI Display';
+		//color: white;
+	}
+	#examples-section1 .top .reg1 .left{
+		margin-left: -70px;
+	}
+	#examples-section1 .sl_but {
+		height: 48px;
+		width: 48px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 6px;
+		border: 0;
+		margin-left: -3px;
+		margin-right: -2px;
+	}
+	#examples-section1 .carousel-indicators li {
+		height: 14px;
+		width: 14px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+	}
+	#examples-section1 .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#examples-section1 .carousel-indicators {
+		position: relative;
+		margin-left: 20px;
+		margin-right: 20px;
+		top: -4px;
+		display: inline;
+	}
+	#examples-section1 .buttons {
+		text-align: center;
+		margin-top: 72px;
+	}
+	#examples-section1 .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 6px;
+		border: 0;
+		margin-left: -26px;
+		margin-right: -27px;
+	}
+	#examples-section1 .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+	}
+	#examples-section1 .carousel-indicators {
+		position: relative;
+		margin-left: 29px;
+		margin-right: 29px;
+		top: -7px;
+		display: inline;
+	}
+	#examples-section1 .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#examples-section1 .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+	}
+}
+	
+@media (max-width: 532px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 35px;
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 516px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 28px;
+		margin-top: 0px;
+	}
+}	
+
+@media (max-width: 508px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 24px;
+		margin-top: 0px;
+	}
+}	
+
+@media (max-width: 504px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 8px;
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 486px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+}
+
+@media (max-width: 480px) {
+	#examples-section1 .top .reg1 {
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+}
+
+
+
+
+

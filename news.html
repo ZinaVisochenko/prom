@@ -6,13 +6,15 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-	  <link rel="stylesheet" href="fonts/fontawesome-free-5.11.2-web/css/all.css"> 
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	  <link rel="stylesheet" href="css/fonts.css">
-	  <link rel="stylesheet" href="fonts/roboto/roboto.css">
+	  <link rel="stylesheet" href="lib/fonts/fontawesome-free-5.11.2-web/css/all.css"> 
+	  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="lib/css/bootstrap-theme.min.css">
+	  <link rel="stylesheet" href="lib/css/fonts.css">
+	  <link rel="stylesheet" href="lib/fonts/roboto/roboto.css">
+	  <link rel="stylesheet" href="lib/owl_carousel/dist/assets/owl.carousel.min.css" />
+	  
 	  <link rel="stylesheet" href="css/stylesheet_common.css">	 
-	  <link rel="stylesheet" href="css/stylesheet.css">	 
+	  <link rel="stylesheet" href="css/stylesheet_news.css">
 	  	 
 	</head>
 	
@@ -416,113 +418,14 @@
 			</div>
 		</footer>
 	</body>
-	<script language="javascript" type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
-	<script language="javascript" type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-	<script language="javascript" type="text/javascript" src="js/jquery.validate.js"></script>
-	<script language="javascript" type="text/javascript" src="js/popper.min.js"></script>
-	<script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+	
+	<script language="javascript" type="text/javascript" src="lib/js/jquery-3.1.1.min.js"></script> 
+	<script language="javascript" type="text/javascript" src="lib/js/jquery.maskedinput.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/jquery.validate.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/popper.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/owl_carousel/dist/owl.carousel.min.js"></script>
 
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<script>
-	    var newsIdMax = 0;
-		function generateNewsId() {
-			return newsIdMax++;
-		}
-		
-	    function addNews(title, date, image, text, text2) {
-		    var id = generateNewsId();
-			var news =
-       			'<div class = "row box" id="news_' + id + '">' +
-					'<div class = "col-lg-12">' +
-						'<div class = "news_title">' +
-							title +
-						'</div>' +
-					'</div>' +
-			
-					'<div class = "col-lg-12 news_date">' +
-						'<div class = "">' +
-							date +
-						'</div>' +
-					'</div>' +
-				
-					'<div class = "col-lg-4">' +
-						'<div class = "news_background"></div>' +
-					'</div>' +
-					'<div class = "col-lg-8">' +
-						'<div class = "news_body_text">' +
-							text +
-						'</div>' +
-						'<div class = "news_body_button">' +
-							'<a id="' + newsMoreId(id) + '" href="#"><button><i class="fas fa-chevron-right"></i>Читать далее</button></a>' +
-						'</div>' +
-					'</div>' +
-				'</div>';
-				var container = document.getElementById('news-section').children[0];
-				container.innerHTML += news;
-				//clickLess(id);
-		}
-		
-		
-		
-		function newsText2Id(id) {
-			return 'news_text2_' + id;
-		}
-		function newsMoreId(id) {
-			return 'news_more_' + id;
-		}
-		function newsLessId(id) {
-			return 'news_less_' + id;
-		}
-		
-		
-		
-	$(document).ready(function() {	
-		addNews(
-			'Разнообразный и богатый опыт различных форм деятельности.',
-			'01.01.2019',
-			0,
-			'Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.',
-			'<div style="margin-top: 10px;"></div>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.'
-			);
-		addNews(
-			'Разнообразный и богатый опыт различных форм деятельности.',
-			'01.01.2019',
-			0,
-			'Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.',
-			'<div style="margin-top: 10px;"></div>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.'
-			);
-		addNews(
-			'Разнообразный и богатый опыт различных форм деятельности.',
-			'01.01.2019',
-			0,
-			'Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.',
-			'<div style="margin-top: 10px;"></div>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.'
-			);
-		addNews(
-			'Разнообразный и богатый опыт различных форм деятельности.',
-			'01.01.2019',
-			0,
-			'Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.',
-			'<div style="margin-top: 10px;"></div>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.'
-			);
-		addNews(
-			'Разнообразный и богатый опыт различных форм деятельности.',
-			'01.01.2019',
-			0,
-			'Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.',
-			'<div style="margin-top: 10px;"></div>Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.<br>' + 
-            '<div style="margin-top: 10px;"></div>Таким образом постоянный количественный рост и сфера нашей активности способствует подготовки и реализации систем массового участия.'
-			);
-	});
-	</script>
+	<script language="javascript" type="text/javascript" src="js/scripts.js"></script>
+	<script language="javascript" type="text/javascript" src="js/news.js"></script>
 </html>

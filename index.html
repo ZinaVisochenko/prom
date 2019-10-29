@@ -6,14 +6,15 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-	  <link rel="stylesheet" href="fonts/fontawesome-free-5.11.2-web/css/all.css"> 
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	  <link rel="stylesheet" href="css/fonts.css">
-	  <link rel="stylesheet" href="fonts/roboto/roboto.css">
+	  <link rel="stylesheet" href="lib/fonts/fontawesome-free-5.11.2-web/css/all.css"> 
+	  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="lib/css/bootstrap-theme.min.css">
+	  <link rel="stylesheet" href="lib/css/fonts.css">
+	  <link rel="stylesheet" href="lib/fonts/roboto/roboto.css">
+	  <link rel="stylesheet" href="lib/owl_carousel/dist/assets/owl.carousel.min.css" />
+	  
 	  <link rel="stylesheet" href="css/stylesheet_common.css">	 
-	  <link rel="stylesheet" href="css/stylesheet.css">	
-	  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+	  <link rel="stylesheet" href="css/stylesheet_index.css">
 	</head>
 	
 	<body>
@@ -914,87 +915,13 @@
 		
 	</body>
 	
-	<script language="javascript" type="text/javascript" src="js/jquery-3.1.1.min.js"></script> 
-	<script language="javascript" type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-	<script language="javascript" type="text/javascript" src="js/jquery.validate.js"></script>
-	<script language="javascript" type="text/javascript" src="js/popper.min.js"></script>
-	<script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/jquery-3.1.1.min.js"></script> 
+	<script language="javascript" type="text/javascript" src="lib/js/jquery.maskedinput.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/jquery.validate.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/popper.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/owl_carousel/dist/owl.carousel.min.js"></script>
 	
-	<script language="javascript" type="text/javascript" src="js/scripts.js"></script>
-	
-	<script language="javascript" type="text/javascript" >
-	
-	    var newsIdMax = 0;
-		function generateNewsId() {
-			return newsIdMax++;
-		}
-		
-	    function addNews(image, date, title, text, text2) {
-		    var id = generateNewsId();
-			var news =
-					'<div class = "col-12 col-lg-4">' +
-					'<div class="border1">' +
-						'<div class = "news_background">' +
-							'<img src = "images/intersection.png">'+
-						'</div>' +
-						'<div class = "news_date">' +
-							date +
-						'</div>' +
-						'<div class = "title2">' +
-							title +
-						'</div>' +
-						'<div class = "news_body_text">' +
-							text +
-						'</div>' +
-						'<div class = "news_body_button">' +
-							'<a id="' + newsMoreId(id) + '" href="news.html">' +
-								'<button><i class="fas fa-chevron-right"></i>Читать далее</button></a>' +
-						'</div>' +
-					'</div>' +
-					'</div>';
-				
-			var container = document.getElementById('news-box');
-			container.innerHTML += news;
-		}
-		
-		
-		
-		function newsText2Id(id) {
-			return 'news_text2_' + id;
-		}
-		function newsMoreId(id) {
-			return 'news_more_' + id;
-		}
-		function newsLessId(id) {
-			return 'news_less_' + id;
-		}
-		
-
-		
-		$(document).ready(function() {
-			addNews(
-				0,
-				'06.09.2019',
-				'Повседневная практика показывает успех',
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.',
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'
-				);
-			addNews(
-				0,
-				'06.09.2019',
-				'Повседневная практика показывает успех',
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'+
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.',
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'
-				);
-			addNews(
-				0,
-				'06.09.2019',
-				'Повседневная практика показывает успех',
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.',
-				'Задача организации, особенности же новая модель организационной деятельности играет важную роль в формировании модели.'
-				);
-		});
-	</script>
+	<script language="javascript" type="text/javascript" src="js/scripts.js"></script>	
+	<script language="javascript" type="text/javascript" src="js/index.js"></script>
 </html>

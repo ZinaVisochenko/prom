@@ -85,6 +85,32 @@ h3 {
 	
 }
 
+/* Common
+----------------------------------------------------*/
+
+.white_btn{
+	width: 180px;
+	height: 52px;
+	background-color: transparent;
+	color: #4D4D4D;
+	font-size: 17px;
+	font-family: 'SF UI Display';
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid #DCDCDC;
+}
+
+.red_btn{
+	width: 188px;
+	height: 47px;
+	background-color: #8C0428;
+	color: white;
+	border: 1px solid #8C0428;
+	font-size: 17px;
+	font-family: 'SF UI Display';
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
 
 /* Header 
 ---------------------------------------------------------- */

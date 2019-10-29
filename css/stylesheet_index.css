@@ -1,0 +1,1504 @@
+#services-section{
+	margin-top: 47px;   
+}
+#services-section .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+#services-section .line{
+	width: 56px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 23px;
+	//margin-bottom: 44px;
+}
+#services-section .text{
+	font-size: 18px;
+	font-family: 'SF UI Display';
+    line-height: 1.6;
+    //letter-spacing: -0.72px;
+	margin-top: 47px;
+}
+#services-section .earth-globe{
+	height: 319px;
+	border: 1px solid #DCDCDC;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: -8px;
+	margin-top: 48px;
+}
+#services-section .earth-globe1{
+	padding-top: 60px;
+}
+#services-section .earth-globe2{
+	padding-top: 62px;
+}
+#services-section .img{
+	margin: 0 auto !important;
+}
+#services-section .text1{
+	font-size: 21px;
+	font-family: 'SF UI Display';
+	margin-top: 25px;
+    line-height: 1.2;
+	color: black;
+	text-decoration: none;
+}
+#services-section .text2{
+	margin-top: 27px;
+}
+#services-section .text3{
+	margin-top: 28px;
+	margin-left: 5px;
+}
+#services-section .text4{
+	margin-top: 24px;
+}
+#services-section .button{
+	width: 260px;
+    background-color: transparent;
+    color: #8C0428;
+    font-size: 19px;
+    font-family: 'SF UI Display';
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border: 1px solid #8C0428;
+    margin-top: 47px;
+    letter-spacing: 0.5px;
+    padding-left: 7px;
+}
+#services-section .button1{
+	color: #4D4D4D;
+	border: 1px solid #DCDCDC;
+	margin-left: 26px;
+	//padding-top: 20px;
+}
+#services-section .through_call{
+	width: 100%;
+	height: 224px;
+	background-image: url(../images/blocks_background/through_call_background.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 101px;
+	margin-top: 81px;
+}
+#services-section .through_call .sales{
+	font-size: 23px;
+	font-family: 'SF UI Display';
+	color: white;
+	margin-left: 70px;
+	letter-spacing: 0.29px;
+}
+#services-section .red_btn{
+	width: 192px;
+    height: 56px;
+    font-size: 19px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    letter-spacing: 0.5px;
+    margin-left: -1px;
+	margin-top: -17px;
+}
+@media (max-width: 576px) {
+	#services-section{
+		margin-top: 56px;   
+	}
+	#services-section .title{
+		font-size: 22px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0px;
+		margin-left: 5px;
+	}
+	#services-section .line{
+		width: 39px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 12px;
+		margin-left: 5px;
+		//margin-bottom: 44px;
+	}
+	#services-section .text{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 2.2;
+		margin-top: 34px;
+		margin-left: 5px;
+	}
+	#services-section .padding{
+		padding-right: 19px !important;
+		padding-left: 21px !important;
+	}
+	#services-section .padding .earth-globe{
+		height: 247px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 37px;
+		margin-bottom: -8px;
+		margin-top: 4px;
+	}
+	#services-section .padding .mobile1{
+		height: 247px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 50px;
+		margin-bottom: -8px;
+		margin-top: 26px;
+	}
+	#services-section .padding .mobile2{
+		height: 248px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 50px;
+		margin-bottom: -8px;
+		margin-top: 26px;
+	}
+	#services-section .padding .mobile3{
+		height: 253px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 40px;
+		margin-bottom: -8px;
+		margin-top: 26px;
+	}
+	#services-section .padding .mobile4{
+		height: 248px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 41px;
+		margin-bottom: -8px;
+		margin-top: 26px;
+	}
+	#services-section .padding .mobile5{
+		height: 247px;
+		border: 1px solid #DCDCDC;
+		text-align: center;
+		padding-top: 41px;
+		margin-bottom: -8px;
+		margin-top: 26px;
+	}
+	#services-section .padding .earth-globe1{
+		padding-top: 60px;
+	}
+	#services-section .padding .earth-globe2{
+		padding-top: 62px;
+	}
+	#services-section .padding .earth-globe .img{
+		width: 87px;
+		height: 87px;
+		margin-left: 0px;
+	}
+	#services-section .padding .earth-globe .img1{
+		margin-left: -3px;
+	}
+	#services-section .padding .earth-globe .img2{
+		
+	}
+	#services-section .padding .earth-globe .img3{
+		margin-left: -3px;
+	}
+	#services-section .padding .earth-globe .img4{
+		margin-left: -3px;
+	}
+	#services-section .padding .earth-globe .text1{	
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		margin-top: 23px;
+		line-height: 1.4;
+		margin-left: 2px;
+	}
+	#services-section .padding .earth-globe .text2{
+		margin-top: 23px;
+		margin-left: 0px;
+	}
+	#services-section .padding .earth-globe .text3{
+		margin-top: 22px;
+		margin-left: -2px;
+	}
+	#services-section .padding .earth-globe .text4{
+		margin-top: 24px;
+	}
+	#services-section .button{
+		width: 181px;
+		background-color: transparent;
+		color: #8C0428;
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		padding-top: 15px;
+		padding-bottom: 21px;
+		border: 1px solid #8C0428;
+		margin-top: 37px;
+		letter-spacing: 0.3px;
+		padding-left: 7px;
+		height: 46px;
+		margin-left: 19px;
+	}
+	#services-section .button1{
+		color: #4D4D4D;
+		border: 1px solid #DCDCDC;
+		margin-left: 2px;
+		padding-top: 15px;
+		margin-top: 10px;
+		padding-left: 8px;
+		letter-spacing: 0.5px;
+	}
+	#services-section .through_call{
+		width: 100%;
+		height: 224px;
+		background-image: url(../images/blocks_background/intersection.png);
+		background-size: cover;
+		background-position: initial;
+		padding-top: 90px;
+		margin-top: 76px;
+	}
+	#services-section .contsss {
+		position: relative;
+	}
+	#services-section .mask2 { 
+		position: absolute;		
+		top: 0; 
+		width: 100%;
+		height: auto;
+		left: 0; 
+		right: 0; 
+		bottom: -68px;
+		background: rgba(0,0,0,.3);  
+		transition: 0.5s;
+		opacity: 1; 
+	}
+	#services-section .through_call .sales{
+		font-size: 18px;
+		font-family: 'SF UI Display';
+		text-align: center;
+		color: white;
+		margin-left: 2px;
+		letter-spacing: 0px;
+		line-height: 1.4;
+	}
+	#services-section .red_btn{
+		width: 154px;
+		height: 45px;
+		font-size: 14px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		letter-spacing: 0.5px;
+		margin-left: -1px;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 766px) {
+	#services-section .button1 {
+		margin-left: 0px;
+	}
+	#services-section .through_call {
+		padding-top: 45px;
+	}
+	#services-section .through_call .sales {
+		margin-left: 0px;
+	}
+	#services-section .red_btn {
+		margin-left: 0px;
+		margin-top: 35px;
+	}
+}
+
+@media (max-width: 991px) {
+	#services-section .earth-globe {
+		padding: 24px;
+	}
+	
+}
+
+@media (max-width: 1198px) {
+	#services-section .earth-globe {
+		padding: 24px;
+	}
+	
+}
+
+
+
+#experience-section{
+	margin-top: 77px;
+}
+#experience-section .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+
+#experience-section .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	//margin-bottom: 44px;
+	margin-left: -1px;
+}
+
+#experience-section .text{
+	font-size: 18px;
+    font-family: 'SF UI Display';
+    line-height: 1.7;
+    margin-top: 56px;
+    //margin-bottom: 30px;
+}
+#experience-section .border_radius{
+	width: 190px;
+	height: 190px;
+	border: 2px solid #DCDCDC;
+	border-radius: 96px;
+	font-size: 60px;
+	font-family: 'SF UI Display';
+	letter-spacing: 1.5px;
+	color: #8C0428;
+    //padding: 38px;
+    padding-top: 64px;
+	padding-left: 37px;
+	margin: 0 auto;
+	//margin-left: 43px;
+	margin-top: 110px;
+}
+#experience-section .border_radius1{
+	//margin-left: 38px;
+	padding-left: 33px;
+}
+#experience-section .border_radius2{
+	//margin-left: 32px;
+	padding-left: 58px;
+}
+#experience-section .border_radius3{
+	//margin-left: 25px;
+	padding-left: 36px;
+}
+#experience-section .twenty{
+	//padding-left: 58px;
+}
+#experience-section .text1{
+	font-size: 22px;
+	font-family: 'SF UI Display';
+	text-align: center;
+	line-height: 1.6;
+	letter-spacing: 0.35px;
+    margin-left: 12px;
+	margin-top: 26px;
+}
+#experience-section .text2{
+    margin-left: 6px;
+}
+#experience-section .text3{
+    margin-left: -2px;
+}
+#experience-section .text4{
+    margin-left: -11px;
+}
+#experience-section .box {
+	margin: 0 auto;
+}
+#experience-section .owl-dots {
+	margin-top: -31px;
+	margin-bottom: 14px;
+}
+#experience-section .owl-dots button {
+	margin: 0 5px;
+}
+#experience-section .owl-nav {
+	margin-top: 61px;
+}
+#experience-section .owl-nav button.owl-prev {
+	margin-right: 120px;
+}
+/*#experience-section .sl_but {
+	height: 48px;
+	width: 48px;
+	background: #8C0428;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 11px;
+	border: 0;
+}
+#experience-section .carousel-indicators li {
+	height: 10px;
+	width: 10px;
+	background: #DCDCDC;
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+}
+#experience-section .carousel-indicators {
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: -10px;
+	display: inline;
+}
+#experience-section .carousel-indicators li.active {
+	background: #8C0428;
+}*/
+#experience-section .buttons {
+	text-align: center;
+	margin-top: 80px;
+}
+@media (max-width: 576px) {
+	#experience-section{
+		margin-top: 117px;
+	}
+	#experience-section .title{
+		font-size: 24px;
+		font-family: 'SF UI Display';
+		letter-spacing: 0.6px;
+		margin-left: 6px;
+	}
+
+	#experience-section .line{
+		width: 38px;
+		border-bottom: 2px solid #8C0428;
+		margin-top: 22px;
+		//margin-bottom: 44px;
+		margin-left: 6px;
+	}
+
+	#experience-section .text_one{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 2.2;
+		margin-top: 40px;
+		margin-left: 7px;
+		//margin-bottom: 30px;
+	}
+	#experience-section .text_two{
+		margin-top: 20px;
+		letter-spacing: 0px;
+	}
+	#experience-section .border_radius{
+		width: 190px;
+		height: 190px;
+		border: 2px solid #DCDCDC;
+		border-radius: 96px;
+		font-size: 60px;
+		font-family: 'SF UI Display';
+		letter-spacing: 1.5px;
+		color: #8C0428;
+		padding-top: 63px;
+		padding-left: 37px;
+		margin: 0 auto;
+		margin-top: 55px;
+	}
+	#experience-section .border_radius1{
+		padding-left: 33px;
+	}
+	#experience-section .border_radius2{
+		padding-left: 58px;
+	}
+	#experience-section .border_radius3{
+		padding-left: 36px;
+	}
+	#experience-section .owl-dots {
+		margin-top: -25px;
+		margin-bottom: 14px;
+	}
+	#experience-section .owl-dots button {
+		margin: 0 5px;
+	}
+	#experience-section .owl-nav {
+		margin-top: 61px;
+	}
+	#experience-section .owl-nav button {
+		
+	}
+	#experience-section .twenty{
+		padding-left: 55px;
+	}
+	#experience-section .text1{
+		font-size: 22px;
+		font-family: 'SF UI Display';
+		text-align: center;
+		line-height: 1.6;
+		letter-spacing: 0.35px;
+		margin-left: 6px;
+		margin-top: 26px;
+	}
+	#experience-section .text2{
+		margin-left: 6px;
+	}
+	#experience-section .text3{
+		margin-left: -2px;
+	}
+	#experience-section .text4{
+		margin-left: -11px;
+	}
+	#experience-section .box {
+		margin: 0 auto;
+	}
+	/*#experience-section .sl_but {
+		height: 34px;
+		width: 34px;
+		background: #8C0428;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 5px;
+		border: 0;
+		margin-left: 3px;
+		margin-right: 1px;
+	}
+
+	#experience-section .carousel-indicators li {
+		height: 10px;
+		width: 10px;
+		background: #DCDCDC;
+		display: inline-block;
+		border: 0;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+	#experience-section .carousel-indicators {
+		position: relative;
+		margin-left: 12px;
+		margin-right: 6px;
+		top: -6px;
+		display: inline;
+	}
+	#experience-section .carousel-indicators li.active {
+		background: #8C0428;
+	}
+	#experience-section .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: inline-block;
+		width: 11px;
+		height: 20px;
+		//background: no-repeat 50%/100% 100%;
+	}*/
+	#experience-section .buttons {
+		text-align: center;
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 766px) {
+	#experience-section .line {
+		margin-bottom: 44px;
+	}
+}
+
+
+
+
+
+#idea-section .background_home{
+	width: 100%;
+    background-image: url(../images/blocks_background/home_background.jpg);
+    background-size: cover;
+    padding-top: 75px;
+    color: white;
+	padding-bottom: 256px;
+	background-position: center;
+}
+#idea-section .open_btn{
+	width: 194px;
+	height: 56px;
+	color: white;
+	font-size: 21px;
+	font-family: 'SF UI Display';
+	background: transparent;
+	border: 1px solid white;
+	margin-top: 28px;
+	letter-spacing: 0.8px;
+}
+#idea-section .open_btn i{
+	margin-left: 8px;
+}
+#idea-section .title{
+	font-size: 40px;
+    font-family: 'SF UI Display';
+    letter-spacing: -0.5px;
+    line-height: 1.25;
+}
+#idea-section .text{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-top: 19px;
+    letter-spacing: -0.7px;
+}
+#idea-section .carousel-indicators {
+	position: absolute;
+    right: 0;
+    bottom: -35px;
+    left: 15px;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: left;
+    justify-content: left;
+    padding-left: 0;
+    list-style: none;
+	margin: -12px -4px;
+}
+#idea-section .owl-dots{
+	position: absolute;
+    margin-top: -232px;
+    left: 50%;
+    margin-left: -569px;
+}
+#idea-section .owl-dots button {
+	width: 45px !important;
+    height: 5px !important;
+	border-radius: 0 !important;
+	margin-right: 6px;
+	background: #a5a5a56b !important;
+}
+#idea-section .owl-dots button.active {
+	background: white !important;
+}
+@media (max-width: 1200px){
+	#idea-section .owl-dots {
+		margin-left: -467px;
+	}
+}
+@media (max-width: 992px){
+	#idea-section .owl-dots {
+		margin-left: -347px;
+
+	}
+}
+@media (max-width: 768px){
+	#idea-section .owl-dots {
+		margin-left: -76px;
+	}
+}
+@media (max-width: 576px) {
+	#idea-section .title {
+		font-size: 22px;
+		line-height: 1.35;
+		margin-top: -1px;
+	}
+	#idea-section .text {
+		font-size: 14px;
+		line-height: 1.45;
+		margin-top: 14px;
+	}
+	#idea-section .open_btn {
+		width: 160px;
+		height: 47px;
+		font-size: 17px;
+	}
+	#idea-section .background_home {
+        padding-bottom: 81px;
+    }
+	#idea-section .owl-dots {
+		margin-top: -74px;
+	}
+}
+
+
+
+#consultation-section .container_border{
+	background-color: white;
+	border: 1px solid #DCDCDC;
+	padding-bottom: 25px;
+	margin-top: -163px;
+	z-index: 10;
+    position: relative;
+}
+#consultation-section .text_leave{
+	font-size: 18px;
+    font-family: 'SF UI Display';
+    color: #424242;
+    margin-top: 23px;
+    margin-bottom: 31px;
+    padding-left: 45px;
+}
+#consultation-section .receive{
+	font-size: 25px;
+    font-family: 'SF UI Display';
+    color: #333333;
+    padding-left: 46px;
+    padding-top: 31px;
+    font-weight: 600;
+}
+#consultation-section .inputs {
+	white-space: nowrap;
+}
+#consultation-section .inputs input{
+	width: 260px;
+	height: 47px;
+	border: 1px solid #CCCCCC;
+	background: white;
+	padding-left: 15px;
+    margin-bottom: 5px;
+	font-size: 15px;
+	padding-top: 4px;
+	margin-left: 30px;
+}
+#consultation-section .inputs input.first{
+	margin-left: 29px;
+}
+#consultation-section .personal{
+	color: #4E4E4E;
+    margin-top: 26px;
+    margin-bottom: 7px;
+    padding-left: 46px;
+}
+#consultation-section .checktext{
+	float: left;
+	margin-left: 28px;
+    margin-top: 2px;
+    letter-spacing: -0.65px;
+}
+#consultation-section .checktext a{
+	color: #4E4E4E;
+	text-decoration: underline;
+}
+#consultation-section .red_btn{
+	margin-right: 31px;
+}
+
+
+@media (max-width: 576px) {
+	#consultation-section .container_border {
+		margin: 6px;
+		margin-top: -46px;
+		padding-bottom: 22px;
+	}
+	#consultation-section .receive{
+		font-size: 20px;
+		padding-left: 37px;
+		padding-top: 36px;
+		letter-spacing: -0.25px;
+	}
+	#consultation-section .text_leave{
+		font-size: 14px;
+		margin-top: 16px;
+		padding-left: 56px;
+		padding-right: 53px;
+		line-height: 1.4;
+		text-align: center;
+		letter-spacing: -0.1px;
+		margin-bottom: 9px;
+	}
+	#consultation-section .inputs input {
+		width: 91%;
+		height: 50px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 15px;
+		padding-left: 9px;
+		font-size: 14px;
+		padding-top: 3px;
+
+	}
+	#consultation-section .inputs input.first {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	#consultation-section .personal {
+		margin-top: 14px;
+	}
+	#consultation-section .checktext {
+		font-size: 13px;
+		float: none;
+		margin-left: 46px;
+		margin-top: -7px;
+	}
+	#consultation-section .checktext a{
+		line-height: 2;
+		text-decoration: underline;
+		color: #4E4E4E;
+		letter-spacing: -0.45px;
+	}
+	.squaredThree {
+		margin-left: 2px;
+	}
+	.squaredThree label {
+		width: 16px;
+		height: 16px;
+	}
+	.squaredThree label:after {
+		width: 9px;
+		height: 6px;
+		top: 3px;
+		left: 2px;
+		border: 2px solid #DD5A58;
+		border-top: none;
+		border-right: none;
+	}
+	#consultation-section .red_btn {
+		font-size: 15px;
+		width: 154px;
+		height: 45px;
+		margin-right: 0;
+		margin-top: 3px;
+		letter-spacing: 0.5px;
+	}
+}
+
+@media (max-width: 768px) {
+	#consultation-section .container_border {
+		margin: 6px;
+		margin-top: -46px;
+		padding-bottom: 22px;
+	}
+	#consultation-section .receive{
+		font-size: 20px;
+		padding-left: 37px;
+		padding-top: 36px;
+		letter-spacing: -0.25px;
+	}
+	#consultation-section .text_leave{
+		font-size: 14px;
+		margin-top: 16px;
+		padding-left: 56px;
+		padding-right: 53px;
+		line-height: 1.4;
+		text-align: center;
+		letter-spacing: -0.1px;
+		margin-bottom: 9px;
+	}
+	#consultation-section .inputs input {
+		width: 91%;
+		height: 50px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 15px;
+		padding-left: 9px;
+		font-size: 14px;
+		padding-top: 3px;
+
+	}
+	#consultation-section .inputs input.first {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	#consultation-section .personal {
+		margin-top: 14px;
+	}
+	#consultation-section .checktext {
+		font-size: 13px;
+		float: none;
+		margin-left: 46px;
+		margin-top: -7px;
+	}
+	#consultation-section .checktext a{
+		line-height: 2;
+		text-decoration: underline;
+		color: #4E4E4E;
+		letter-spacing: -0.45px;
+	}
+	.squaredThree {
+		margin-left: 2px;
+	}
+	.squaredThree label {
+		width: 16px;
+		height: 16px;
+	}
+	.squaredThree label:after {
+		width: 9px;
+		height: 6px;
+		top: 3px;
+		left: 2px;
+		border: 2px solid #DD5A58;
+		border-top: none;
+		border-right: none;
+	}
+	#consultation-section .red_btn {
+		font-size: 15px;
+		width: 154px;
+		height: 45px;
+		margin-right: 0;
+		margin-top: 3px;
+		letter-spacing: 0.5px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#consultation-section .container_border{
+		background-color: white;
+		border: 1px solid #DCDCDC;
+		padding-bottom: 25px;
+		margin-top: -163px;
+		z-index: 10;
+		position: relative;
+	}
+	#consultation-section .text_leave{
+		font-size: 18px;
+		font-family: 'SF UI Display';
+		color: #424242;
+		margin-top: 23px;
+		margin-bottom: 31px;
+		padding-left: 45px;
+	}
+	#consultation-section .receive{
+		font-size: 25px;
+		font-family: 'SF UI Display';
+		color: #333333;
+		padding-left: 46px;
+		padding-top: 31px;
+		font-weight: 600;
+	}
+	#consultation-section .inputs {
+		white-space: nowrap;
+	}
+	#consultation-section .inputs input{
+		width: 200px;
+		height: 47px;
+		border: 1px solid #CCCCCC;
+		background: white;
+		padding-left: 15px;
+		margin-bottom: 5px;
+		display: block;
+		width: 91%;
+		font-size: 15px;
+		padding-top: 4px;
+		margin-left: 29px;
+	}
+	#consultation-section .inputs input.first{
+		margin-left: 29px;
+	}
+	#consultation-section .personal{
+		color: #4E4E4E;
+		margin-top: 26px;
+		margin-bottom: 7px;
+		padding-left: 46px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#consultation-section .checktext{
+		margin-top: -18px;
+	}
+	#consultation-section .checktext a{
+		color: #4E4E4E;
+		text-decoration: underline;
+	}
+	#consultation-section .red_btn{
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+		max-width: 960px;
+	}
+	#consultation-section .checktext{
+		float: left;
+		margin-left: 28px;
+		margin-top: -17px;
+		letter-spacing: -0.65px;
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1163px;
+	}
+	#consultation-section .red_btn{
+		margin-right: 0px;
+	}
+} 
+
+
+
+
+
+#company-section{
+	//margin-bottom: 60px;
+	margin-top: 55px;
+}
+#company-section .title{
+	padding-top: 4px;
+    letter-spacing: 0.4px;
+	font-size: 33px;
+	font-family: 'SF UI Display';
+}
+#company-section .text{
+	font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    letter-spacing: -0.72px;
+}
+#company-section .text1{
+	font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: -0.72px;
+	margin-top: 42px;
+}
+#company-section .text2{
+	font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: -0.5px;
+	margin-top: 20px;
+}
+#company-section .company_foto{
+	height: 239px;
+	background-image: url(../images/company_foto.jpg);
+	color: white;
+	background-size: cover;
+	margin-top: 6px;
+}
+#company-section .button{
+	width: 261px;
+    background-color: transparent;
+    color: #8C0428;
+    font-size: 19px;
+    font-family: 'SF UI Display';
+    padding-top: 22px;
+    padding-bottom: 21px;
+    border: 1px solid #8C0428;
+    margin-left: -1px;
+    margin-top: 55px;
+    letter-spacing: 0.5px;
+}
+#company-section .section_header_text{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+}
+
+#company-section .line{
+	width: 56px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 22px;
+	margin-bottom: 43px;
+}
+
+#company-section .company_text_1{
+	font-size: 18px;
+	font-family: 'SF UI Display';
+	line-height: 1.5;
+	margin-top: 0;
+}
+#company-section .company_text_2{
+	font-size: 18px;
+	font-family: 'SF UI Display';
+	line-height: 1.5;
+	margin-top: 47px;
+}
+#company-section .button_discover{
+	width: 261px;
+	height: 63px;
+	background-color: transparent;
+	color: #8C0428;
+	font-size: 19px;
+	font-family: 'SF UI Display';
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border: 1px solid #8C0428;
+	margin-top: 58px;
+}
+#company-section .company_text_2  p{
+	margin-top: 29px;
+}
+@media (max-width: 576px) {
+	#company-section .title{
+		font-size: 24px;
+		margin-top: -14px;
+		margin-left: 5px;
+	}
+	#company-section .line{
+		width: 39px;
+		margin-left: 5px;
+	}
+	#company-section .text{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		margin-left: 6px;
+		margin-top: 3px;
+		line-height: 2.2;
+		letter-spacing: 0px;
+	}
+	#company-section .company_foto{
+		height: 154px;
+		background-image: url(../images/town_small.png);
+		background-size: cover;
+		margin-top: -2px;
+		margin-left: 5px;
+		margin-right: 6px;
+		background-position: center;
+	}
+	#company-section .text1{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 2.2;
+		letter-spacing: 0px;
+		margin-top: 29px;
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+	#company-section .text2{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 1.7;
+		letter-spacing: 0px;
+		margin-top: 23px;
+		margin-left: 6px;
+	}
+	#company-section .button{
+		width: 179px;
+		background-color: transparent;
+		color: #8C0428;
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		padding-top: 12px;
+		padding-bottom: 15px;
+		border: 1px solid #8C0428;
+		margin-left: 5px;
+		margin-top: 26px;
+		letter-spacing: 0.5px;
+	}
+}
+
+
+
+
+
+#advantages-section{
+	margin-top: 98px;
+	background-image: url(../images/advantages/Path_110.png);
+	padding-bottom: 80px;
+	padding-top: 105px;
+	background-size: cover;
+	letter-spacing: 0.5px;
+}
+#advantages-section .line{
+	border-bottom: 2px solid white;
+	width: 56px;
+	margin-top: 22px;
+}
+#advantages-section .title{
+	color: white;
+	font-size: 33px;
+	font-family: 'SF UI Display';
+}
+#advantages-section .text{
+	color: white;
+	font-size: 18px;
+	font-family: 'SF UI Display';
+	line-height: 1.7;
+	margin-top: 27px;
+    letter-spacing: 0px;
+}
+#advantages-section .text1{
+	margin-top: 20px;
+}
+#advantages-section .text2{
+	margin-top: 20px;
+    letter-spacing: 0.25px;
+}
+#advantages-section .back_grey{
+	height: 253px;
+	background-color: #2E4650;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'SF UI Display';
+	padding-top: 35px;
+    margin-top: -2px;
+	margin-left: 4px;
+	margin-right: -3px;
+}
+#advantages-section .back_grey3{
+	line-height: 1.2;
+	padding-top: 37px;
+    margin-top: 32px;
+}
+#advantages-section .back_grey4{
+	line-height: 1.2;
+	padding-top: 37px;
+    margin-top: 32px;
+}
+#advantages-section .back_grey .img{
+	margin-top: 3px;
+}
+#advantages-section .back_grey3 .img3{
+	margin-top: 3px;
+}
+#advantages-section .back_grey .these_text{
+	margin-top: 23px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+	//margin-top: 20px;
+}
+#advantages-section .back_grey .these_text2{
+	margin-top: 29px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+#advantages-section .back_grey3 .these_text3{
+	margin-top: 22px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+}
+#advantages-section .back_grey4 .these_text4{
+	margin-top: 17px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+	margin-left: 5px;
+}
+#advantages-section .handshake_margin{
+	margin-top: 50px;
+}
+@media (max-width: 576px) {
+	#advantages-section{
+		margin-top: 77px;
+		background-image: url(../images/advantages/Path_110.png);
+		padding-bottom: 71px;
+		padding-top: 57px;
+		background-size: cover;
+		letter-spacing: 0.5px;
+	}
+	#advantages-section .title{
+		font-size: 22px;
+		font-family: 'SF UI Display';
+		margin-left: 6px;
+		letter-spacing: 0px;
+	}
+	#advantages-section .text{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		line-height: 2.2;
+		margin-top: 32px;
+		letter-spacing: 0px;
+		margin-left: 6px;
+	}
+	#advantages-section .text1{
+		margin-top: 20px;
+		margin-left: 9px;
+	}
+	#advantages-section .back_grey{
+		height: 253px;
+		background-color: #2E4650;
+		text-align: center;
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		padding-top: 56px;
+		margin-top: 30px;
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+	#advantages-section .back_grey3{
+		line-height: 1.2;
+		padding-top: 37px;
+		margin-top: 32px;
+	}
+	#advantages-section .back_grey4{
+		line-height: 1.2;
+		padding-top: 50px;
+		margin-top: 32px;
+	}
+	#advantages-section .back_grey .img{
+		//margin-top: 56px;
+		width: 78px;
+		//margin-left: -7px
+	}
+	#advantages-section .back_grey3 .img3{
+		margin-top: 6px;
+	}
+	#advantages-section .back_grey4 .img4{
+		height: 82px;
+	}
+	#advantages-section .back_grey .these_text{
+		font-size: 14px;
+		font-family: 'SF UI Display';
+		margin-top: 17px;
+		line-height: 2;
+		letter-spacing: 0px;
+		margin-left: 1px;
+	}
+	#advantages-section .back_grey .these_text2{
+		margin-top: 25px;
+		line-height: 1.4;
+		letter-spacing: 0px;
+	}
+	#advantages-section .back_grey3 .these_text3{
+		margin-top: 29px;
+		line-height: 1.3;
+		letter-spacing: 0px;
+	}
+	#advantages-section .back_grey4 .these_text4{
+		margin-top: 22px;
+		line-height: 2;
+		margin-left: 15px;
+		letter-spacing: 0px;
+	}
+	#advantages-section .handshake_margin{
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 991px){
+	#advantages-section .back_grey {
+		margin-top: 55px;
+	}
+}
+
+@media (max-width: 1198px){
+	#advantages-section .back_grey {
+		padding: 24px;
+	}
+}
+
+
+
+
+
+#news-section2{
+	margin-top: 63px;
+}
+#news-section2 .title{
+	font-size: 33px;
+	font-family: 'SF UI Display';
+	letter-spacing: 0.5px;
+}
+
+#news-section2 .line{
+	width: 57px;
+	border-bottom: 2px solid #8C0428;
+	margin-top: 23px;
+	margin-bottom: 44px;
+	margin-left: -1px;
+}
+#news-section2 .news_title{
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+#news-section2 .news_background img {
+	width: 100%;
+	height: 208px;
+	object-fit: cover;
+}
+#news-section2 .news_date {
+	font-size: 14px;
+    font-family: 'SF UI Display';
+    line-height: 1.5;
+    color: #C5C5C5;
+    margin-top: 18px;
+    margin-left: 12px;
+    letter-spacing: 0.4px;
+}
+#news-section2 .title2{
+	font-size: 22px;
+    font-family: 'SF UI Display';
+    letter-spacing: 1px;
+    margin-top: 12px;
+    line-height: 1.3;
+    margin-left: 12px;
+}
+#news-section2 .section_patenting{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#news-section2 .news_body_text{
+	font-size: 18px;
+	font-family: 'SF UI Display';
+    line-height: 1.2;
+    margin-left: 12px;
+    margin-top: 16px;
+    letter-spacing: 0.55px;
+    padding-right: 13px;
+	height: 85px;
+    overflow: hidden;
+}
+#news-section2 .border1{
+	//width: 358px;
+	border: 1px solid #DCDCDC;
+	margin-top: 22px;
+	padding-bottom: 0px;
+}
+#news-section2 .news_body_button button{
+	background: transparent;
+	border: 0;
+	margin-top: 19px;
+    margin-left: 6px;
+    letter-spacing: 0.55px;
+    margin-bottom: 14px;
+	color: black;
+	text-decoration: none;
+}
+#news-section2 .white_btn{
+	width: 259px;
+	height: 65px;
+	background-color: transparent;
+	color: #4D4D4D;
+	font-size: 19px;
+	font-family: 'SF UI Display';
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid #DCDCDC;
+	margin-top: 19px;
+	padding-left: 8px;
+    letter-spacing: 0.6px;
+}
+#news-section2 .news_body_button a i {
+    background: #8C0428;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    padding-top: 11px;
+    color: white;
+	margin-right: 20px;
+}
+@media (max-width: 576px) {
+	#news-section2 .title {
+		font-size: 24px;
+		padding-left: 5px;
+	}
+	#news-section2 .line {
+		margin-left: 5px;
+	}
+	#news-section2 .title2{
+		font-size: 18px;
+		margin-top: 12px;
+		margin-left: 13px;
+		margin-right: -4px;
+		line-height: 1.6;
+		letter-spacing: 0.5px;
+	}
+	#news-section2 .news_date{
+		font-size: 14px;
+		padding-left: 0px;
+		letter-spacing: 0.1px;
+	}
+	#news-section2 .border1{
+	    width: auto;
+		margin-top: 3px;
+		margin-left: 7px;
+		margin-right: 5px;
+		margin-bottom: 26px;
+	}
+	#news-section2 .news_body_text{
+		font-size: 14px;
+		padding-bottom: 3px;
+		line-height: 1.2;
+		height: 65px;
+	}
+	#news-section2 .news_body_button a{
+		margin-left: -4px;
+		margin-top: 10px;
+	}
+	#news-section2 .news_body_button a i {
+		height: 36px;
+		width: 36px;
+	}
+	#news-section2 .pages {
+		padding-bottom: 45px;
+		padding-right: 14px;
+	}
+	#news-section2 .pages button {
+	    width: 28px;
+		height: 28px;
+		font-size: 14px;
+		margin: -1px 2px;
+	}
+	#news-section2 .white_btn{
+		width: 182px;
+		height: 46px;
+		background-color: transparent;
+		color: #4D4D4D;
+		font-size: 12px;
+		font-family: 'SF UI Display';
+		padding-top: 16px;
+		padding-bottom: 14px;
+		border: 1px solid #DCDCDC;
+		margin-top: 11px;
+		padding-left: 8px;
+		letter-spacing: 0.4px;
+		margin-left: 1px;
+	}
+}
